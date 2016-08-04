@@ -86,7 +86,7 @@ namespace ACAT.Lib.Extension.CommandHandlers
             switch (Command)
             {
                 case "CmdExitAppWithConfirm":
-                    if (DialogUtils.ConfirmScanner(null, "Quit?"))
+                    if (DialogUtils.ConfirmScanner(null, ACATExtension.Resources.QuitApplication))
                     {
                         quitApplication();
                     }

@@ -40,7 +40,7 @@
             this.lblOpenFile.Name = "lblOpenFile";
             this.lblOpenFile.Size = new System.Drawing.Size(103, 24);
             this.lblOpenFile.TabIndex = 0;
-            this.lblOpenFile.Text = Strings.Open_File;
+            this.lblOpenFile.Text = "Open File";
             // 
             // lboxFiles
             // 
@@ -62,7 +62,7 @@
             this.Controls.Add(this.lblOpenFile);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "LectureManagerOpenFileForm";
-            this.Text = Strings.Open_File;
+            this.Text = "Open File";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.formOpenFile_Load);
             this.ResumeLayout(false);

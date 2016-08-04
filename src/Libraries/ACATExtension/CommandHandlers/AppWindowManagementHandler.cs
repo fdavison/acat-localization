@@ -114,7 +114,7 @@ namespace ACAT.Lib.Extension.CommandHandlers
                         win = new WindowHighlight(info.FgHwnd, Dispatcher.Scanner.Form);
                     }
 
-                    if (DialogUtils.ConfirmScanner(null, "Close the highlighted window?"))
+                    if (DialogUtils.ConfirmScanner(null, ACATExtension.Resources.CloseTheHighlightedWindow))
                     {
                         AgentManager.Instance.Keyboard.Send(Keys.LMenu, Keys.F4);
                     }
@@ -197,6 +197,7 @@ namespace ACAT.Lib.Extension.CommandHandlers
 
                     break;
 
+                case "CmdParitalMaximizeWindow":
                 case "CmdThreeFourthMaximizeWindow":
                     if (!isForegroundWindowSizeable())
                     {
@@ -210,6 +211,7 @@ namespace ACAT.Lib.Extension.CommandHandlers
                     }));
                     break;
 
+                case "CmdMaximizePartialMaximizeToggle":
                 case "CmdMaximizeThreeFourthToggle":
                     if (!isForegroundWindowSizeable())
                     {

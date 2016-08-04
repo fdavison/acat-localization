@@ -33,15 +33,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.buttonYes = new System.Windows.Forms.Button();
+            this.labelFolderLocation = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonNo
             // 
-            this.buttonNo.Location = new System.Drawing.Point(119, 149);
+            this.buttonNo.Location = new System.Drawing.Point(136, 223);
             this.buttonNo.Name = "buttonNo";
             this.buttonNo.Size = new System.Drawing.Size(75, 34);
             this.buttonNo.TabIndex = 0;
-            this.buttonNo.Text = Strings.No;
+            this.buttonNo.Text = "No";
             this.buttonNo.UseVisualStyleBackColor = true;
             this.buttonNo.Click += new System.EventHandler(this.buttonNo_Click);
             // 
@@ -52,42 +53,52 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(328, 29);
             this.label1.TabIndex = 1;
-            this.label1.Text = Strings.Delete_ACAT_install_folder_and_all_its_contents;
+            this.label1.Text = "Delete ACAT install folder and all its contents? ";
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(47, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(353, 25);
+            this.label2.Size = new System.Drawing.Size(377, 25);
             this.label2.TabIndex = 2;
-            this.label2.Text = Strings.Select_Yes_if_you_want_to_remove_ACAT_permanently;
+            this.label2.Text = "Select \"Yes\" if you want to remove ACAT permanently.";
             // 
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(47, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(328, 55);
+            this.label3.Size = new System.Drawing.Size(377, 55);
             this.label3.TabIndex = 3;
-            this.label3.Text = Strings.Select_No_if_you_are_going_to_install_another_version_and_would_like_to_retain +
-    Strings.your_preferences_and_Word_prediction_data_files;
+            this.label3.Text = "Select \"No\" if you are going to install another version and would like to retain " +
+    "your preferences and Word prediction data files, ";
             // 
             // buttonYes
             // 
-            this.buttonYes.Location = new System.Drawing.Point(226, 149);
+            this.buttonYes.Location = new System.Drawing.Point(243, 223);
             this.buttonYes.Name = "buttonYes";
             this.buttonYes.Size = new System.Drawing.Size(75, 34);
             this.buttonYes.TabIndex = 4;
-            this.buttonYes.Text = Strings.Yes;
+            this.buttonYes.Text = "Yes";
             this.buttonYes.UseVisualStyleBackColor = true;
             this.buttonYes.Click += new System.EventHandler(this.buttonYes_Click);
+            // 
+            // labelFolderLocation
+            // 
+            this.labelFolderLocation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFolderLocation.Location = new System.Drawing.Point(47, 155);
+            this.labelFolderLocation.Name = "labelFolderLocation";
+            this.labelFolderLocation.Size = new System.Drawing.Size(353, 51);
+            this.labelFolderLocation.TabIndex = 5;
+            this.labelFolderLocation.Text = "Folder to be deleted:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 197);
+            this.ClientSize = new System.Drawing.Size(448, 280);
+            this.Controls.Add(this.labelFolderLocation);
             this.Controls.Add(this.buttonYes);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -95,7 +106,7 @@
             this.Controls.Add(this.buttonNo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
-            this.Text = Strings.ACAT_Uninstall;
+            this.Text = "ACAT Uninstall";
             this.ResumeLayout(false);
 
         }
@@ -107,6 +118,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonYes;
+        private System.Windows.Forms.Label labelFolderLocation;
     }
 }
 

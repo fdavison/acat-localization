@@ -29,88 +29,71 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutBoxForm));
             this.buttonOK = new System.Windows.Forms.Button();
             this.labelAppTitle = new System.Windows.Forms.Label();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.textBoxOtherInfo = new System.Windows.Forms.TextBox();
             this.labelCopyrightInfo = new System.Windows.Forms.Label();
             this.labelVersionInfo = new System.Windows.Forms.Label();
+            this.labelUserProfileInfo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonOK
             // 
-            this.buttonOK.Location = new System.Drawing.Point(185, 280);
+            resources.ApplyResources(this.buttonOK, "buttonOK");
             this.buttonOK.Name = "buttonOK";
-            this.buttonOK.Size = new System.Drawing.Size(199, 40);
-            this.buttonOK.TabIndex = 7;
-            this.buttonOK.Text = Strings.OK;
             this.buttonOK.UseVisualStyleBackColor = true;
             // 
             // labelAppTitle
             // 
+            resources.ApplyResources(this.labelAppTitle, "labelAppTitle");
             this.labelAppTitle.BackColor = System.Drawing.Color.Transparent;
-            this.labelAppTitle.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAppTitle.ForeColor = System.Drawing.Color.Black;
-            this.labelAppTitle.Location = new System.Drawing.Point(149, 10);
             this.labelAppTitle.Name = "labelAppTitle";
-            this.labelAppTitle.Size = new System.Drawing.Size(407, 39);
-            this.labelAppTitle.TabIndex = 8;
-            this.labelAppTitle.Text = Strings.ACAT_Assistive_Context_Aware_Toolkit;
-            this.labelAppTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBoxLogo
             // 
-            this.pictureBoxLogo.Location = new System.Drawing.Point(15, 12);
+            resources.ApplyResources(this.pictureBoxLogo, "pictureBoxLogo");
             this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(128, 128);
-            this.pictureBoxLogo.TabIndex = 10;
             this.pictureBoxLogo.TabStop = false;
             // 
             // textBoxOtherInfo
             // 
+            resources.ApplyResources(this.textBoxOtherInfo, "textBoxOtherInfo");
             this.textBoxOtherInfo.BackColor = System.Drawing.Color.White;
-            this.textBoxOtherInfo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxOtherInfo.Location = new System.Drawing.Point(15, 147);
-            this.textBoxOtherInfo.Multiline = true;
             this.textBoxOtherInfo.Name = "textBoxOtherInfo";
             this.textBoxOtherInfo.ReadOnly = true;
-            this.textBoxOtherInfo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxOtherInfo.Size = new System.Drawing.Size(544, 125);
-            this.textBoxOtherInfo.TabIndex = 11;
             this.textBoxOtherInfo.TabStop = false;
-            this.textBoxOtherInfo.Text = Strings.Presage_Software_used_for_word_prediction;
             // 
             // labelCopyrightInfo
             // 
+            resources.ApplyResources(this.labelCopyrightInfo, "labelCopyrightInfo");
             this.labelCopyrightInfo.BackColor = System.Drawing.Color.Transparent;
-            this.labelCopyrightInfo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCopyrightInfo.ForeColor = System.Drawing.Color.Black;
-            this.labelCopyrightInfo.Location = new System.Drawing.Point(149, 86);
             this.labelCopyrightInfo.Name = "labelCopyrightInfo";
-            this.labelCopyrightInfo.Size = new System.Drawing.Size(407, 58);
-            this.labelCopyrightInfo.TabIndex = 13;
-            this.labelCopyrightInfo.Text = Strings.Copyright_Intel_Corporation;
-            this.labelCopyrightInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelVersionInfo
             // 
+            resources.ApplyResources(this.labelVersionInfo, "labelVersionInfo");
             this.labelVersionInfo.BackColor = System.Drawing.Color.Transparent;
-            this.labelVersionInfo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelVersionInfo.ForeColor = System.Drawing.Color.Black;
-            this.labelVersionInfo.Location = new System.Drawing.Point(149, 50);
             this.labelVersionInfo.Name = "labelVersionInfo";
-            this.labelVersionInfo.Size = new System.Drawing.Size(407, 34);
-            this.labelVersionInfo.TabIndex = 14;
-            this.labelVersionInfo.Text = Strings.Version;
-            this.labelVersionInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelUserProfileInfo
+            // 
+            resources.ApplyResources(this.labelUserProfileInfo, "labelUserProfileInfo");
+            this.labelUserProfileInfo.BackColor = System.Drawing.Color.Transparent;
+            this.labelUserProfileInfo.ForeColor = System.Drawing.Color.Black;
+            this.labelUserProfileInfo.Name = "labelUserProfileInfo";
             // 
             // AboutBoxForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(571, 357);
             this.ControlBox = false;
+            this.Controls.Add(this.labelUserProfileInfo);
             this.Controls.Add(this.labelVersionInfo);
             this.Controls.Add(this.labelCopyrightInfo);
             this.Controls.Add(this.textBoxOtherInfo);
@@ -120,7 +103,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "AboutBoxForm";
-            this.Text = "About";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -135,6 +117,7 @@
         private System.Windows.Forms.TextBox textBoxOtherInfo;
         private System.Windows.Forms.Label labelCopyrightInfo;
         private System.Windows.Forms.Label labelVersionInfo;
+        private System.Windows.Forms.Label labelUserProfileInfo;
 
     }
 }

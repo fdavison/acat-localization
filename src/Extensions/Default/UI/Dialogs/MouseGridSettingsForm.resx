@@ -117,4 +117,1149 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="svalLineSpeed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="svalRectangleCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 119</value>
+  </data>
+  <data name="svalLineSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="pbEnableVerticalRectScan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 28</value>
+  </data>
+  <data name="ltbRectangleCyclesLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblOK.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="&gt;&gt;smaxRectangleSpeed.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="tbLineSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalSpeed.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="svalLineCycles.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="lblLineWidth.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ltbLineCyclesLess.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbLineSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbRectangleSpeedMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblEnableVerticalRectScan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sminLineSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="&gt;&gt;lblEnableVerticalRectScan.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleCyclesLess.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ltbRectangleCyclesMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 118</value>
+  </data>
+  <data name="sminLineCycles.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="ltbRectangleSpeedMore.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="&gt;&gt;lblOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="lblLineWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 24</value>
+  </data>
+  <data name="&gt;&gt;tbLineThickness.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pbEnableVerticalRectScan.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pbEnableVerticalRectScan.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="sminRectangleCycles.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="&gt;&gt;sminRectangleCycles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbLineCyclesMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="ltbRectangleSpeedLess.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="&gt;&gt;lblEnableVerticalRectScan.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblRestoreDefaults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 47</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalSweeps.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="sminRectangleSpeed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalSpeed.Name" xml:space="preserve">
+    <value>lblHorizontalSpeed</value>
+  </data>
+  <data name="smaxLineThickness.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tbLineThickness.Name" xml:space="preserve">
+    <value>tbLineThickness</value>
+  </data>
+  <data name="ltbLineSpeedLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 172</value>
+  </data>
+  <data name="&gt;&gt;sminRectangleSpeed.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;tbRectangleCycles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblVerticalSweeps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 24</value>
+  </data>
+  <data name="lblEnableVerticalRectScan.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleSpeedMore.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 451</value>
+  </data>
+  <data name="tbLineSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="smaxLineThickness.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="ltbRectangleCyclesLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;svalRectangleSpeed.Name" xml:space="preserve">
+    <value>svalRectangleSpeed</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalSweeps.Name" xml:space="preserve">
+    <value>lblVerticalSweeps</value>
+  </data>
+  <data name="lblLineWidth.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;tbLineSpeed.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ltbRectangleSpeedLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;ltbLineThicknessLess.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="smaxRectangleSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="lblBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 47</value>
+  </data>
+  <data name="ltbLineThicknessLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="lblBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 413</value>
+  </data>
+  <data name="ltbLineCyclesLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="sminLineThickness.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ACAT</value>
+  </data>
+  <data name="sminLineThickness.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="sminRectangleSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="sminRectangleCycles.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;sminRectangleSpeed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;smaxLineCycles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ltbLineCyclesLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 236</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleSpeedMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbLineCyclesMore.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="lblHorizontalSweeps.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;sminLineSpeed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalSweeps.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="ltbLineSpeedLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="ltbRectangleCyclesMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="ltbRectangleSpeedLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblVerticalSweeps.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="ltbLineSpeedMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 172</value>
+  </data>
+  <data name="&gt;&gt;ltbLineSpeedLess.Name" xml:space="preserve">
+    <value>ltbLineSpeedLess</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleSpeedMore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="smaxLineCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 260</value>
+  </data>
+  <data name="&gt;&gt;lblRestoreDefaults.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblRestoreDefaults.Name" xml:space="preserve">
+    <value>lblRestoreDefaults</value>
+  </data>
+  <data name="sminRectangleCycles.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;smaxLineCycles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalSweeps.Name" xml:space="preserve">
+    <value>lblHorizontalSweeps</value>
+  </data>
+  <data name="ltbLineSpeedLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="ltbLineCyclesLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="ltbLineCyclesLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;tbLineCycles.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ltbLineCyclesMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="smaxLineThickness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;sminLineSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHorizontalSweeps.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblVerticalSweeps.Text" xml:space="preserve">
+    <value>Rectangle Cycles</value>
+  </data>
+  <data name="ltbLineThicknessMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;tbLineThickness.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbLineCycles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;svalLineThickness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="svalRectangleCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="&gt;&gt;svalLineSpeed.Name" xml:space="preserve">
+    <value>svalLineSpeed</value>
+  </data>
+  <data name="ltbLineCyclesMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="lblVerticalSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="lblHorizontalSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 174</value>
+  </data>
+  <data name="ltbLineThicknessMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 295</value>
+  </data>
+  <data name="&gt;&gt;lblBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ltbLineSpeedLess.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ltbLineThicknessLess.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sminLineThickness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 318</value>
+  </data>
+  <data name="tbRectangleSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 65</value>
+  </data>
+  <data name="lblHorizontalSpeed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="smaxLineSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="&gt;&gt;lblBack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="smaxLineCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="&gt;&gt;svalRectangleCycles.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="lblBack.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalSpeed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblLineWidth.Text" xml:space="preserve">
+    <value>Line Thickness</value>
+  </data>
+  <data name="&gt;&gt;lblLineWidth.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ltbLineCyclesLess.Name" xml:space="preserve">
+    <value>ltbLineCyclesLess</value>
+  </data>
+  <data name="&gt;&gt;svalLineCycles.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;sminLineThickness.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="svalRectangleSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="&gt;&gt;lblBack.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLineWidth.Name" xml:space="preserve">
+    <value>lblLineWidth</value>
+  </data>
+  <data name="smaxRectangleCycles.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ltbLineThicknessLess.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="ltbRectangleSpeedMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="ltbRectangleCyclesMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;sminRectangleCycles.Name" xml:space="preserve">
+    <value>sminRectangleCycles</value>
+  </data>
+  <data name="smaxRectangleSpeed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="pbEnableVerticalRectScan.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="&gt;&gt;smaxLineSpeed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbLineCycles.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="tbLineSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 172</value>
+  </data>
+  <data name="svalLineCycles.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbRectangleSpeedLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 65</value>
+  </data>
+  <data name="&gt;&gt;svalLineSpeed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ltbRectangleSpeedMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 65</value>
+  </data>
+  <data name="ltbLineSpeedLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;smaxLineThickness.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;smaxRectangleCycles.Name" xml:space="preserve">
+    <value>smaxRectangleCycles</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 24</value>
+  </data>
+  <data name="&gt;&gt;sminLineSpeed.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleCyclesMore.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="tbLineCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 236</value>
+  </data>
+  <data name="ltbRectangleSpeedLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smaxRectangleSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 90</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleSpeedLess.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalSweeps.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;smaxRectangleCycles.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;smaxLineSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbLineCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="lblVerticalSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 24</value>
+  </data>
+  <data name="lblVerticalSweeps.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="smaxLineSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 198</value>
+  </data>
+  <data name="&gt;&gt;lblLineWidth.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ltbLineSpeedMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;smaxLineSpeed.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;lblRestoreDefaults.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblVerticalSweeps.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Mouse Scan Settings</value>
+  </data>
+  <data name="&gt;&gt;ltbLineSpeedLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smaxLineThickness.Name" xml:space="preserve">
+    <value>smaxLineThickness</value>
+  </data>
+  <data name="tbLineThickness.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="lblHorizontalSpeed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ltbRectangleCyclesLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 118</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleSpeedLess.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 21</value>
+  </data>
+  <data name="smaxLineCycles.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="sminLineCycles.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ltbLineThicknessLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleSpeedMore.Name" xml:space="preserve">
+    <value>ltbRectangleSpeedMore</value>
+  </data>
+  <data name="&gt;&gt;lblBack.Name" xml:space="preserve">
+    <value>lblBack</value>
+  </data>
+  <data name="&gt;&gt;tbRectangleCycles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smaxLineThickness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 318</value>
+  </data>
+  <data name="&gt;&gt;svalRectangleCycles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ltbLineSpeedMore.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="&gt;&gt;ltbLineThicknessMore.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tbRectangleSpeed.Name" xml:space="preserve">
+    <value>tbRectangleSpeed</value>
+  </data>
+  <data name="lblOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 47</value>
+  </data>
+  <data name="ltbRectangleCyclesMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="ltbLineThicknessLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="ltbLineThicknessMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="pbEnableVerticalRectScan.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="sminLineSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 198</value>
+  </data>
+  <data name="sminLineThickness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="&gt;&gt;svalRectangleSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;svalLineSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;pbEnableVerticalRectScan.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ltbRectangleSpeedLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;svalRectangleSpeed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblOK.Name" xml:space="preserve">
+    <value>lblOK</value>
+  </data>
+  <data name="ltbRectangleCyclesLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;sminLineCycles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sminRectangleSpeed.Name" xml:space="preserve">
+    <value>sminRectangleSpeed</value>
+  </data>
+  <data name="&gt;&gt;smaxRectangleSpeed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;svalLineCycles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="svalLineThickness.TabIndex" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="&gt;&gt;sminLineCycles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ltbLineCyclesMore.Name" xml:space="preserve">
+    <value>ltbLineCyclesMore</value>
+  </data>
+  <data name="sminLineCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="&gt;&gt;sminRectangleSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEnableVerticalRectScan.Text" xml:space="preserve">
+    <value>Enable Vertical Rectangle Scan</value>
+  </data>
+  <data name="&gt;&gt;svalRectangleCycles.Name" xml:space="preserve">
+    <value>svalRectangleCycles</value>
+  </data>
+  <data name="smaxRectangleCycles.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="svalRectangleCycles.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="smaxLineSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="lblHorizontalSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 24</value>
+  </data>
+  <data name="svalLineThickness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 296</value>
+  </data>
+  <data name="&gt;&gt;lblRestoreDefaults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbRectangleSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="ltbLineThicknessMore.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
+  </data>
+  <data name="lblLineWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="ltbRectangleSpeedMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;tbLineCycles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ltbLineSpeedMore.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="lblVerticalSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 66</value>
+  </data>
+  <data name="lblVerticalSpeed.Text" xml:space="preserve">
+    <value>Rectangle Speed</value>
+  </data>
+  <data name="lblHorizontalSweeps.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="smaxRectangleCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="&gt;&gt;smaxRectangleCycles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbRectangleCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 118</value>
+  </data>
+  <data name="&gt;&gt;sminRectangleCycles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, -3</value>
+  </data>
+  <data name="&gt;&gt;sminLineThickness.Name" xml:space="preserve">
+    <value>sminLineThickness</value>
+  </data>
+  <data name="sminLineThickness.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="&gt;&gt;ltbLineSpeedMore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="svalLineCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 237</value>
+  </data>
+  <data name="&gt;&gt;tbLineSpeed.Name" xml:space="preserve">
+    <value>tbLineSpeed</value>
+  </data>
+  <data name="sminRectangleSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="ltbLineCyclesMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 236</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleCyclesMore.Name" xml:space="preserve">
+    <value>ltbRectangleCyclesMore</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalSpeed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="sminLineSpeed.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ltbLineSpeedMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="svalRectangleCycles.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="ltbRectangleCyclesMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="sminLineSpeed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;tbLineThickness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MouseGridSettingsForm</value>
+  </data>
+  <data name="svalLineThickness.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalSweeps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="lblEnableVerticalRectScan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 363</value>
+  </data>
+  <data name="smaxRectangleCycles.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;svalRectangleCycles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sminRectangleCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 143</value>
+  </data>
+  <data name="&gt;&gt;smaxRectangleSpeed.Name" xml:space="preserve">
+    <value>smaxRectangleSpeed</value>
+  </data>
+  <data name="&gt;&gt;tbRectangleCycles.Name" xml:space="preserve">
+    <value>tbRectangleCycles</value>
+  </data>
+  <data name="lblRestoreDefaults.Text" xml:space="preserve">
+    <value>Defaults</value>
+  </data>
+  <data name="&gt;&gt;lblOK.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="svalLineCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ltbLineThicknessMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalSweeps.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ltbLineThicknessMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tbRectangleSpeed.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;ltbLineThicknessMore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="svalLineThickness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="lblVerticalSpeed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;svalRectangleSpeed.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="sminLineCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 260</value>
+  </data>
+  <data name="&gt;&gt;ltbLineThicknessMore.Name" xml:space="preserve">
+    <value>ltbLineThicknessMore</value>
+  </data>
+  <data name="lblRestoreDefaults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 413</value>
+  </data>
+  <data name="tbLineThickness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 295</value>
+  </data>
+  <data name="&gt;&gt;sminLineCycles.Name" xml:space="preserve">
+    <value>sminLineCycles</value>
+  </data>
+  <data name="ltbLineThicknessLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 295</value>
+  </data>
+  <data name="&gt;&gt;tbRectangleSpeed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalSpeed.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;ltbLineSpeedLess.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="smaxLineCycles.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="&gt;&gt;svalLineThickness.Name" xml:space="preserve">
+    <value>svalLineThickness</value>
+  </data>
+  <data name="sminRectangleCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="lblBack.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalSweeps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHorizontalSweeps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 24</value>
+  </data>
+  <data name="pbEnableVerticalRectScan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 360</value>
+  </data>
+  <data name="&gt;&gt;sminLineThickness.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="sminRectangleSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 90</value>
+  </data>
+  <data name="smaxRectangleSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="ltbRectangleCyclesLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="svalRectangleSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 68</value>
+  </data>
+  <data name="ltbRectangleSpeedMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="ltbLineSpeedLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;svalLineThickness.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalSpeed.Name" xml:space="preserve">
+    <value>lblVerticalSpeed</value>
+  </data>
+  <data name="&gt;&gt;tbRectangleCycles.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="smaxLineCycles.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblEnableVerticalRectScan.Name" xml:space="preserve">
+    <value>lblEnableVerticalRectScan</value>
+  </data>
+  <data name="&gt;&gt;sminLineThickness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLineWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 293</value>
+  </data>
+  <data name="&gt;&gt;ltbLineThicknessLess.Name" xml:space="preserve">
+    <value>ltbLineThicknessLess</value>
+  </data>
+  <data name="ltbLineSpeedMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="sminLineCycles.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ltbLineThicknessMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smaxLineThickness.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleCyclesLess.Name" xml:space="preserve">
+    <value>ltbRectangleCyclesLess</value>
+  </data>
+  <data name="&gt;&gt;lblLineWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblRestoreDefaults.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="lblVerticalSweeps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 118</value>
+  </data>
+  <data name="ltbLineSpeedLess.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="&gt;&gt;ltbLineCyclesMore.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="&gt;&gt;smaxLineSpeed.Name" xml:space="preserve">
+    <value>smaxLineSpeed</value>
+  </data>
+  <data name="tbRectangleCycles.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="&gt;&gt;svalLineCycles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleCyclesLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smaxLineSpeed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ltbLineCyclesLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHorizontalSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="tbRectangleSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="svalLineSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 173</value>
+  </data>
+  <data name="&gt;&gt;pbEnableVerticalRectScan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 413</value>
+  </data>
+  <data name="&gt;&gt;smaxLineCycles.Name" xml:space="preserve">
+    <value>smaxLineCycles</value>
+  </data>
+  <data name="&gt;&gt;smaxRectangleCycles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;svalLineThickness.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleSpeedLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="svalRectangleSpeed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ltbLineSpeedMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;svalLineCycles.Name" xml:space="preserve">
+    <value>svalLineCycles</value>
+  </data>
+  <data name="ltbRectangleCyclesLess.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>509, 475</value>
+  </data>
+  <data name="smaxRectangleSpeed.Text" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="ltbLineSpeedMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="sminLineSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="&gt;&gt;lblOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smaxRectangleCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 143</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbEnableVerticalRectScan.Name" xml:space="preserve">
+    <value>pbEnableVerticalRectScan</value>
+  </data>
+  <data name="ltbRectangleCyclesMore.TabIndex" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="tbRectangleCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="&gt;&gt;ltbLineCyclesMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbLineThicknessLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ltbLineSpeedMore.Name" xml:space="preserve">
+    <value>ltbLineSpeedMore</value>
+  </data>
+  <data name="lblEnableVerticalRectScan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 29</value>
+  </data>
+  <data name="&gt;&gt;sminRectangleCycles.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleCyclesMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbLineCyclesLess.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="&gt;&gt;smaxLineCycles.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;smaxLineThickness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEnableVerticalRectScan.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="smaxLineThickness.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tbRectangleSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smaxRectangleSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbLineCyclesLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;ltbLineThicknessLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbLineSpeed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbLineThickness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="lblHorizontalSpeed.Text" xml:space="preserve">
+    <value>Line Speed</value>
+  </data>
+  <data name="lblHorizontalSweeps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 232</value>
+  </data>
+  <data name="&gt;&gt;svalLineSpeed.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleCyclesLess.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleSpeedLess.Name" xml:space="preserve">
+    <value>ltbRectangleSpeedLess</value>
+  </data>
+  <data name="&gt;&gt;sminLineSpeed.Name" xml:space="preserve">
+    <value>sminLineSpeed</value>
+  </data>
+  <data name="sminRectangleSpeed.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblHorizontalSweeps.Text" xml:space="preserve">
+    <value>Line Cycles</value>
+  </data>
+  <data name="&gt;&gt;ltbRectangleCyclesMore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblVerticalSpeed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;sminLineCycles.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;tbLineCycles.Name" xml:space="preserve">
+    <value>tbLineCycles</value>
+  </data>
+  <data name="smaxLineSpeed.Text" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="svalRectangleSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="&gt;&gt;ltbLineCyclesLess.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="svalLineSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="ltbLineCyclesMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;ltbLineCyclesMore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>pt-BR</value>
+  </metadata>
 </root>

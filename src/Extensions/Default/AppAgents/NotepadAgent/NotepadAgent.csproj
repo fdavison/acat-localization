@@ -14,14 +14,12 @@
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
-    <SccProjectName>
-    </SccProjectName>
-    <SccLocalPath>
-    </SccLocalPath>
-    <SccAuxPath>
-    </SccAuxPath>
-    <SccProvider>
-    </SccProvider>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -88,10 +86,11 @@
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Config\NotepadContextMenu.xml">
+    <Content Include="Config\NotepadContextMenu.es.xml" />
+    <Content Include="Config\NotepadContextMenu.pt-BR.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Config\NotepadContextMenuIconsOnly.xml">
+    <Content Include="Config\NotepadContextMenu.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Config\PanelConfigMap.xml">

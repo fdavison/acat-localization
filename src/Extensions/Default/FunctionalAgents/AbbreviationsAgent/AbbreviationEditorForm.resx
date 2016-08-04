@@ -117,4 +117,408 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;lblWritten.Name" xml:space="preserve">
+    <value>lblWritten</value>
+  </data>
+  <data name="&gt;&gt;tbExpansion.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblFinished.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 18</value>
+  </data>
+  <data name="lblType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 308</value>
+  </data>
+  <data name="&gt;&gt;tbAbbreviation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblFinished.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="boxType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 338</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbAbbreviation.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="lblType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 24</value>
+  </data>
+  <data name="lblWritten.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.Name" xml:space="preserve">
+    <value>labelTitle</value>
+  </data>
+  <data name="lblSpoken.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;boxType.Name" xml:space="preserve">
+    <value>boxType</value>
+  </data>
+  <data name="&gt;&gt;lblFinished.Name" xml:space="preserve">
+    <value>lblFinished</value>
+  </data>
+  <data name="lblCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 418</value>
+  </data>
+  <data name="tbAbbreviation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 32</value>
+  </data>
+  <data name="pbTypeSpoken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 10</value>
+  </data>
+  <data name="pbTypeSpoken.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;pbTypeWritten.Parent" xml:space="preserve">
+    <value>boxType</value>
+  </data>
+  <data name="lblSpoken.Text" xml:space="preserve">
+    <value>Spoken</value>
+  </data>
+  <data name="&gt;&gt;lblWritten.Parent" xml:space="preserve">
+    <value>boxType</value>
+  </data>
+  <data name="lblExpansion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 133</value>
+  </data>
+  <data name="&gt;&gt;boxType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWritten.Text" xml:space="preserve">
+    <value>Written</value>
+  </data>
+  <data name="&gt;&gt;lblWritten.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSpoken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 8</value>
+  </data>
+  <data name="lblWritten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 9</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="labelTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 24</value>
+  </data>
+  <data name="&gt;&gt;lblAbbreviation.Name" xml:space="preserve">
+    <value>lblAbbreviation</value>
+  </data>
+  <data name="lblWritten.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblExpansion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 24</value>
+  </data>
+  <data name="&gt;&gt;lblSpoken.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblCancel.Name" xml:space="preserve">
+    <value>lblCancel</value>
+  </data>
+  <data name="labelTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, -2</value>
+  </data>
+  <data name="&gt;&gt;lblSpoken.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblExpansion.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="&gt;&gt;pbTypeSpoken.Parent" xml:space="preserve">
+    <value>boxType</value>
+  </data>
+  <data name="labelTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="&gt;&gt;lblSpoken.Parent" xml:space="preserve">
+    <value>boxType</value>
+  </data>
+  <data name="&gt;&gt;tbAbbreviation.Name" xml:space="preserve">
+    <value>tbAbbreviation</value>
+  </data>
+  <data name="&gt;&gt;tbExpansion.Name" xml:space="preserve">
+    <value>tbExpansion</value>
+  </data>
+  <data name="pbTypeSpoken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 29</value>
+  </data>
+  <data name="tbExpansion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblSpoken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="pbTypeWritten.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tbExpansion.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pbTypeSpoken.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pbTypeWritten.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblSpoken.Name" xml:space="preserve">
+    <value>lblSpoken</value>
+  </data>
+  <data name="&gt;&gt;pbTypeSpoken.Name" xml:space="preserve">
+    <value>pbTypeSpoken</value>
+  </data>
+  <data name="tbAbbreviation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pbTypeWritten.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblAbbreviation.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="pbTypeWritten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 10</value>
+  </data>
+  <data name="tbExpansion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 160</value>
+  </data>
+  <data name="lblAbbreviation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;boxType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblExpansion.Text" xml:space="preserve">
+    <value>Expansion</value>
+  </data>
+  <data name="&gt;&gt;tbExpansion.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pbTypeWritten.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="&gt;&gt;pbTypeWritten.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbExpansion.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="lblAbbreviation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 24</value>
+  </data>
+  <data name="&gt;&gt;lblAbbreviation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblFinished.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="boxType.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="lblFinished.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="lblWritten.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tbAbbreviation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 71</value>
+  </data>
+  <data name="lblSpoken.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;tbExpansion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWritten.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblType.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tbAbbreviation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbTypeSpoken.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="lblFinished.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 47</value>
+  </data>
+  <data name="lblAbbreviation.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="lblFinished.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 418</value>
+  </data>
+  <data name="lblExpansion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 47</value>
+  </data>
+  <data name="pbTypeSpoken.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblType.Name" xml:space="preserve">
+    <value>lblType</value>
+  </data>
+  <data name="&gt;&gt;boxType.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="boxType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>474, 49</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAbbreviation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblType.Text" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="pbTypeSpoken.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblExpansion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblSpoken.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AbbreviationEditorForm</value>
+  </data>
+  <data name="&gt;&gt;lblFinished.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblExpansion.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Abbreviations Editor</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 484</value>
+  </data>
+  <data name="lblCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblType.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="tbExpansion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>476, 119</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExpansion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTitle.Text" xml:space="preserve">
+    <value>Edit / Add Abbreviation</value>
+  </data>
+  <data name="lblAbbreviation.Text" xml:space="preserve">
+    <value>Abbreviation</value>
+  </data>
+  <data name="pbTypeWritten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 29</value>
+  </data>
+  <data name="&gt;&gt;lblExpansion.Name" xml:space="preserve">
+    <value>lblExpansion</value>
+  </data>
+  <data name="&gt;&gt;pbTypeWritten.Name" xml:space="preserve">
+    <value>pbTypeWritten</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblType.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbAbbreviation.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblCancel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pbTypeSpoken.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblExpansion.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>553, 514</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblAbbreviation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblCancel.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pbTypeWritten.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="lblAbbreviation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 44</value>
+  </data>
+  <data name="lblWritten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>pt-BR</value>
+  </metadata>
 </root>

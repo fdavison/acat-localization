@@ -8,20 +8,18 @@
     <ProjectGuid>{0BDD954F-7F65-4EC1-97C2-8F4CBFE2C7A2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Aster</RootNamespace>
+    <RootNamespace>ACAT.Extensions.Default.UI.Scanners</RootNamespace>
     <AssemblyName>Scanners</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
-    <SccProjectName>
-    </SccProjectName>
-    <SccLocalPath>
-    </SccLocalPath>
-    <SccAuxPath>
-    </SccAuxPath>
-    <SccProvider>
-    </SccProvider>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -83,53 +81,112 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AlphabetScanner.cs">
+    <Compile Include="AlphabetScannerAbcMinimal70Keys.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AlphabetScanner.designer.cs">
-      <DependentUpon>AlphabetScanner.cs</DependentUpon>
-      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    <Compile Include="AlphabetScannerAbcMinimal70Keys.Designer.cs">
+      <DependentUpon>AlphabetScannerAbcMinimal70Keys.cs</DependentUpon>
     </Compile>
-    <Compile Include="MouseScanner2.cs">
+    <Compile Include="AlphabetScannerAbc70Keys.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MouseScanner2.Designer.cs">
-      <DependentUpon>MouseScanner2.cs</DependentUpon>
+    <Compile Include="AlphabetScannerAbc70Keys.Designer.cs">
+      <DependentUpon>AlphabetScannerAbc70Keys.cs</DependentUpon>
     </Compile>
-    <Compile Include="NumbersScanner.cs">
+    <Compile Include="AlphabetScannerQwertyMinimal70Keys.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NumbersScanner.designer.cs">
-      <DependentUpon>NumbersScanner.cs</DependentUpon>
-      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    <Compile Include="AlphabetScannerQwertyMinimal70Keys.Designer.cs">
+      <DependentUpon>AlphabetScannerQwertyMinimal70Keys.cs</DependentUpon>
     </Compile>
-    <Compile Include="CursorNavigationScanner.cs">
+    <Compile Include="AlphabetScannerQwerty70Keys.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CursorNavigationScanner.designer.cs">
-      <DependentUpon>CursorNavigationScanner.cs</DependentUpon>
-      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    <Compile Include="AlphabetScannerQwerty70Keys.Designer.cs">
+      <DependentUpon>AlphabetScannerQwerty70Keys.cs</DependentUpon>
     </Compile>
-    <Compile Include="AlphabetScannerMinimal.cs">
+    <Compile Include="AlphabetScannerQwerty.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AlphabetScannerMinimal.designer.cs">
-      <DependentUpon>AlphabetScannerMinimal.cs</DependentUpon>
-      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    <Compile Include="AlphabetScannerQwerty.Designer.cs">
+      <DependentUpon>AlphabetScannerQwerty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlphabetScannerQwertyMinimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlphabetScannerQwertyMinimal.Designer.cs">
+      <DependentUpon>AlphabetScannerQwertyMinimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlphabetScannerAbc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlphabetScannerAbc.Designer.cs">
+      <DependentUpon>AlphabetScannerAbc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlphabetScannerAbcMinimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlphabetScannerAbcMinimal.Designer.cs">
+      <DependentUpon>AlphabetScannerAbcMinimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.pt-BR.Designer.cs">
+      <DependentUpon>Resources.pt-BR.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="TalkApplicationScannerAlphabetical49Keys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TalkApplicationScannerAlphabetical49Keys.Designer.cs">
+      <DependentUpon>TalkApplicationScannerAlphabetical49Keys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TalkApplicationScannerAlphabetical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TalkApplicationScannerAlphabetical.Designer.cs">
+      <DependentUpon>TalkApplicationScannerAlphabetical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TalkApplicationScannerQwerty55Keys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TalkApplicationScannerQwerty55Keys.Designer.cs">
+      <DependentUpon>TalkApplicationScannerQwerty55Keys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TalkApplicationScannerQwerty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TalkApplicationScannerQwerty.Designer.cs">
+      <DependentUpon>TalkApplicationScannerQwerty.cs</DependentUpon>
     </Compile>
     <Compile Include="PunctuationsScanner.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PunctuationsScanner.Designer.cs">
       <DependentUpon>PunctuationsScanner.cs</DependentUpon>
-      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="NumbersScanner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumbersScanner.designer.cs">
+      <DependentUpon>NumbersScanner.cs</DependentUpon>
     </Compile>
     <Compile Include="MouseScanner.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MouseScanner.designer.cs">
+    <Compile Include="MouseScanner.Designer.cs">
       <DependentUpon>MouseScanner.cs</DependentUpon>
-      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="FunctionKeyScanner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionKeyScanner.designer.cs">
+      <DependentUpon>FunctionKeyScanner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CursorNavigationScanner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CursorNavigationScanner.designer.cs">
+      <DependentUpon>CursorNavigationScanner.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -137,19 +194,123 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Strings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Strings.resx</DependentUpon>
+    <Compile Include="YesNoScanner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YesNoScanner.Designer.cs">
+      <DependentUpon>YesNoScanner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YesNoScannerNarrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YesNoScannerNarrow.Designer.cs">
+      <DependentUpon>YesNoScannerNarrow.cs</DependentUpon>
     </Compile>
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="AlphabetScanner.resx">
-      <DependentUpon>AlphabetScanner.cs</DependentUpon>
+    <EmbeddedResource Include="AlphabetScannerAbcMinimal70Keys.pt-BR.resx">
+      <DependentUpon>AlphabetScannerAbcMinimal70Keys.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MouseScanner2.resx">
-      <DependentUpon>MouseScanner2.cs</DependentUpon>
+    <EmbeddedResource Include="AlphabetScannerAbcMinimal70Keys.resx">
+      <DependentUpon>AlphabetScannerAbcMinimal70Keys.cs</DependentUpon>
+      <Generator>ResXFileCodeGeneratorEx</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerAbc70Keys.pt-BR.resx">
+      <DependentUpon>AlphabetScannerAbc70Keys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerAbc70Keys.resx">
+      <DependentUpon>AlphabetScannerAbc70Keys.cs</DependentUpon>
+      <Generator>ResXFileCodeGeneratorEx</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerAbc.pt-BR.resx">
+      <DependentUpon>AlphabetScannerAbc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerAbcMinimal.pt-BR.resx">
+      <DependentUpon>AlphabetScannerAbcMinimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerQwertyMinimal70Keys.pt-BR.resx">
+      <DependentUpon>AlphabetScannerQwertyMinimal70Keys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerQwertyMinimal70Keys.pt.resx">
+      <DependentUpon>AlphabetScannerQwertyMinimal70Keys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerQwertyMinimal70Keys.resx">
+      <DependentUpon>AlphabetScannerQwertyMinimal70Keys.cs</DependentUpon>
+      <Generator>ResXFileCodeGeneratorEx</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerQwerty70Keys.pt-BR.resx">
+      <DependentUpon>AlphabetScannerQwerty70Keys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerQwerty70Keys.pt.resx">
+      <DependentUpon>AlphabetScannerQwerty70Keys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerQwerty70Keys.resx">
+      <DependentUpon>AlphabetScannerQwerty70Keys.cs</DependentUpon>
+      <Generator>ResXFileCodeGeneratorEx</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerQwerty.pt-BR.resx">
+      <DependentUpon>AlphabetScannerQwerty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerQwerty.resx">
+      <Generator>ResXFileCodeGeneratorEx</Generator>
+      <DependentUpon>AlphabetScannerQwerty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerQwertyMinimal.resx">
+      <Generator>ResXFileCodeGeneratorEx</Generator>
+      <DependentUpon>AlphabetScannerQwertyMinimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerAbc.resx">
+      <Generator>ResXFileCodeGeneratorEx</Generator>
+      <DependentUpon>AlphabetScannerAbc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetScannerAbcMinimal.resx">
+      <Generator>ResXFileCodeGeneratorEx</Generator>
+      <DependentUpon>AlphabetScannerAbcMinimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CursorNavigationScanner.pt-BR.resx">
+      <DependentUpon>CursorNavigationScanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionKeyScanner.pt-BR.resx">
+      <DependentUpon>FunctionKeyScanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumbersScanner.pt-BR.resx">
+      <DependentUpon>NumbersScanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.pt-BR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.pt-BR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PunctuationsScanner.pt-BR.resx">
+      <DependentUpon>PunctuationsScanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TalkApplicationScannerAlphabetical49Keys.pt-BR.resx">
+      <DependentUpon>TalkApplicationScannerAlphabetical49Keys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TalkApplicationScannerAlphabetical49Keys.resx">
+      <DependentUpon>TalkApplicationScannerAlphabetical49Keys.cs</DependentUpon>
+      <Generator>ResXFileCodeGeneratorEx</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TalkApplicationScannerAlphabetical.pt-BR.resx">
+      <DependentUpon>TalkApplicationScannerAlphabetical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TalkApplicationScannerAlphabetical.resx">
+      <Generator>ResXFileCodeGeneratorEx</Generator>
+      <DependentUpon>TalkApplicationScannerAlphabetical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TalkApplicationScannerQwerty55Keys.pt-BR.resx">
+      <DependentUpon>TalkApplicationScannerQwerty55Keys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TalkApplicationScannerQwerty55Keys.resx">
+      <DependentUpon>TalkApplicationScannerQwerty55Keys.cs</DependentUpon>
+      <Generator>ResXFileCodeGeneratorEx</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TalkApplicationScannerQwerty.pt-BR.resx">
+      <DependentUpon>TalkApplicationScannerQwerty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TalkApplicationScannerQwerty.resx">
+      <Generator>ResXFileCodeGeneratorEx</Generator>
+      <DependentUpon>TalkApplicationScannerQwerty.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PunctuationsScanner.resx">
       <DependentUpon>PunctuationsScanner.cs</DependentUpon>
@@ -157,25 +318,24 @@
     <EmbeddedResource Include="NumbersScanner.resx">
       <DependentUpon>NumbersScanner.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CursorNavigationScanner.resx">
-      <DependentUpon>CursorNavigationScanner.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AlphabetScannerMinimal.resx">
-      <DependentUpon>AlphabetScannerMinimal.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MouseScanner.resx">
       <DependentUpon>MouseScanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionKeyScanner.resx">
+      <DependentUpon>FunctionKeyScanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CursorNavigationScanner.resx">
+      <DependentUpon>CursorNavigationScanner.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Strings.pt.resx">
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="YesNoScanner.resx">
+      <DependentUpon>YesNoScanner.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Strings.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+    <EmbeddedResource Include="YesNoScannerNarrow.resx">
+      <DependentUpon>YesNoScannerNarrow.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -190,36 +350,100 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Config\AlphabetScannerABC.xml">
+    <Content Include="Config\AlphabetScannerAbc70Keys.es.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Config\AlphabetScannerABCMinimal.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Config\AlphabetScannerTalkWindowOnly.xml">
+    <Content Include="Config\AlphabetScannerAbcMinimal70Keys.es.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Config\MouseScanner2.xml" />
+    <Content Include="Config\AlphabetScannerAbcMinimal70Keys.pt-br.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\AlphabetScannerAbc70Keys.pt-br.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\AlphabetScannerQwerty70Keys.es.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\AlphabetScannerQwertyMinimal70Keys.es.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\AlphabetScannerQwertyMinimal70Keys.pt-br.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\AlphabetScannerQwerty70Keys.pt-br.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\AlphabetScannerQwerty.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\AlphabetScannerQwertyMinimal.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\AlphabetScannerAbc.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\AlphabetScannerAbcMinimal.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\PanelConfigMap.pt-BR.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\PunctuationsScanner.pt-BR.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\TalkApplicationScannerAlphabetical49Keys.pt-br.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\TalkApplicationScannerAlphabetical.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\TalkApplicationScannerQwerty55Keys.pt-br.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\TalkApplicationScannerQwerty.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Config\PunctuationsScanner.xml">
+      <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Config\NumbersScanner.xml" />
-    <Content Include="Config\AlphabetScanner.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Config\MouseScanner.xml" />
+    <Content Include="Config\FunctionKeyScanner.xml" />
     <Content Include="Config\CursorNavigationScanner.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Config\AlphabetScannerMinimal.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Config\MouseScanner.xml" />
     <Content Include="Config\PanelConfigMap.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\YesNoScanner.es.xml" />
+    <Content Include="Config\YesNoScanner.pt-BR.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\YesNoScanner.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

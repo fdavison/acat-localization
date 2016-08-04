@@ -72,29 +72,46 @@ namespace ACAT.Applications.ACATApp
     internal static class Program
     {
         /// <summary>
+        /// Used for parsing the command line
+        /// </summary>
+        private enum ParseState
+        {
+            Next,
+            Form,
+            Culture
+        }
+
+        private static String _formName = String.Empty;
+
+        /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
         public static void Main(String[] args)
         {
             //Disallow multiple instances
-            if (FileUtils.CheckAppExistingInstance("ACATMutex"))
+            if (FileUtils.IsACATRunning())
             {
                 return;
             }
 
+            Windows.TurnOffDPIAwareness();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            parseCommandLine(args);
 
             // get appname and copyright information
             var assembly = Assembly.GetExecutingAssembly();
 
             object[] attributes = assembly.GetCustomAttributes(typeof(AssemblyTitleAttribute), false);
             var appName = (attributes.Length != 0) ? ((AssemblyTitleAttribute)attributes[0]).Title : String.Empty;
-
-            var appVersion = Strings.Version + assembly.GetName().Version.ToString();
-            attributes = assembly.GetCustomAttributes(typeof(AssemblyCopyrightAttribute), false);
-            var appCopyright = (attributes.Length != 0) ? ((AssemblyCopyrightAttribute)attributes[0]).Copyright : String.Empty;
+            
+            var appVersion = string.Format(ACATTryout.Properties.Resources.Version0, assembly.GetName().Version);
+            //attributes = assembly.GetCustomAttributes(typeof(AssemblyCopyrightAttribute), false);
+            //var appCopyright = (attributes.Length != 0) ? ((AssemblyCopyrightAttribute)attributes[0]).Copyright : String.Empty;
+            var appCopyright = ACATTryout.Properties.Resources.AssemblyCopyright.Replace("\\n", Environment.NewLine);
 
             Log.Info("***** " + appName + ". " + appVersion + ". " + appCopyright + " *****");
 
@@ -122,25 +139,38 @@ namespace ACAT.Applications.ACATApp
 
             try
             {
-                if (!Context.Init(Context.StartupFlags.Minimal))
+                if (!Context.Init(Context.StartupFlags.Minimal | Context.StartupFlags.TextToSpeech) )
                 {
-                    MessageBox.Show(Strings.Context_initialization_error);
+                    MessageBox.Show("Context initialization error");
                     return;
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(Strings.Context_Init_exception + ex);
+                MessageBox.Show("Context Init exception " + ex);
+                return;
+            }
+
+            if (!Context.PostInit())
+            {
+                MessageBox.Show(Context.GetInitCompletionStatus(), "Initialization Error");
                 return;
             }
 
             Common.Init();
 
-            var form = PanelManager.Instance.CreatePanel("ACATGettingStartedForm");
+            var formName = String.IsNullOrEmpty(_formName) ? "ACATTryoutForm" : _formName;
+            var form = PanelManager.Instance.CreatePanel(formName);
             if (form != null)
             {
                 Context.AppPanelManager.Show(null, form as IPanel);
             }
+            else
+            {
+                MessageBox.Show("Invalid form name " + form, "Error");
+                return;
+            }
+
             try
             {
                 Application.Run();
@@ -190,9 +220,9 @@ namespace ACAT.Applications.ACATApp
             }
             catch (Exception ex)
             {
-                MessageBox.Show(Strings.Unable_to_create_user_Error_executing_batchfile +
+                MessageBox.Show("Unable to create user. Error executing batchfile " +
                                     batchFileName + 
-                                    Strings.Error + 
+                                    ".\nError: " + 
                                     ex);
                 retVal = false;
             }
@@ -223,7 +253,7 @@ namespace ACAT.Applications.ACATApp
 
             if (!ProfileManager.ProfileExists(ProfileManager.CurrentProfile))
             {
-                MessageBox.Show(Strings.Could_not_find_profile + ProfileManager.CurrentProfile);
+                MessageBox.Show("Could not find profile " + ProfileManager.CurrentProfile);
                 return false;
             }
 
@@ -244,7 +274,7 @@ namespace ACAT.Applications.ACATApp
             Common.AppPreferences = ACATPreferences.Load();
             if (Common.AppPreferences == null)
             {
-                MessageBox.Show(Strings.Unable_to_read_preferences_from + FileUtils.AppPreferencesDir);
+                MessageBox.Show("Unable to read preferences from " + FileUtils.AppPreferencesDir);
                 return false;
             }
 
@@ -278,11 +308,75 @@ namespace ACAT.Applications.ACATApp
         /// </summary>
         private static void setUserName()
         {
-            UserManager.CurrentUser = CoreGlobals.AppGlobalPreferences.CurrentUser.Trim();
+            //UserManager.CurrentUser = CoreGlobals.AppGlobalPreferences.CurrentUser.Trim();
+            UserManager.CurrentUser = "ACAT";  // hardcode for
             if (String.IsNullOrEmpty(UserManager.CurrentUser))
             {
                 UserManager.CurrentUser = UserManager.DefaultUserName;
             }
+        }
+
+        [Obsolete("Criar rotina para definir a cultura em tempo de execução", false)]
+        /// <summary>
+        /// Parses the command line arguments. Format of the
+        /// arguments are -option <option arg>
+        /// </summary>
+        /// <param name="args">Args to parse</param>
+        private static void parseCommandLine(string[] args)
+        {
+            var parseState = ParseState.Next;
+
+            for (int index = 0; index < args.Length; index++)
+            {
+                switch (args[index].ToLower().Trim())
+                {
+                    case "-form":
+                    case "/form":
+                    case "-f":
+                    case "/f":
+                        parseState = ParseState.Form;
+                        break;
+                    case "-culture":
+                    case "/culture":
+                        parseState = ParseState.Culture;
+                        break;
+                }
+
+                switch (parseState)
+                {
+                    case ParseState.Form:
+                        args[index] = args[index].Trim();
+                        if (!isOption(args[index]))
+                        {
+                            _formName= args[index].Trim();
+                        }
+
+                        break;
+
+                    case ParseState.Culture:
+                        if (!isOption(args[index]))
+                        {
+                            CultureUtils.SetCulture(args[index].Trim());
+                        }
+                        break;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Checks if the specified string is an option flag.
+        /// it should start with a - or a /
+        /// </summary>
+        /// <param name="arg">arg to check</param>
+        /// <returns>true if it is</returns>
+        private static bool isOption(String arg)
+        {
+            if (!String.IsNullOrEmpty(arg))
+            {
+                return (arg[0] == '/' || arg[0] == '-');
+            }
+
+            return false;
         }
     }
 }

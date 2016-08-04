@@ -124,8 +124,8 @@ namespace ACAT.Lib.Extension.AppAgents.Notepad
         }
 
         /// <summary>
-        /// Invoked when the foreground window focus changes. Display the alphabet
-        /// scanner. Also, if this is a new window that has come into focus, add
+        /// Invoked when the foreground window focus changes. Displays the alphabet
+        /// scanner. Also, if this is a new window that has come into focus, adds
         /// its contents to the word prediction temporary batch model for more
         /// contextual prediction of words
         /// </summary>
@@ -181,11 +181,11 @@ namespace ACAT.Lib.Extension.AppAgents.Notepad
                         if (String.IsNullOrEmpty(text.Trim()))
                         {
                             DialogUtils.ShowTimedDialog(PanelManager.Instance.GetCurrentPanel() as Form,
-                                                "Lecture Manager", "Document is empty");
+                                                ACATExtension.Resources.LectureManager, ACATExtension.Resources.DocumentIsEmpty);
                             break;
                         }
 
-                        if (DialogUtils.ConfirmScanner("Load this document into Lecture Manager?"))
+                        if (DialogUtils.ConfirmScanner(ACATExtension.Resources.LoadThisDocumentIntoLectureManager))
                         {
 #pragma warning disable 4014
                             launchLectureManager();

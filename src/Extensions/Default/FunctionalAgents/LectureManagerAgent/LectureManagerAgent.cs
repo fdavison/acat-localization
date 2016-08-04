@@ -26,6 +26,7 @@ using ACAT.Lib.Core.PanelManagement;
 using ACAT.Lib.Core.Utility;
 using ACAT.Lib.Core.WidgetManagement;
 using ACAT.Lib.Extension;
+using Resources = LectureManagerAgent.Resources;
 
 #region SupressStyleCopWarnings
 
@@ -62,7 +63,7 @@ using ACAT.Lib.Extension;
 
 #endregion SupressStyleCopWarnings
 
-namespace ACAT.Extensions.Hawking.FunctionalAgents.LectureManager
+namespace ACAT.Extensions.Default.FunctionalAgents.LectureManager
 {
     /// <summary>
     /// Functional agent for Lecture manager.  User can load a
@@ -70,19 +71,21 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.LectureManager
     /// 'speak' the document (deliver the lecture).  User can pace the
     /// lecture either by senetence or by para.
     /// </summary>
-    [DescriptorAttribute("A921931B-DEAD-4820-8A73-F37E5A96E919", "Lecture Manager Agent", "Agent for Lecture Manager")]
+    [DescriptorAttribute("A921931B-DEAD-4820-8A73-F37E5A96E919", 
+                        "Lecture Manager Agent", 
+                        "Agent for Lecture Manager")]
     internal class LectureManagerAgent : FunctionalAgentBase
     {
         /// <summary>
         /// Contextual menu shown while speaking the entire lecture without
         /// pausing
         /// </summary>
-        private const String SpeakAllMenuPanel = "LectureManagerSpeakAllMenu";
+        private const String SpeakAllMenu = "LectureManagerSpeakAllMenu";
 
         /// <summary>
         /// Contextual menu shown while speaking by sentence or para
         /// </summary>
-        private const String SpeakMenuPanel = "LectureManagerSpeakMenu";
+        private const String SpeakMenu = "LectureManagerSpeakMenu";
 
         /// <summary>
         /// Title of the contextual menu
@@ -136,7 +139,8 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.LectureManager
 
         /// <summary>
         /// Invoked when the Functional agent is activated.  This is
-        /// the entry point.
+        /// the entry point.  Displays the lecture manager form and 
+        /// sets the file name to read from.
         /// </summary>
         /// <returns>true on success</returns>
         public override bool Activate()
@@ -169,53 +173,54 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.LectureManager
         {
             if (arg.Widget.SubClass.Equals("Speak", StringComparison.InvariantCultureIgnoreCase))
             {
-                if (isMainFormActive())
+                if (!isMainFormActive() || !_lectureMgrForm.FileLoaded)
                 {
-                    if (_lectureMgrForm.FileLoaded)
-                    {
-                        if (_lectureMgrForm.Mode == LectureManagerMainForm.SpeechMode.All)
-                        {
-                            if (_lectureMgrForm.Speaking)
-                            {
-                                if (isContextMenuText(arg.Widget))
-                                {
-                                    if (arg.Widget.GetText() != Strings.Pause)
-                                    {
-                                        arg.Widget.SetText(Strings.Pause);
-                                    }
-                                }
-                                else if (isContextMenuIcon(arg.Widget))
-                                {
-                                    String text = arg.Widget.GetText();
-                                    if (text[0] != 0x127)
-                                    {
-                                        const string s = "\u0127";
-                                        arg.Widget.SetText(s);
-                                    }
-                                }
-                            }
-                            else if (arg.Widget.GetText() != Strings.Next)
-                            {
-                                if (isContextMenuText(arg.Widget))
-                                {
-                                    arg.Widget.SetText(Strings.Next);
-                                }
-                                else if (isContextMenuIcon(arg.Widget))
-                                {
-                                    arg.Widget.SetText(Strings.String2);
-                                }
-                            }
+                    return;
+                }
 
-                            arg.Enabled = true;
-                            arg.Handled = true;
-                        }
-                        else
+                if (_lectureMgrForm.Mode == LectureManagerMainForm.SpeechMode.All)
+                {
+                    if (_lectureMgrForm.Speaking)
+                    {
+                        if (isContextMenuText(arg.Widget))
                         {
-                            arg.Handled = true;
-                            arg.Enabled = !_lectureMgrForm.Speaking;
+                            if (arg.Widget.GetText() != "Pause")
+                            {
+                                arg.Widget.SetText("Pause");
+                            }
+                        }
+                        else if (isContextMenuIcon(arg.Widget))
+                        {
+                            String text = arg.Widget.GetText();
+                            if (text[0] != 0x127)
+                            {
+                                const string s = "\u0127";
+                                arg.Widget.SetText(s);
+                            }
                         }
                     }
+                    else if (arg.Widget.GetText() != "Next")
+                    {
+                        if (isContextMenuText(arg.Widget))
+                        {
+                            arg.Widget.SetText("Next");
+                        }
+                        else if (isContextMenuIcon(arg.Widget))
+                        {
+                            arg.Widget.SetText("F");
+                        }
+                    }
+
+                    arg.Enabled = true;
+                    arg.Handled = true;
                 }
+                else
+                {
+                    arg.Handled = true;
+                    arg.Enabled = !_lectureMgrForm.Speaking;
+                }
+
+                return;
             }
 
             if (arg.Widget.SubClass.Equals("SpeakMenu", StringComparison.InvariantCultureIgnoreCase))
@@ -304,36 +309,16 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.LectureManager
             switch (command)
             {
                 case "SpeakMenu":
-                    if (isMainFormActive())
+                    if (isMainFormActive() && Confirm(Resources.SpeakNow))
                     {
-                        if (Confirm(Strings.Speak_now))
-                        {
-                            PanelRequestEventArgs speakArg;
-                            if (_lectureMgrForm.Mode == LectureManagerMainForm.SpeechMode.All)
-                            {
-                                speakArg = new PanelRequestEventArgs(
-                                                        SpeakAllMenuPanel, 
-                                                        Title,
-                                                        WindowActivityMonitor.GetForegroundWindowInfo())
-                                {
-                                    UseCurrentScreenAsParent = true
-                                };
+                        var panel = (_lectureMgrForm.Mode == LectureManagerMainForm.SpeechMode.All) ? 
+                                                SpeakAllMenu : 
+                                                SpeakMenu ;
 
-                                showPanel(this, speakArg);
-                            }
-                            else
-                            {
-                                speakArg = new PanelRequestEventArgs(
-                                                    SpeakMenuPanel, 
-                                                    Title,
-                                                    WindowActivityMonitor.GetForegroundWindowInfo())
-                                {
-                                    UseCurrentScreenAsParent = true
-                                };
-
-                                showPanel(this, speakArg);
-                            }
-                        }
+                        showPanel(this, new PanelRequestEventArgs(
+                                                panel,
+                                                Title,
+                                                WindowActivityMonitor.GetForegroundWindowInfo(), true));
                     }
 
                     break;
@@ -365,7 +350,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.LectureManager
                 case "SpeechModeParagraph":
                     if (isMainFormActive())
                     {
-                        if (Confirm(Strings.Set_Paragraph_Mode))
+                        if (Confirm(Resources.SetParagraphMode))
                         {
                             _lectureMgrForm.Mode = LectureManagerMainForm.SpeechMode.Paragraph;
                             closeCurrentPanel();
@@ -377,7 +362,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.LectureManager
                 case "SpeechModeSentence":
                     if (isMainFormActive())
                     {
-                        if (Confirm(Strings.Set_Sentence_Mode))
+                        if (Confirm(Resources.SetSentenceMode))
                         {
                             _lectureMgrForm.Mode = LectureManagerMainForm.SpeechMode.Sentence;
                             closeCurrentPanel();
@@ -389,7 +374,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.LectureManager
                 case "SpeechModeAll":
                     if (isMainFormActive())
                     {
-                        if (Confirm(Strings.Set_All))
+                        if (Confirm(Resources.SetAll))
                         {
                             _lectureMgrForm.Mode = LectureManagerMainForm.SpeechMode.All;
                             closeCurrentPanel();
@@ -422,7 +407,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.LectureManager
                     break;
 
                 case "leaveSpeak":
-                    if (Confirm(Strings.Speaking_Leave))
+                    if (Confirm(Resources.SpeakingLeave))
                     {
                         closeCurrentPanel();
                         if (isMainFormActive())
@@ -434,7 +419,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.LectureManager
                     break;
 
                 case "exitLectureManager":
-                    if (Confirm(Strings.Exit_Lecture_Manager))
+                    if (Confirm(Resources.CloseLectureManager))
                     {
                         closeCurrentPanel();
                         if (_lectureMgrForm != null)
@@ -452,15 +437,17 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.LectureManager
                     break;
 
                 case "ToggleMode":
-                    var toggleModeArg = new PanelRequestEventArgs("LectureManagerToggleModeMenu", Title,
-                                    WindowActivityMonitor.GetForegroundWindowInfo()) { UseCurrentScreenAsParent = true };
-                    showPanel(this, toggleModeArg);
+                    showPanel(this, new PanelRequestEventArgs("LectureManagerToggleModeMenu", 
+                                                                Title,
+                                                                WindowActivityMonitor.GetForegroundWindowInfo(), 
+                                                                true));
                     break;
 
                 case "NavigateMenu":
-                    var navigateMenuArg = new PanelRequestEventArgs("LectureManagerNavigationMenu", Title,
-                                            WindowActivityMonitor.GetForegroundWindowInfo()) { UseCurrentScreenAsParent = true };
-                    showPanel(this, navigateMenuArg);
+                    showPanel(this, new PanelRequestEventArgs("LectureManagerNavigationMenu", 
+                                                                Title,
+                                                                WindowActivityMonitor.GetForegroundWindowInfo(), 
+                                                                true));
                     break;
 
                 default:
@@ -510,7 +497,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.LectureManager
         private bool getLectureManagerPanel(PanelRequestEventArgs arg)
         {
             arg.PanelClass = "LectureManagerContextMenuSimple";
-            arg.Title = Strings.Lecture_Mgr;
+            arg.Title = "Lecture Mgr";
             return true;
         }
 

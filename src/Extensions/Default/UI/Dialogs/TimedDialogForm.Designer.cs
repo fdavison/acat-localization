@@ -28,41 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TimedDialogForm));
             this.buttonOK = new System.Windows.Forms.Button();
             this.labelMessage = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonOK
             // 
-            this.buttonOK.Location = new System.Drawing.Point(129, 166);
+            resources.ApplyResources(this.buttonOK, "buttonOK");
             this.buttonOK.Name = "buttonOK";
-            this.buttonOK.Size = new System.Drawing.Size(199, 40);
-            this.buttonOK.TabIndex = 7;
-            this.buttonOK.Text = Strings.OK;
             this.buttonOK.UseVisualStyleBackColor = true;
             // 
             // labelMessage
             // 
+            resources.ApplyResources(this.labelMessage, "labelMessage");
             this.labelMessage.BackColor = System.Drawing.Color.White;
-            this.labelMessage.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMessage.ForeColor = System.Drawing.Color.Black;
-            this.labelMessage.Location = new System.Drawing.Point(9, 16);
             this.labelMessage.Name = "labelMessage";
-            this.labelMessage.Size = new System.Drawing.Size(438, 129);
-            this.labelMessage.TabIndex = 8;
-            this.labelMessage.Text = Strings.Message;
-            this.labelMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TimedDialogForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(456, 228);
             this.Controls.Add(this.buttonOK);
             this.Controls.Add(this.labelMessage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "TimedDialogForm";
-            this.Text = "ACAT";
             this.ResumeLayout(false);
 
         }

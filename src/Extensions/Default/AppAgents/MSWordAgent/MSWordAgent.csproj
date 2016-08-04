@@ -14,14 +14,12 @@
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
-    <SccProjectName>
-    </SccProjectName>
-    <SccLocalPath>
-    </SccLocalPath>
-    <SccAuxPath>
-    </SccAuxPath>
-    <SccProvider>
-    </SccProvider>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -103,8 +101,9 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Config\MSWordContextMenu.es.xml" />
+    <Content Include="Config\MSWordContextMenu.pt-BR.xml" />
     <Content Include="Config\MSWordContextMenu.xml" />
-    <Content Include="Config\MSWordContextMenuIconsOnly.xml" />
     <Content Include="Config\PanelConfigMap.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

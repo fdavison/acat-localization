@@ -28,74 +28,88 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Button2 = new System.Windows.Forms.Label();
-            this.Button1 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(YesNoDialogForm));
             this.labelCaption = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.Button1Blank = new System.Windows.Forms.Label();
+            this.Button1 = new System.Windows.Forms.Label();
+            this.Button2Blank = new System.Windows.Forms.Label();
+            this.Button2 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // Button2
-            // 
-            this.Button2.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button2.Location = new System.Drawing.Point(7, 151);
-            this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(374, 40);
-            this.Button2.TabIndex = 129;
-            this.Button2.Text = Strings.No;
-            this.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Button1
-            // 
-            this.Button1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button1.Location = new System.Drawing.Point(7, 104);
-            this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(374, 40);
-            this.Button1.TabIndex = 128;
-            this.Button1.Text = Strings.Yes;
-            this.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelCaption
             // 
+            resources.ApplyResources(this.labelCaption, "labelCaption");
             this.labelCaption.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.labelCaption.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCaption.ForeColor = System.Drawing.Color.Black;
-            this.labelCaption.Location = new System.Drawing.Point(5, 2);
             this.labelCaption.Name = "labelCaption";
-            this.labelCaption.Size = new System.Drawing.Size(378, 57);
-            this.labelCaption.TabIndex = 127;
-            this.labelCaption.Text = Strings.Are_you_sure_you_want_to_exit;
-            this.labelCaption.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
+            resources.ApplyResources(this.label2, "label2");
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Location = new System.Drawing.Point(5, 60);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(378, 2);
-            this.label2.TabIndex = 133;
+            // 
+            // tableLayoutPanel1
+            // 
+            resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
+            this.tableLayoutPanel1.Controls.Add(this.Button1Blank, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.Button1, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.Button2Blank, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.Button2, 3, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            // 
+            // Button1Blank
+            // 
+            resources.ApplyResources(this.Button1Blank, "Button1Blank");
+            this.Button1Blank.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Button1Blank.Name = "Button1Blank";
+            // 
+            // Button1
+            // 
+            resources.ApplyResources(this.Button1, "Button1");
+            this.Button1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Button1.Name = "Button1";
+            // 
+            // Button2Blank
+            // 
+            resources.ApplyResources(this.Button2Blank, "Button2Blank");
+            this.Button2Blank.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Button2Blank.Name = "Button2Blank";
+            // 
+            // Button2
+            // 
+            resources.ApplyResources(this.Button2, "Button2");
+            this.Button2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Button2.Name = "Button2";
             // 
             // YesNoDialogForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(388, 238);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.Button2);
-            this.Controls.Add(this.Button1);
             this.Controls.Add(this.labelCaption);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "YesNoDialogForm";
-            this.Text = "ACAT";
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label Button2;
-        private System.Windows.Forms.Label Button1;
         private System.Windows.Forms.Label labelCaption;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label Button1Blank;
+        private System.Windows.Forms.Label Button1;
+        private System.Windows.Forms.Label Button2Blank;
+        private System.Windows.Forms.Label Button2;
 
     }
 }

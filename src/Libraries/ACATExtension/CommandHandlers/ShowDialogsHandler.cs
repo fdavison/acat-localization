@@ -65,7 +65,8 @@ namespace ACAT.Lib.Extension.CommandHandlers
 {
     /// <summary>
     /// Shows the various settings dialogs such as General,
-    /// Scan, Voice etc.
+    /// Scan, Text-to-speech, Mouse etc.  These dialogs enable
+    /// the user to configure ACAT.
     /// </summary>
     public class ShowDialogsHandler : RunCommandHandler
     {
@@ -103,20 +104,16 @@ namespace ACAT.Lib.Extension.CommandHandlers
                     showDialog("WordPredictionSettingsForm");
                     break;
 
-                case "CmdShowMouseRadarSettings":
-                    showDialog("MouseRadarSettingsForm");
-                    break;
-
                 case "CmdShowMouseGridSettings":
                     showDialog("MouseGridSettingsForm");
                     break;
 
                 case "CmdShowVoiceSettings":
-                    showDialog("VoiceSettingsForm");
+                    showDialog("TextToSpeechSettingsForm");
                     break;
 
                 case "CmdShowMuteScreenSettings":
-                    showDialog("MuteScreenSettingsForm");
+                    showDialog("ScreenLockSettingsForm");
                     break;
 
                 case "CmdShowDesignSettings":
@@ -145,10 +142,11 @@ namespace ACAT.Lib.Extension.CommandHandlers
             var appName = (attributes.Length != 0) ? ((AssemblyTitleAttribute)attributes[0]).Title : String.Empty;
 
             var version = ACATPreferences.ApplicationAssembly.GetName().Version.ToString();
-            var versionInfo = "Version " + version;
+            var versionInfo = string.Format(ACATExtension.Resources.Version0, version);
 
-            attributes = ACATPreferences.ApplicationAssembly.GetCustomAttributes(typeof(AssemblyCopyrightAttribute), false);
-            var copyrightInfo = (attributes.Length != 0) ? ((AssemblyCopyrightAttribute)attributes[0]).Copyright : String.Empty;
+            //attributes = ACATPreferences.ApplicationAssembly.GetCustomAttributes(typeof(AssemblyCopyrightAttribute), false);
+            //var copyrightInfo = (attributes.Length != 0) ? ((AssemblyCopyrightAttribute)attributes[0]).Copyright : String.Empty;
+            var copyrightInfo = ACATExtension.Resources.AssemblyCopyright.Replace("\\n", Environment.NewLine);
 
             DialogUtils.ShowAboutBox(parentForm, "AboutBoxLogo.png", appName, versionInfo, copyrightInfo, Attributions.GetAll());
         }

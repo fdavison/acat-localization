@@ -117,4 +117,643 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblExpandAbbreviationsOnSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 190</value>
+  </data>
+  <data name="lblBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 376</value>
+  </data>
+  <data name="lblExpandAbbreviationsOnSeparator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pbEnableAuditLog.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="&gt;&gt;lblHideScannersOnIdle.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pbEnableAuditLog.Name" xml:space="preserve">
+    <value>pbEnableAuditLog</value>
+  </data>
+  <data name="&gt;&gt;pbRetainTalkWindowText.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblShowGlass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 76</value>
+  </data>
+  <data name="pbEnableDebugTraceLogging.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblExpandAbbreviationsOnSeparator.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pbScannerAutoSaveLastPosition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pbScannerAutoSaveLastPosition.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pbEnableDebugTraceLogging.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="pbEnableDebugTraceLogging.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRetainTalkWindowText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pbHideScannersOnIdle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 38</value>
+  </data>
+  <data name="&gt;&gt;pbRetainTalkWindowText.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblRestoreDefaults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHideScannersOnIdle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblEnableAuditLog.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblShowTalkWindowOnStartup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pbExpandAbbreviationsOnSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 28</value>
+  </data>
+  <data name="lblShowGlass.Text" xml:space="preserve">
+    <value>Show glass under Talk window</value>
+  </data>
+  <data name="lblRetainTalkWindowText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 376</value>
+  </data>
+  <data name="&gt;&gt;lblRetainTalkWindowText.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblShowGlass.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;pbShowGlass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pbScannerAutoSaveLastPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ACAT</value>
+  </data>
+  <data name="&gt;&gt;lblBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblRetainTalkWindowText.Text" xml:space="preserve">
+    <value>Retain Talk window text on close</value>
+  </data>
+  <data name="lblEnableAuditLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 266</value>
+  </data>
+  <data name="lblShowTalkWindowOnStartup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="lblScannerAutoSaveLastPosition.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblExpandAbbreviationsOnSeparator.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="pbHideScannersOnIdle.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="lblHideScannersOnIdle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pbEnableDebugTraceLogging.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblScannerAutoSaveLastPosition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblExpandAbbreviationsOnSeparator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblBack.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pbRetainTalkWindowText.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="pbShowTalkWindowOnStartup.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="pbRetainTalkWindowText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pbExpandAbbreviationsOnSeparator.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblShowTalkWindowOnStartup.Name" xml:space="preserve">
+    <value>lblShowTalkWindowOnStartup</value>
+  </data>
+  <data name="pbEnableAuditLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 266</value>
+  </data>
+  <data name="&gt;&gt;lblHideScannersOnIdle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbEnableDebugTraceLogging.Name" xml:space="preserve">
+    <value>pbEnableDebugTraceLogging</value>
+  </data>
+  <data name="lblRestoreDefaults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 376</value>
+  </data>
+  <data name="lblScannerAutoSaveLastPosition.Text" xml:space="preserve">
+    <value>Auto-save scanner's last position</value>
+  </data>
+  <data name="lblShowGlass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 29</value>
+  </data>
+  <data name="&gt;&gt;pbEnableAuditLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pbScannerAutoSaveLastPosition.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="pbScannerAutoSaveLastPosition.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblHideScannersOnIdle.Text" xml:space="preserve">
+    <value>Hide scanners on idle</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pbShowTalkWindowOnStartup.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;pbRetainTalkWindowText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pbShowTalkWindowOnStartup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 114</value>
+  </data>
+  <data name="&gt;&gt;pbScannerAutoSaveLastPosition.Name" xml:space="preserve">
+    <value>pbScannerAutoSaveLastPosition</value>
+  </data>
+  <data name="pbExpandAbbreviationsOnSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="&gt;&gt;pbShowTalkWindowOnStartup.Name" xml:space="preserve">
+    <value>pbShowTalkWindowOnStartup</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="&gt;&gt;lblOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblRestoreDefaults.Name" xml:space="preserve">
+    <value>lblRestoreDefaults</value>
+  </data>
+  <data name="&gt;&gt;pbShowGlass.Name" xml:space="preserve">
+    <value>pbShowGlass</value>
+  </data>
+  <data name="&gt;&gt;pbShowGlass.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="lblRetainTalkWindowText.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="&gt;&gt;lblScannerAutoSaveLastPosition.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pbEnableAuditLog.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="lblShowTalkWindowOnStartup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 114</value>
+  </data>
+  <data name="lblScannerAutoSaveLastPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 0</value>
+  </data>
+  <data name="&gt;&gt;lblExpandAbbreviationsOnSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEnableDebugTraceLogging.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="&gt;&gt;lblEnableDebugTraceLogging.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbShowTalkWindowOnStartup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, -4</value>
+  </data>
+  <data name="pbRetainTalkWindowText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 28</value>
+  </data>
+  <data name="lblEnableAuditLog.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="&gt;&gt;lblHideScannersOnIdle.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="pbEnableAuditLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 28</value>
+  </data>
+  <data name="lblEnableDebugTraceLogging.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 29</value>
+  </data>
+  <data name="lblShowGlass.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;pbScannerAutoSaveLastPosition.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="lblExpandAbbreviationsOnSeparator.Text" xml:space="preserve">
+    <value>Expand abbreviations on separator</value>
+  </data>
+  <data name="&gt;&gt;lblOK.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pbEnableDebugTraceLogging.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 28</value>
+  </data>
+  <data name="&gt;&gt;lblRetainTalkWindowText.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="pbShowGlass.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="pbEnableDebugTraceLogging.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 228</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pbHideScannersOnIdle.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBack.Name" xml:space="preserve">
+    <value>lblBack</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbHideScannersOnIdle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbEnableDebugTraceLogging.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="pbRetainTalkWindowText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 152</value>
+  </data>
+  <data name="lblBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 47</value>
+  </data>
+  <data name="pbHideScannersOnIdle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblExpandAbbreviationsOnSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 29</value>
+  </data>
+  <data name="&gt;&gt;lblEnableAuditLog.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblScannerAutoSaveLastPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="lblRestoreDefaults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 47</value>
+  </data>
+  <data name="&gt;&gt;lblOK.Name" xml:space="preserve">
+    <value>lblOK</value>
+  </data>
+  <data name="pbEnableAuditLog.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pbEnableAuditLog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblRestoreDefaults.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="lblEnableDebugTraceLogging.Text" xml:space="preserve">
+    <value>Enable debug trace logging</value>
+  </data>
+  <data name="&gt;&gt;lblShowTalkWindowOnStartup.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="lblEnableDebugTraceLogging.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 228</value>
+  </data>
+  <data name="pbHideScannersOnIdle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 28</value>
+  </data>
+  <data name="lblHideScannersOnIdle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 29</value>
+  </data>
+  <data name="lblShowTalkWindowOnStartup.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="pbHideScannersOnIdle.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="pbShowGlass.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="pbExpandAbbreviationsOnSeparator.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="pbShowGlass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 76</value>
+  </data>
+  <data name="lblOK.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="lblBack.Text" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;lblEnableDebugTraceLogging.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="&gt;&gt;lblShowTalkWindowOnStartup.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="pbEnableAuditLog.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="pbExpandAbbreviationsOnSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 190</value>
+  </data>
+  <data name="&gt;&gt;pbShowTalkWindowOnStartup.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;pbScannerAutoSaveLastPosition.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblEnableAuditLog.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;pbExpandAbbreviationsOnSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbRetainTalkWindowText.Name" xml:space="preserve">
+    <value>pbRetainTalkWindowText</value>
+  </data>
+  <data name="&gt;&gt;lblHideScannersOnIdle.Name" xml:space="preserve">
+    <value>lblHideScannersOnIdle</value>
+  </data>
+  <data name="&gt;&gt;lblRestoreDefaults.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pbShowGlass.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblScannerAutoSaveLastPosition.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblEnableDebugTraceLogging.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="lblRetainTalkWindowText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 29</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pbEnableAuditLog" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblEnableAuditLog" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pbExpandAbbreviationsOnSeparator" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblExpandAbbreviationsOnSeparator" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pbScannerAutoSaveLastPosition" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pbEnableDebugTraceLogging" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblScannerAutoSaveLastPosition" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pbRetainTalkWindowText" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblHideScannersOnIdle" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pbShowTalkWindowOnStartup" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblEnableDebugTraceLogging" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pbShowGlass" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblShowGlass" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblShowTalkWindowOnStartup" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pbHideScannersOnIdle" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblRetainTalkWindowText" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,13,7533,Percent,86,2467" /&gt;&lt;Rows Styles="Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="lblOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 47</value>
+  </data>
+  <data name="lblEnableDebugTraceLogging.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblEnableDebugTraceLogging.Name" xml:space="preserve">
+    <value>lblEnableDebugTraceLogging</value>
+  </data>
+  <data name="&gt;&gt;lblScannerAutoSaveLastPosition.Name" xml:space="preserve">
+    <value>lblScannerAutoSaveLastPosition</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pbRetainTalkWindowText.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="&gt;&gt;lblBack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblRetainTalkWindowText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblShowGlass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblShowTalkWindowOnStartup.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblRestoreDefaults.Text" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 306</value>
+  </data>
+  <data name="pbShowGlass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 28</value>
+  </data>
+  <data name="pbShowTalkWindowOnStartup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 28</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 24</value>
+  </data>
+  <data name="&gt;&gt;pbHideScannersOnIdle.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="lblShowTalkWindowOnStartup.Text" xml:space="preserve">
+    <value>Show Talk window on startup</value>
+  </data>
+  <data name="pbScannerAutoSaveLastPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 38</value>
+  </data>
+  <data name="&gt;&gt;lblRetainTalkWindowText.Name" xml:space="preserve">
+    <value>lblRetainTalkWindowText</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="lblEnableAuditLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 29</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>General Settings</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="pbScannerAutoSaveLastPosition.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="pbShowGlass.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pbShowTalkWindowOnStartup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pbEnableDebugTraceLogging.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHideScannersOnIdle.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="lblOK.Text" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="pbExpandAbbreviationsOnSeparator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblScannerAutoSaveLastPosition.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="lblShowGlass.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblShowTalkWindowOnStartup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 29</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>518, 452</value>
+  </data>
+  <data name="lblShowGlass.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblRestoreDefaults.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblHideScannersOnIdle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 38</value>
+  </data>
+  <data name="pbShowTalkWindowOnStartup.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>494, 432</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 50</value>
+  </data>
+  <data name="lblBack.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="pbScannerAutoSaveLastPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;lblEnableAuditLog.Name" xml:space="preserve">
+    <value>lblEnableAuditLog</value>
+  </data>
+  <data name="&gt;&gt;pbHideScannersOnIdle.Name" xml:space="preserve">
+    <value>pbHideScannersOnIdle</value>
+  </data>
+  <data name="lblEnableAuditLog.Text" xml:space="preserve">
+    <value>Enable audit log</value>
+  </data>
+  <data name="&gt;&gt;lblShowGlass.Name" xml:space="preserve">
+    <value>lblShowGlass</value>
+  </data>
+  <data name="lblExpandAbbreviationsOnSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="lblEnableAuditLog.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pbExpandAbbreviationsOnSeparator.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GeneralSettingsForm</value>
+  </data>
+  <data name="&gt;&gt;pbExpandAbbreviationsOnSeparator.Name" xml:space="preserve">
+    <value>pbExpandAbbreviationsOnSeparator</value>
+  </data>
+  <data name="&gt;&gt;lblExpandAbbreviationsOnSeparator.Name" xml:space="preserve">
+    <value>lblExpandAbbreviationsOnSeparator</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="lblEnableDebugTraceLogging.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblShowGlass.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblRetainTalkWindowText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 152</value>
+  </data>
+  <data name="&gt;&gt;lblEnableAuditLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblScannerAutoSaveLastPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 29</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>pt-BR</value>
+  </metadata>
 </root>

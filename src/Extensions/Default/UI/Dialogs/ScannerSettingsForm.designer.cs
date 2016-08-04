@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ScannerSettingsForm));
             this.lblRestoreDefaults = new System.Windows.Forms.Button();
             this.lblScanTimes = new System.Windows.Forms.Label();
             this.lblNumberofTimes = new System.Windows.Forms.Label();
@@ -126,82 +127,57 @@
             // 
             // lblRestoreDefaults
             // 
+            resources.ApplyResources(this.lblRestoreDefaults, "lblRestoreDefaults");
             this.lblRestoreDefaults.BackColor = System.Drawing.SystemColors.Control;
-            this.lblRestoreDefaults.Location = new System.Drawing.Point(308, 667);
             this.lblRestoreDefaults.Name = "lblRestoreDefaults";
-            this.lblRestoreDefaults.Size = new System.Drawing.Size(114, 47);
-            this.lblRestoreDefaults.TabIndex = 139;
             this.lblRestoreDefaults.TabStop = false;
-            this.lblRestoreDefaults.Text = Strings.Defaults;
             this.lblRestoreDefaults.UseVisualStyleBackColor = false;
             // 
             // lblScanTimes
             // 
-            this.lblScanTimes.BackColor = System.Drawing.Color.DimGray;
+            resources.ApplyResources(this.lblScanTimes, "lblScanTimes");
+            this.lblScanTimes.BackColor = System.Drawing.Color.LightSteelBlue;
             this.lblScanTimes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblScanTimes.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScanTimes.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblScanTimes.Location = new System.Drawing.Point(37, 280);
+            this.lblScanTimes.ForeColor = System.Drawing.Color.Black;
             this.lblScanTimes.Name = "lblScanTimes";
-            this.lblScanTimes.Size = new System.Drawing.Size(135, 22);
-            this.lblScanTimes.TabIndex = 132;
-            this.lblScanTimes.Text = Strings.Scan_Times;
             // 
             // lblNumberofTimes
             // 
-            this.lblNumberofTimes.BackColor = System.Drawing.Color.DimGray;
+            resources.ApplyResources(this.lblNumberofTimes, "lblNumberofTimes");
+            this.lblNumberofTimes.BackColor = System.Drawing.Color.LightSteelBlue;
             this.lblNumberofTimes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblNumberofTimes.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumberofTimes.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblNumberofTimes.Location = new System.Drawing.Point(37, 46);
+            this.lblNumberofTimes.ForeColor = System.Drawing.Color.Black;
             this.lblNumberofTimes.Name = "lblNumberofTimes";
-            this.lblNumberofTimes.Size = new System.Drawing.Size(165, 25);
-            this.lblNumberofTimes.TabIndex = 133;
-            this.lblNumberofTimes.Text = Strings.Scan_Iterations;
             // 
             // lblSelectingClick
             // 
-            this.lblSelectingClick.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSelectingClick.Location = new System.Drawing.Point(77, 616);
+            resources.ApplyResources(this.lblSelectingClick, "lblSelectingClick");
             this.lblSelectingClick.Name = "lblSelectingClick";
-            this.lblSelectingClick.Size = new System.Drawing.Size(173, 29);
-            this.lblSelectingClick.TabIndex = 131;
-            this.lblSelectingClick.Text = Strings.Beep_on_Select;
-            this.lblSelectingClick.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblBack
             // 
+            resources.ApplyResources(this.lblBack, "lblBack");
             this.lblBack.BackColor = System.Drawing.SystemColors.Control;
-            this.lblBack.Location = new System.Drawing.Point(184, 667);
             this.lblBack.Name = "lblBack";
-            this.lblBack.Size = new System.Drawing.Size(110, 47);
-            this.lblBack.TabIndex = 138;
             this.lblBack.TabStop = false;
-            this.lblBack.Text = Strings.Cancel;
             this.lblBack.UseVisualStyleBackColor = false;
             // 
             // pbSelectingClick
             // 
-            this.pbSelectingClick.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pbSelectingClick.Location = new System.Drawing.Point(42, 619);
+            resources.ApplyResources(this.pbSelectingClick, "pbSelectingClick");
             this.pbSelectingClick.Name = "pbSelectingClick";
-            this.pbSelectingClick.Size = new System.Drawing.Size(28, 29);
-            this.pbSelectingClick.TabIndex = 134;
-            this.pbSelectingClick.Text = Strings.N;
             // 
             // lblOK
             // 
+            resources.ApplyResources(this.lblOK, "lblOK");
             this.lblOK.BackColor = System.Drawing.SystemColors.Control;
-            this.lblOK.Location = new System.Drawing.Point(60, 667);
             this.lblOK.Name = "lblOK";
-            this.lblOK.Size = new System.Drawing.Size(110, 47);
-            this.lblOK.TabIndex = 137;
             this.lblOK.TabStop = false;
-            this.lblOK.Text = Strings.OK;
             this.lblOK.UseVisualStyleBackColor = false;
             // 
             // boxScanTop
             // 
+            resources.ApplyResources(this.boxScanTop, "boxScanTop");
             this.boxScanTop.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.boxScanTop.Controls.Add(this.lblWordPredictionMore);
             this.boxScanTop.Controls.Add(this.smaxWordPrediction);
@@ -231,293 +207,171 @@
             this.boxScanTop.Controls.Add(this.lblEveryColumnLess);
             this.boxScanTop.Controls.Add(this.tbEveryColumn);
             this.boxScanTop.Controls.Add(this.tbEveryHalf);
-            this.boxScanTop.Location = new System.Drawing.Point(33, 71);
             this.boxScanTop.Name = "boxScanTop";
-            this.boxScanTop.Size = new System.Drawing.Size(415, 196);
-            this.boxScanTop.TabIndex = 135;
             // 
             // lblWordPredictionMore
             // 
+            resources.ApplyResources(this.lblWordPredictionMore, "lblWordPredictionMore");
             this.lblWordPredictionMore.BackColor = System.Drawing.Color.Transparent;
-            this.lblWordPredictionMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWordPredictionMore.Location = new System.Drawing.Point(304, 147);
             this.lblWordPredictionMore.Name = "lblWordPredictionMore";
-            this.lblWordPredictionMore.Size = new System.Drawing.Size(25, 25);
-            this.lblWordPredictionMore.TabIndex = 67;
-            this.lblWordPredictionMore.Text = ">";
-            this.lblWordPredictionMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // smaxWordPrediction
             // 
-            this.smaxWordPrediction.AutoSize = true;
-            this.smaxWordPrediction.Location = new System.Drawing.Point(309, 173);
+            resources.ApplyResources(this.smaxWordPrediction, "smaxWordPrediction");
             this.smaxWordPrediction.Name = "smaxWordPrediction";
-            this.smaxWordPrediction.Size = new System.Drawing.Size(19, 13);
-            this.smaxWordPrediction.TabIndex = 63;
-            this.smaxWordPrediction.Text = "10";
-            this.smaxWordPrediction.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // sminWordPrediction
             // 
-            this.sminWordPrediction.AutoSize = true;
-            this.sminWordPrediction.Location = new System.Drawing.Point(182, 175);
+            resources.ApplyResources(this.sminWordPrediction, "sminWordPrediction");
             this.sminWordPrediction.Name = "sminWordPrediction";
-            this.sminWordPrediction.Size = new System.Drawing.Size(13, 13);
-            this.sminWordPrediction.TabIndex = 62;
-            this.sminWordPrediction.Text = "0";
-            this.sminWordPrediction.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // svalWordPrediction
             // 
-            this.svalWordPrediction.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalWordPrediction.Location = new System.Drawing.Point(335, 151);
+            resources.ApplyResources(this.svalWordPrediction, "svalWordPrediction");
             this.svalWordPrediction.Name = "svalWordPrediction";
             this.svalWordPrediction.ReadOnly = true;
-            this.svalWordPrediction.Size = new System.Drawing.Size(55, 20);
-            this.svalWordPrediction.TabIndex = 65;
             this.svalWordPrediction.TabStop = false;
             // 
             // lblWordPrediction
             // 
-            this.lblWordPrediction.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWordPrediction.Location = new System.Drawing.Point(6, 149);
+            resources.ApplyResources(this.lblWordPrediction, "lblWordPrediction");
             this.lblWordPrediction.Name = "lblWordPrediction";
-            this.lblWordPrediction.Size = new System.Drawing.Size(162, 26);
-            this.lblWordPrediction.TabIndex = 61;
-            this.lblWordPrediction.Text = Strings.Word_Prediction;
-            this.lblWordPrediction.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblWordPredictionLess
             // 
+            resources.ApplyResources(this.lblWordPredictionLess, "lblWordPredictionLess");
             this.lblWordPredictionLess.BackColor = System.Drawing.Color.Transparent;
-            this.lblWordPredictionLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWordPredictionLess.Location = new System.Drawing.Point(179, 149);
             this.lblWordPredictionLess.Name = "lblWordPredictionLess";
-            this.lblWordPredictionLess.Size = new System.Drawing.Size(25, 25);
-            this.lblWordPredictionLess.TabIndex = 66;
-            this.lblWordPredictionLess.Text = "<";
-            this.lblWordPredictionLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbWordPrediction
             // 
-            this.tbWordPrediction.Location = new System.Drawing.Point(200, 150);
+            resources.ApplyResources(this.tbWordPrediction, "tbWordPrediction");
             this.tbWordPrediction.Name = "tbWordPrediction";
-            this.tbWordPrediction.Size = new System.Drawing.Size(110, 45);
-            this.tbWordPrediction.TabIndex = 64;
             this.tbWordPrediction.TabStop = false;
             // 
             // lblEveryColumnMore
             // 
+            resources.ApplyResources(this.lblEveryColumnMore, "lblEveryColumnMore");
             this.lblEveryColumnMore.BackColor = System.Drawing.Color.Transparent;
-            this.lblEveryColumnMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryColumnMore.Location = new System.Drawing.Point(304, 101);
             this.lblEveryColumnMore.Name = "lblEveryColumnMore";
-            this.lblEveryColumnMore.Size = new System.Drawing.Size(25, 25);
-            this.lblEveryColumnMore.TabIndex = 60;
-            this.lblEveryColumnMore.Text = ">";
-            this.lblEveryColumnMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblEveryRowLess
             // 
+            resources.ApplyResources(this.lblEveryRowLess, "lblEveryRowLess");
             this.lblEveryRowLess.BackColor = System.Drawing.Color.Transparent;
-            this.lblEveryRowLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryRowLess.Location = new System.Drawing.Point(179, 58);
             this.lblEveryRowLess.Name = "lblEveryRowLess";
-            this.lblEveryRowLess.Size = new System.Drawing.Size(25, 25);
-            this.lblEveryRowLess.TabIndex = 57;
-            this.lblEveryRowLess.Text = "<";
-            this.lblEveryRowLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblEveryRowMore
             // 
+            resources.ApplyResources(this.lblEveryRowMore, "lblEveryRowMore");
             this.lblEveryRowMore.BackColor = System.Drawing.Color.Transparent;
-            this.lblEveryRowMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryRowMore.Location = new System.Drawing.Point(304, 58);
             this.lblEveryRowMore.Name = "lblEveryRowMore";
-            this.lblEveryRowMore.Size = new System.Drawing.Size(25, 25);
-            this.lblEveryRowMore.TabIndex = 58;
-            this.lblEveryRowMore.Text = ">";
-            this.lblEveryRowMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblEveryHalfLess
             // 
+            resources.ApplyResources(this.lblEveryHalfLess, "lblEveryHalfLess");
             this.lblEveryHalfLess.BackColor = System.Drawing.Color.Transparent;
-            this.lblEveryHalfLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryHalfLess.Location = new System.Drawing.Point(179, 13);
             this.lblEveryHalfLess.Name = "lblEveryHalfLess";
-            this.lblEveryHalfLess.Size = new System.Drawing.Size(25, 25);
-            this.lblEveryHalfLess.TabIndex = 55;
-            this.lblEveryHalfLess.Text = "<";
-            this.lblEveryHalfLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // sminEveryHalf
             // 
-            this.sminEveryHalf.AutoSize = true;
-            this.sminEveryHalf.Location = new System.Drawing.Point(180, 37);
+            resources.ApplyResources(this.sminEveryHalf, "sminEveryHalf");
             this.sminEveryHalf.Name = "sminEveryHalf";
-            this.sminEveryHalf.Size = new System.Drawing.Size(13, 13);
-            this.sminEveryHalf.TabIndex = 20;
-            this.sminEveryHalf.Text = "0";
-            this.sminEveryHalf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // smaxEveryColumn
             // 
-            this.smaxEveryColumn.AutoSize = true;
-            this.smaxEveryColumn.Location = new System.Drawing.Point(309, 127);
+            resources.ApplyResources(this.smaxEveryColumn, "smaxEveryColumn");
             this.smaxEveryColumn.Name = "smaxEveryColumn";
-            this.smaxEveryColumn.Size = new System.Drawing.Size(19, 13);
-            this.smaxEveryColumn.TabIndex = 25;
-            this.smaxEveryColumn.Text = "10";
-            this.smaxEveryColumn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // sminEveryColumn
             // 
-            this.sminEveryColumn.AutoSize = true;
-            this.sminEveryColumn.Location = new System.Drawing.Point(182, 129);
+            resources.ApplyResources(this.sminEveryColumn, "sminEveryColumn");
             this.sminEveryColumn.Name = "sminEveryColumn";
-            this.sminEveryColumn.Size = new System.Drawing.Size(13, 13);
-            this.sminEveryColumn.TabIndex = 24;
-            this.sminEveryColumn.Text = "0";
-            this.sminEveryColumn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // smaxEveryRow
             // 
-            this.smaxEveryRow.AutoSize = true;
-            this.smaxEveryRow.Location = new System.Drawing.Point(309, 82);
+            resources.ApplyResources(this.smaxEveryRow, "smaxEveryRow");
             this.smaxEveryRow.Name = "smaxEveryRow";
-            this.smaxEveryRow.Size = new System.Drawing.Size(19, 13);
-            this.smaxEveryRow.TabIndex = 23;
-            this.smaxEveryRow.Text = "10";
-            this.smaxEveryRow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // sminEveryRow
             // 
-            this.sminEveryRow.AutoSize = true;
-            this.sminEveryRow.Location = new System.Drawing.Point(181, 83);
+            resources.ApplyResources(this.sminEveryRow, "sminEveryRow");
             this.sminEveryRow.Name = "sminEveryRow";
-            this.sminEveryRow.Size = new System.Drawing.Size(13, 13);
-            this.sminEveryRow.TabIndex = 22;
-            this.sminEveryRow.Text = "0";
-            this.sminEveryRow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // smaxEveryHalf
             // 
-            this.smaxEveryHalf.AutoSize = true;
-            this.smaxEveryHalf.Location = new System.Drawing.Point(309, 36);
+            resources.ApplyResources(this.smaxEveryHalf, "smaxEveryHalf");
             this.smaxEveryHalf.Name = "smaxEveryHalf";
-            this.smaxEveryHalf.Size = new System.Drawing.Size(19, 13);
-            this.smaxEveryHalf.TabIndex = 21;
-            this.smaxEveryHalf.Text = "10";
-            this.smaxEveryHalf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // svalEveryHalf
             // 
-            this.svalEveryHalf.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalEveryHalf.Location = new System.Drawing.Point(333, 15);
+            resources.ApplyResources(this.svalEveryHalf, "svalEveryHalf");
             this.svalEveryHalf.Name = "svalEveryHalf";
             this.svalEveryHalf.ReadOnly = true;
-            this.svalEveryHalf.Size = new System.Drawing.Size(55, 20);
-            this.svalEveryHalf.TabIndex = 41;
             this.svalEveryHalf.TabStop = false;
             // 
             // svalEveryRow
             // 
-            this.svalEveryRow.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalEveryRow.Location = new System.Drawing.Point(334, 59);
+            resources.ApplyResources(this.svalEveryRow, "svalEveryRow");
             this.svalEveryRow.Name = "svalEveryRow";
             this.svalEveryRow.ReadOnly = true;
-            this.svalEveryRow.Size = new System.Drawing.Size(55, 20);
-            this.svalEveryRow.TabIndex = 42;
             this.svalEveryRow.TabStop = false;
             // 
             // svalEveryColumn
             // 
-            this.svalEveryColumn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalEveryColumn.Location = new System.Drawing.Point(335, 105);
+            resources.ApplyResources(this.svalEveryColumn, "svalEveryColumn");
             this.svalEveryColumn.Name = "svalEveryColumn";
             this.svalEveryColumn.ReadOnly = true;
-            this.svalEveryColumn.Size = new System.Drawing.Size(55, 20);
-            this.svalEveryColumn.TabIndex = 43;
             this.svalEveryColumn.TabStop = false;
             // 
             // lblEveryColumn
             // 
-            this.lblEveryColumn.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryColumn.Location = new System.Drawing.Point(6, 103);
+            resources.ApplyResources(this.lblEveryColumn, "lblEveryColumn");
             this.lblEveryColumn.Name = "lblEveryColumn";
-            this.lblEveryColumn.Size = new System.Drawing.Size(141, 26);
-            this.lblEveryColumn.TabIndex = 18;
-            this.lblEveryColumn.Text = Strings.Every_Column;
-            this.lblEveryColumn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblEveryHalf
             // 
-            this.lblEveryHalf.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryHalf.Location = new System.Drawing.Point(6, 13);
+            resources.ApplyResources(this.lblEveryHalf, "lblEveryHalf");
             this.lblEveryHalf.Name = "lblEveryHalf";
-            this.lblEveryHalf.Size = new System.Drawing.Size(141, 26);
-            this.lblEveryHalf.TabIndex = 16;
-            this.lblEveryHalf.Text = Strings.Every_Half;
-            this.lblEveryHalf.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblEveryRow
             // 
-            this.lblEveryRow.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryRow.Location = new System.Drawing.Point(6, 58);
+            resources.ApplyResources(this.lblEveryRow, "lblEveryRow");
             this.lblEveryRow.Name = "lblEveryRow";
-            this.lblEveryRow.Size = new System.Drawing.Size(141, 26);
-            this.lblEveryRow.TabIndex = 17;
-            this.lblEveryRow.Text = Strings.Every_Row;
-            this.lblEveryRow.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblEveryHalfMore
             // 
+            resources.ApplyResources(this.lblEveryHalfMore, "lblEveryHalfMore");
             this.lblEveryHalfMore.BackColor = System.Drawing.Color.Transparent;
-            this.lblEveryHalfMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryHalfMore.Location = new System.Drawing.Point(304, 12);
             this.lblEveryHalfMore.Name = "lblEveryHalfMore";
-            this.lblEveryHalfMore.Size = new System.Drawing.Size(25, 25);
-            this.lblEveryHalfMore.TabIndex = 56;
-            this.lblEveryHalfMore.Text = ">";
-            this.lblEveryHalfMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbEveryRow
             // 
-            this.tbEveryRow.Location = new System.Drawing.Point(200, 58);
+            resources.ApplyResources(this.tbEveryRow, "tbEveryRow");
             this.tbEveryRow.Name = "tbEveryRow";
-            this.tbEveryRow.Size = new System.Drawing.Size(110, 45);
-            this.tbEveryRow.TabIndex = 29;
             this.tbEveryRow.TabStop = false;
             // 
             // lblEveryColumnLess
             // 
+            resources.ApplyResources(this.lblEveryColumnLess, "lblEveryColumnLess");
             this.lblEveryColumnLess.BackColor = System.Drawing.Color.Transparent;
-            this.lblEveryColumnLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryColumnLess.Location = new System.Drawing.Point(179, 103);
             this.lblEveryColumnLess.Name = "lblEveryColumnLess";
-            this.lblEveryColumnLess.Size = new System.Drawing.Size(25, 25);
-            this.lblEveryColumnLess.TabIndex = 59;
-            this.lblEveryColumnLess.Text = "<";
-            this.lblEveryColumnLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbEveryColumn
             // 
-            this.tbEveryColumn.Location = new System.Drawing.Point(200, 104);
+            resources.ApplyResources(this.tbEveryColumn, "tbEveryColumn");
             this.tbEveryColumn.Name = "tbEveryColumn";
-            this.tbEveryColumn.Size = new System.Drawing.Size(110, 45);
-            this.tbEveryColumn.TabIndex = 30;
             this.tbEveryColumn.TabStop = false;
             // 
             // tbEveryHalf
             // 
-            this.tbEveryHalf.Location = new System.Drawing.Point(200, 12);
+            resources.ApplyResources(this.tbEveryHalf, "tbEveryHalf");
             this.tbEveryHalf.Name = "tbEveryHalf";
-            this.tbEveryHalf.Size = new System.Drawing.Size(110, 45);
-            this.tbEveryHalf.TabIndex = 28;
             this.tbEveryHalf.TabStop = false;
             // 
             // boxScanBottom
             // 
+            resources.ApplyResources(this.boxScanBottom, "boxScanBottom");
             this.boxScanBottom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.boxScanBottom.Controls.Add(this.ltbWordListHesitateLess);
             this.boxScanBottom.Controls.Add(this.smaxWordListHesitateTime);
@@ -561,456 +415,265 @@
             this.boxScanBottom.Controls.Add(this.svalHesitateTime);
             this.boxScanBottom.Controls.Add(this.svalTabScanTime);
             this.boxScanBottom.Controls.Add(this.lblAcceptTime);
-            this.boxScanBottom.Location = new System.Drawing.Point(34, 304);
             this.boxScanBottom.Name = "boxScanBottom";
-            this.boxScanBottom.Size = new System.Drawing.Size(414, 287);
-            this.boxScanBottom.TabIndex = 136;
             // 
             // ltbWordListHesitateLess
             // 
+            resources.ApplyResources(this.ltbWordListHesitateLess, "ltbWordListHesitateLess");
             this.ltbWordListHesitateLess.BackColor = System.Drawing.Color.Transparent;
-            this.ltbWordListHesitateLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbWordListHesitateLess.Location = new System.Drawing.Point(178, 152);
             this.ltbWordListHesitateLess.Name = "ltbWordListHesitateLess";
-            this.ltbWordListHesitateLess.Size = new System.Drawing.Size(25, 25);
-            this.ltbWordListHesitateLess.TabIndex = 87;
-            this.ltbWordListHesitateLess.Text = "<";
-            this.ltbWordListHesitateLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // smaxWordListHesitateTime
             // 
-            this.smaxWordListHesitateTime.AutoSize = true;
-            this.smaxWordListHesitateTime.Location = new System.Drawing.Point(308, 176);
+            resources.ApplyResources(this.smaxWordListHesitateTime, "smaxWordListHesitateTime");
             this.smaxWordListHesitateTime.Name = "smaxWordListHesitateTime";
-            this.smaxWordListHesitateTime.Size = new System.Drawing.Size(19, 13);
-            this.smaxWordListHesitateTime.TabIndex = 84;
-            this.smaxWordListHesitateTime.Text = "10";
-            this.smaxWordListHesitateTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ltbWordListHesitateMore
             // 
+            resources.ApplyResources(this.ltbWordListHesitateMore, "ltbWordListHesitateMore");
             this.ltbWordListHesitateMore.BackColor = System.Drawing.Color.Transparent;
-            this.ltbWordListHesitateMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbWordListHesitateMore.Location = new System.Drawing.Point(303, 150);
             this.ltbWordListHesitateMore.Name = "ltbWordListHesitateMore";
-            this.ltbWordListHesitateMore.Size = new System.Drawing.Size(25, 25);
-            this.ltbWordListHesitateMore.TabIndex = 88;
-            this.ltbWordListHesitateMore.Text = ">";
-            this.ltbWordListHesitateMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbWordListHesitateTime
             // 
-            this.tbWordListHesitateTime.Location = new System.Drawing.Point(199, 153);
+            resources.ApplyResources(this.tbWordListHesitateTime, "tbWordListHesitateTime");
             this.tbWordListHesitateTime.Name = "tbWordListHesitateTime";
-            this.tbWordListHesitateTime.Size = new System.Drawing.Size(110, 45);
-            this.tbWordListHesitateTime.TabIndex = 85;
             this.tbWordListHesitateTime.TabStop = false;
             // 
             // lblWordListHesitateTime
             // 
-            this.lblWordListHesitateTime.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWordListHesitateTime.Location = new System.Drawing.Point(5, 152);
+            resources.ApplyResources(this.lblWordListHesitateTime, "lblWordListHesitateTime");
             this.lblWordListHesitateTime.Name = "lblWordListHesitateTime";
-            this.lblWordListHesitateTime.Size = new System.Drawing.Size(187, 26);
-            this.lblWordListHesitateTime.TabIndex = 82;
-            this.lblWordListHesitateTime.Text = Strings.Word_List_Hesitate_time;
-            this.lblWordListHesitateTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // sminWordListHesitateTime
             // 
-            this.sminWordListHesitateTime.AutoSize = true;
-            this.sminWordListHesitateTime.Location = new System.Drawing.Point(181, 177);
+            resources.ApplyResources(this.sminWordListHesitateTime, "sminWordListHesitateTime");
             this.sminWordListHesitateTime.Name = "sminWordListHesitateTime";
-            this.sminWordListHesitateTime.Size = new System.Drawing.Size(13, 13);
-            this.sminWordListHesitateTime.TabIndex = 83;
-            this.sminWordListHesitateTime.Text = "0";
-            this.sminWordListHesitateTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // svalWordListHesitateTime
             // 
-            this.svalWordListHesitateTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalWordListHesitateTime.Location = new System.Drawing.Point(335, 153);
+            resources.ApplyResources(this.svalWordListHesitateTime, "svalWordListHesitateTime");
             this.svalWordListHesitateTime.Name = "svalWordListHesitateTime";
             this.svalWordListHesitateTime.ReadOnly = true;
-            this.svalWordListHesitateTime.Size = new System.Drawing.Size(55, 20);
-            this.svalWordListHesitateTime.TabIndex = 86;
             this.svalWordListHesitateTime.TabStop = false;
             // 
             // ltbFirstRepeatLess
             // 
+            resources.ApplyResources(this.ltbFirstRepeatLess, "ltbFirstRepeatLess");
             this.ltbFirstRepeatLess.BackColor = System.Drawing.Color.Transparent;
-            this.ltbFirstRepeatLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbFirstRepeatLess.Location = new System.Drawing.Point(178, 236);
             this.ltbFirstRepeatLess.Name = "ltbFirstRepeatLess";
-            this.ltbFirstRepeatLess.Size = new System.Drawing.Size(25, 25);
-            this.ltbFirstRepeatLess.TabIndex = 80;
-            this.ltbFirstRepeatLess.Text = "<";
-            this.ltbFirstRepeatLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ltbFirstRepeatMore
             // 
+            resources.ApplyResources(this.ltbFirstRepeatMore, "ltbFirstRepeatMore");
             this.ltbFirstRepeatMore.BackColor = System.Drawing.Color.Transparent;
-            this.ltbFirstRepeatMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbFirstRepeatMore.Location = new System.Drawing.Point(303, 237);
             this.ltbFirstRepeatMore.Name = "ltbFirstRepeatMore";
-            this.ltbFirstRepeatMore.Size = new System.Drawing.Size(25, 25);
-            this.ltbFirstRepeatMore.TabIndex = 81;
-            this.ltbFirstRepeatMore.Text = ">";
-            this.ltbFirstRepeatMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // smaxFirstRepeatTime
             // 
-            this.smaxFirstRepeatTime.AutoSize = true;
-            this.smaxFirstRepeatTime.Location = new System.Drawing.Point(308, 260);
+            resources.ApplyResources(this.smaxFirstRepeatTime, "smaxFirstRepeatTime");
             this.smaxFirstRepeatTime.Name = "smaxFirstRepeatTime";
-            this.smaxFirstRepeatTime.Size = new System.Drawing.Size(19, 13);
-            this.smaxFirstRepeatTime.TabIndex = 78;
-            this.smaxFirstRepeatTime.Text = "10";
-            this.smaxFirstRepeatTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbFirstRepeatTime
             // 
-            this.tbFirstRepeatTime.Location = new System.Drawing.Point(199, 240);
+            resources.ApplyResources(this.tbFirstRepeatTime, "tbFirstRepeatTime");
             this.tbFirstRepeatTime.Name = "tbFirstRepeatTime";
-            this.tbFirstRepeatTime.Size = new System.Drawing.Size(110, 45);
-            this.tbFirstRepeatTime.TabIndex = 77;
             this.tbFirstRepeatTime.TabStop = false;
             // 
             // lblFirstRepeatTime
             // 
-            this.lblFirstRepeatTime.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFirstRepeatTime.Location = new System.Drawing.Point(5, 236);
+            resources.ApplyResources(this.lblFirstRepeatTime, "lblFirstRepeatTime");
             this.lblFirstRepeatTime.Name = "lblFirstRepeatTime";
-            this.lblFirstRepeatTime.Size = new System.Drawing.Size(187, 26);
-            this.lblFirstRepeatTime.TabIndex = 75;
-            this.lblFirstRepeatTime.Text = Strings.First_Repeat_Time;
-            this.lblFirstRepeatTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // sminFirstRepeatTime
             // 
-            this.sminFirstRepeatTime.AutoSize = true;
-            this.sminFirstRepeatTime.Location = new System.Drawing.Point(181, 260);
+            resources.ApplyResources(this.sminFirstRepeatTime, "sminFirstRepeatTime");
             this.sminFirstRepeatTime.Name = "sminFirstRepeatTime";
-            this.sminFirstRepeatTime.Size = new System.Drawing.Size(13, 13);
-            this.sminFirstRepeatTime.TabIndex = 76;
-            this.sminFirstRepeatTime.Text = "0";
-            this.sminFirstRepeatTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // svalFirstRepeatTime
             // 
-            this.svalFirstRepeatTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalFirstRepeatTime.Location = new System.Drawing.Point(335, 239);
+            resources.ApplyResources(this.svalFirstRepeatTime, "svalFirstRepeatTime");
             this.svalFirstRepeatTime.Name = "svalFirstRepeatTime";
             this.svalFirstRepeatTime.ReadOnly = true;
-            this.svalFirstRepeatTime.Size = new System.Drawing.Size(55, 20);
-            this.svalFirstRepeatTime.TabIndex = 79;
             this.svalFirstRepeatTime.TabStop = false;
             // 
             // ltbAcceptTimeMore
             // 
+            resources.ApplyResources(this.ltbAcceptTimeMore, "ltbAcceptTimeMore");
             this.ltbAcceptTimeMore.BackColor = System.Drawing.Color.Transparent;
-            this.ltbAcceptTimeMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbAcceptTimeMore.Location = new System.Drawing.Point(304, 16);
             this.ltbAcceptTimeMore.Name = "ltbAcceptTimeMore";
-            this.ltbAcceptTimeMore.Size = new System.Drawing.Size(25, 25);
-            this.ltbAcceptTimeMore.TabIndex = 62;
-            this.ltbAcceptTimeMore.Text = ">";
-            this.ltbAcceptTimeMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ltbTabScanLess
             // 
+            resources.ApplyResources(this.ltbTabScanLess, "ltbTabScanLess");
             this.ltbTabScanLess.BackColor = System.Drawing.Color.Transparent;
-            this.ltbTabScanLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbTabScanLess.Location = new System.Drawing.Point(179, 195);
             this.ltbTabScanLess.Name = "ltbTabScanLess";
-            this.ltbTabScanLess.Size = new System.Drawing.Size(25, 25);
-            this.ltbTabScanLess.TabIndex = 73;
-            this.ltbTabScanLess.Text = "<";
-            this.ltbTabScanLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ltbTabScanMore
             // 
+            resources.ApplyResources(this.ltbTabScanMore, "ltbTabScanMore");
             this.ltbTabScanMore.BackColor = System.Drawing.Color.Transparent;
-            this.ltbTabScanMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbTabScanMore.Location = new System.Drawing.Point(304, 196);
             this.ltbTabScanMore.Name = "ltbTabScanMore";
-            this.ltbTabScanMore.Size = new System.Drawing.Size(25, 25);
-            this.ltbTabScanMore.TabIndex = 74;
-            this.ltbTabScanMore.Text = ">";
-            this.ltbTabScanMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // smaxTabScanTime
             // 
-            this.smaxTabScanTime.AutoSize = true;
-            this.smaxTabScanTime.Location = new System.Drawing.Point(309, 219);
+            resources.ApplyResources(this.smaxTabScanTime, "smaxTabScanTime");
             this.smaxTabScanTime.Name = "smaxTabScanTime";
-            this.smaxTabScanTime.Size = new System.Drawing.Size(19, 13);
-            this.smaxTabScanTime.TabIndex = 39;
-            this.smaxTabScanTime.Text = "10";
-            this.smaxTabScanTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ltbHesitateLess
             // 
+            resources.ApplyResources(this.ltbHesitateLess, "ltbHesitateLess");
             this.ltbHesitateLess.BackColor = System.Drawing.Color.Transparent;
-            this.ltbHesitateLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbHesitateLess.Location = new System.Drawing.Point(179, 107);
             this.ltbHesitateLess.Name = "ltbHesitateLess";
-            this.ltbHesitateLess.Size = new System.Drawing.Size(25, 25);
-            this.ltbHesitateLess.TabIndex = 69;
-            this.ltbHesitateLess.Text = "<";
-            this.ltbHesitateLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ltbSteppingLess
             // 
+            resources.ApplyResources(this.ltbSteppingLess, "ltbSteppingLess");
             this.ltbSteppingLess.BackColor = System.Drawing.Color.Transparent;
-            this.ltbSteppingLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbSteppingLess.Location = new System.Drawing.Point(179, 64);
             this.ltbSteppingLess.Name = "ltbSteppingLess";
-            this.ltbSteppingLess.Size = new System.Drawing.Size(25, 25);
-            this.ltbSteppingLess.TabIndex = 67;
-            this.ltbSteppingLess.Text = "<";
-            this.ltbSteppingLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // smaxHesitateTime
             // 
-            this.smaxHesitateTime.AutoSize = true;
-            this.smaxHesitateTime.Location = new System.Drawing.Point(309, 131);
+            resources.ApplyResources(this.smaxHesitateTime, "smaxHesitateTime");
             this.smaxHesitateTime.Name = "smaxHesitateTime";
-            this.smaxHesitateTime.Size = new System.Drawing.Size(19, 13);
-            this.smaxHesitateTime.TabIndex = 35;
-            this.smaxHesitateTime.Text = "10";
-            this.smaxHesitateTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbTabScanTime
             // 
-            this.tbTabScanTime.Location = new System.Drawing.Point(200, 199);
+            resources.ApplyResources(this.tbTabScanTime, "tbTabScanTime");
             this.tbTabScanTime.Name = "tbTabScanTime";
-            this.tbTabScanTime.Size = new System.Drawing.Size(110, 45);
-            this.tbTabScanTime.TabIndex = 39;
             this.tbTabScanTime.TabStop = false;
             // 
             // ltbHesitateMore
             // 
+            resources.ApplyResources(this.ltbHesitateMore, "ltbHesitateMore");
             this.ltbHesitateMore.BackColor = System.Drawing.Color.Transparent;
-            this.ltbHesitateMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbHesitateMore.Location = new System.Drawing.Point(304, 105);
             this.ltbHesitateMore.Name = "ltbHesitateMore";
-            this.ltbHesitateMore.Size = new System.Drawing.Size(25, 25);
-            this.ltbHesitateMore.TabIndex = 70;
-            this.ltbHesitateMore.Text = ">";
-            this.ltbHesitateMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblTabScanTime
             // 
-            this.lblTabScanTime.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTabScanTime.Location = new System.Drawing.Point(5, 195);
+            resources.ApplyResources(this.lblTabScanTime, "lblTabScanTime");
             this.lblTabScanTime.Name = "lblTabScanTime";
-            this.lblTabScanTime.Size = new System.Drawing.Size(166, 26);
-            this.lblTabScanTime.TabIndex = 26;
-            this.lblTabScanTime.Text = Strings.Tab_Scan_time;
-            this.lblTabScanTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // smaxSteppingTime
             // 
-            this.smaxSteppingTime.AutoSize = true;
-            this.smaxSteppingTime.Location = new System.Drawing.Point(309, 88);
+            resources.ApplyResources(this.smaxSteppingTime, "smaxSteppingTime");
             this.smaxSteppingTime.Name = "smaxSteppingTime";
-            this.smaxSteppingTime.Size = new System.Drawing.Size(19, 13);
-            this.smaxSteppingTime.TabIndex = 33;
-            this.smaxSteppingTime.Text = "10";
-            this.smaxSteppingTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ltbSteppingMore
             // 
+            resources.ApplyResources(this.ltbSteppingMore, "ltbSteppingMore");
             this.ltbSteppingMore.BackColor = System.Drawing.Color.Transparent;
-            this.ltbSteppingMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbSteppingMore.Location = new System.Drawing.Point(304, 64);
             this.ltbSteppingMore.Name = "ltbSteppingMore";
-            this.ltbSteppingMore.Size = new System.Drawing.Size(25, 25);
-            this.ltbSteppingMore.TabIndex = 68;
-            this.ltbSteppingMore.Text = ">";
-            this.ltbSteppingMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ltbAcceptTimeLess
             // 
+            resources.ApplyResources(this.ltbAcceptTimeLess, "ltbAcceptTimeLess");
             this.ltbAcceptTimeLess.BackColor = System.Drawing.Color.Transparent;
-            this.ltbAcceptTimeLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbAcceptTimeLess.Location = new System.Drawing.Point(179, 17);
             this.ltbAcceptTimeLess.Name = "ltbAcceptTimeLess";
-            this.ltbAcceptTimeLess.Size = new System.Drawing.Size(25, 25);
-            this.ltbAcceptTimeLess.TabIndex = 61;
-            this.ltbAcceptTimeLess.Text = "<";
-            this.ltbAcceptTimeLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbHesitateTime
             // 
-            this.tbHesitateTime.Location = new System.Drawing.Point(200, 108);
+            resources.ApplyResources(this.tbHesitateTime, "tbHesitateTime");
             this.tbHesitateTime.Name = "tbHesitateTime";
-            this.tbHesitateTime.Size = new System.Drawing.Size(110, 45);
-            this.tbHesitateTime.TabIndex = 36;
             this.tbHesitateTime.TabStop = false;
             // 
             // smaxAcceptTime
             // 
-            this.smaxAcceptTime.AutoSize = true;
-            this.smaxAcceptTime.Location = new System.Drawing.Point(309, 42);
+            resources.ApplyResources(this.smaxAcceptTime, "smaxAcceptTime");
             this.smaxAcceptTime.Name = "smaxAcceptTime";
-            this.smaxAcceptTime.Size = new System.Drawing.Size(19, 13);
-            this.smaxAcceptTime.TabIndex = 27;
-            this.smaxAcceptTime.Text = "10";
-            this.smaxAcceptTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblHesitateTime
             // 
-            this.lblHesitateTime.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHesitateTime.Location = new System.Drawing.Point(6, 107);
+            resources.ApplyResources(this.lblHesitateTime, "lblHesitateTime");
             this.lblHesitateTime.Name = "lblHesitateTime";
-            this.lblHesitateTime.Size = new System.Drawing.Size(166, 26);
-            this.lblHesitateTime.TabIndex = 24;
-            this.lblHesitateTime.Text = Strings.Hesitate_time;
-            this.lblHesitateTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tbSteppingTime
             // 
-            this.tbSteppingTime.Location = new System.Drawing.Point(200, 64);
+            resources.ApplyResources(this.tbSteppingTime, "tbSteppingTime");
             this.tbSteppingTime.Name = "tbSteppingTime";
-            this.tbSteppingTime.Size = new System.Drawing.Size(110, 45);
-            this.tbSteppingTime.TabIndex = 35;
             this.tbSteppingTime.TabStop = false;
             // 
             // sminTabScanTime
             // 
-            this.sminTabScanTime.AutoSize = true;
-            this.sminTabScanTime.Location = new System.Drawing.Point(182, 219);
+            resources.ApplyResources(this.sminTabScanTime, "sminTabScanTime");
             this.sminTabScanTime.Name = "sminTabScanTime";
-            this.sminTabScanTime.Size = new System.Drawing.Size(13, 13);
-            this.sminTabScanTime.TabIndex = 38;
-            this.sminTabScanTime.Text = "0";
-            this.sminTabScanTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblSteppingTime
             // 
-            this.lblSteppingTime.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSteppingTime.Location = new System.Drawing.Point(6, 61);
+            resources.ApplyResources(this.lblSteppingTime, "lblSteppingTime");
             this.lblSteppingTime.Name = "lblSteppingTime";
-            this.lblSteppingTime.Size = new System.Drawing.Size(166, 26);
-            this.lblSteppingTime.TabIndex = 23;
-            this.lblSteppingTime.Text = Strings.Stepping_time;
-            this.lblSteppingTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // sminHesitateTime
             // 
-            this.sminHesitateTime.AutoSize = true;
-            this.sminHesitateTime.Location = new System.Drawing.Point(182, 132);
+            resources.ApplyResources(this.sminHesitateTime, "sminHesitateTime");
             this.sminHesitateTime.Name = "sminHesitateTime";
-            this.sminHesitateTime.Size = new System.Drawing.Size(13, 13);
-            this.sminHesitateTime.TabIndex = 34;
-            this.sminHesitateTime.Text = "0";
-            this.sminHesitateTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // sminSteppingTime
             // 
-            this.sminSteppingTime.AutoSize = true;
-            this.sminSteppingTime.Location = new System.Drawing.Point(182, 88);
+            resources.ApplyResources(this.sminSteppingTime, "sminSteppingTime");
             this.sminSteppingTime.Name = "sminSteppingTime";
-            this.sminSteppingTime.Size = new System.Drawing.Size(13, 13);
-            this.sminSteppingTime.TabIndex = 32;
-            this.sminSteppingTime.Text = "0";
-            this.sminSteppingTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // sminAcceptTime
             // 
-            this.sminAcceptTime.AutoSize = true;
-            this.sminAcceptTime.Location = new System.Drawing.Point(182, 41);
+            resources.ApplyResources(this.sminAcceptTime, "sminAcceptTime");
             this.sminAcceptTime.Name = "sminAcceptTime";
-            this.sminAcceptTime.Size = new System.Drawing.Size(13, 13);
-            this.sminAcceptTime.TabIndex = 26;
-            this.sminAcceptTime.Text = "0";
-            this.sminAcceptTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // svalAcceptTime
             // 
-            this.svalAcceptTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalAcceptTime.Location = new System.Drawing.Point(335, 17);
+            resources.ApplyResources(this.svalAcceptTime, "svalAcceptTime");
             this.svalAcceptTime.Name = "svalAcceptTime";
             this.svalAcceptTime.ReadOnly = true;
-            this.svalAcceptTime.Size = new System.Drawing.Size(55, 20);
-            this.svalAcceptTime.TabIndex = 53;
             this.svalAcceptTime.TabStop = false;
             // 
             // tbAcceptTime
             // 
-            this.tbAcceptTime.Location = new System.Drawing.Point(200, 17);
+            resources.ApplyResources(this.tbAcceptTime, "tbAcceptTime");
             this.tbAcceptTime.Name = "tbAcceptTime";
-            this.tbAcceptTime.Size = new System.Drawing.Size(110, 45);
-            this.tbAcceptTime.TabIndex = 32;
             this.tbAcceptTime.TabStop = false;
             // 
             // svalSteppingTime
             // 
-            this.svalSteppingTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalSteppingTime.Location = new System.Drawing.Point(336, 66);
+            resources.ApplyResources(this.svalSteppingTime, "svalSteppingTime");
             this.svalSteppingTime.Name = "svalSteppingTime";
             this.svalSteppingTime.ReadOnly = true;
-            this.svalSteppingTime.Size = new System.Drawing.Size(55, 20);
-            this.svalSteppingTime.TabIndex = 46;
             this.svalSteppingTime.TabStop = false;
             // 
             // svalHesitateTime
             // 
-            this.svalHesitateTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalHesitateTime.Location = new System.Drawing.Point(336, 108);
+            resources.ApplyResources(this.svalHesitateTime, "svalHesitateTime");
             this.svalHesitateTime.Name = "svalHesitateTime";
             this.svalHesitateTime.ReadOnly = true;
-            this.svalHesitateTime.Size = new System.Drawing.Size(55, 20);
-            this.svalHesitateTime.TabIndex = 47;
             this.svalHesitateTime.TabStop = false;
             // 
             // svalTabScanTime
             // 
-            this.svalTabScanTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalTabScanTime.Location = new System.Drawing.Point(336, 198);
+            resources.ApplyResources(this.svalTabScanTime, "svalTabScanTime");
             this.svalTabScanTime.Name = "svalTabScanTime";
             this.svalTabScanTime.ReadOnly = true;
-            this.svalTabScanTime.Size = new System.Drawing.Size(55, 20);
-            this.svalTabScanTime.TabIndex = 49;
             this.svalTabScanTime.TabStop = false;
             // 
             // lblAcceptTime
             // 
-            this.lblAcceptTime.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAcceptTime.Location = new System.Drawing.Point(6, 17);
+            resources.ApplyResources(this.lblAcceptTime, "lblAcceptTime");
             this.lblAcceptTime.Name = "lblAcceptTime";
-            this.lblAcceptTime.Size = new System.Drawing.Size(166, 26);
-            this.lblAcceptTime.TabIndex = 20;
-            this.lblAcceptTime.Text = Strings.Accept_time;
-            this.lblAcceptTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(455, 730);
-            this.groupBox1.TabIndex = 172;
             this.groupBox1.TabStop = false;
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, -4);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(146, 24);
-            this.label1.TabIndex = 161;
-            this.label1.Text = Strings.Scan_Settings;
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ScannerSettingsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(481, 754);
             this.Controls.Add(this.lblRestoreDefaults);
             this.Controls.Add(this.lblScanTimes);
             this.Controls.Add(this.lblNumberofTimes);
@@ -1023,7 +686,6 @@
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "ScannerSettingsForm";
-            this.Text = "ACAT";
             this.boxScanTop.ResumeLayout(false);
             this.boxScanTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tbWordPrediction)).EndInit();
@@ -1039,7 +701,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.tbSteppingTime)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbAcceptTime)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

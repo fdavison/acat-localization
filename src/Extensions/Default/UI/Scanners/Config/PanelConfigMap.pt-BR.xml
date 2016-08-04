@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" ?>
+
+<ACAT>
+  <ConfigMapEntries>
+    <ConfigMapEntry panelClass="Alphabet" configName="AlphabetQwerty" formId="2CA35254-A960-4A82-9149-E1120716992B" configFile="AlphabetScannerQwerty70Keys.pt-BR.xml"/>
+    <ConfigMapEntry panelClass="Alphabet" configName="AlphabetScannerAbc" formId="A7FEFD74-B2FB-4447-A16A-CFA7078F97B0" configFile="AlphabetScannerAbc70Keys.pt-BR.xml"/>
+
+    <ConfigMapEntry panelClass="AlphabetMinimal" configName="AlphabetQwertyMinimal" formId="D145A87D-2328-4B06-8652-56DD1C6F47DB" configFile="AlphabetScannerQwertyMinimal70Keys.pt-BR.xml"/>
+    <ConfigMapEntry panelClass="AlphabetMinimal" configName="AlphabetScannerAbcMinimal" formId="14C114F4-394C-4070-8ECA-52605E4D121F" configFile="AlphabetScannerAbcMinimal70Keys.pt-BR.xml"/>
+
+    <ConfigMapEntry panelClass="Alphabet" configName="TalkApplicationScannerQwerty" formId="D9A5B53F-7119-445B-BDEA-F76EC53077F1" configFile="TalkApplicationScannerQwerty55Keys.pt-BR.xml"/>
+    <ConfigMapEntry panelClass="TalkApplicationScanner" configName="TalkApplicationScannerQwerty" formId="850F2A9E-E71F-405B-9ABD-C603B186575A" configFile="TalkApplicationScannerQwerty55Keys.pt-BR.xml"/>
+    <ConfigMapEntry panelClass="TalkApplicationScanner2" configName="TalkApplicationScannerAlphabetical" formId="04E9F272-0DAA-4BBD-910C-E030DD03DE55" configFile="TalkApplicationScannerAlphabetical49Keys.pt-BR.xml"/> -->
+
+    <ConfigMapEntry panelClass="Mouse" configName="MouseScanner" formId="802B03F0-1294-4D06-A601-2CEBFBFA5D9C" configFile="MouseScanner.xml"/>
+    <ConfigMapEntry panelClass="Punctuation" configName="PunctuationsScanner" formId="478CE93F-A391-435C-B5B3-2AFC32CD99A7" configFile="PunctuationsScanner.xml"/>
+    <ConfigMapEntry panelClass="Cursor" configName="CursorScanner" formId="E2FAC808-D05A-435B-84DA-5F9A7B65A94C" configFile="CursorNavigationScanner.xml"/>
+    <ConfigMapEntry panelClass="Number" configName="NumberScanner" formId="A2FAC295-9A8F-4214-B55C-BB611F09B252" configFile="NumbersScanner.xml"/>
+    <ConfigMapEntry panelClass="FunctionKey" configName="FunctionKeyScanner" formId="889D0562-78F4-47BC-A879-DB6572227D01" configFile="FunctionKeyScanner.xml"/>
+
+    <ConfigMapEntry panelClass="YesNoScanner" configName="YesNoScanner" formId="81C9DA24-C9DD-44D6-B3A6-7364C4109CAA" configFile="YesNoScanner.xml"/>
+    <ConfigMapEntry panelClass="YesNoScannerNarrow" configName="YesNoScannerNarrow" formId="056E5553-66C7-4B60-A931-D7FED719DAF2" configFile="YesNoScanner.xml"/>
+  </ConfigMapEntries>
+</ACAT>

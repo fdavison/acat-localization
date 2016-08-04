@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+<ACAT>
+  <Spellings>
+    <Spelling word="vc" replaceWith="você"/>
+    <Spelling word="tbm" replaceWith="também"/>
+    <Spelling word="ñ" replaceWith="não"/>
+    <Spelling word="flw" replaceWith="falou"/>
+    <Spelling word="blz" replaceWith="beleza"/>
+    <Spelling word="sqn" replaceWith="só que não"/>
+    <Spelling word="abs" replaceWith="abraços"/>
+    <Spelling word="kd" replaceWith="cadê"/>
+    <Spelling word="qnd" replaceWith="quando"/>
+    <Spelling word="add" replaceWith="adicionar"/>
+    <Spelling word="mto" replaceWith="muito"/>
+    <Spelling word="msg" replaceWith="mensagem"/>
+    <Spelling word="msgm" replaceWith="mensagem"/>
+    <!--<Spelling word="" replaceWith=""/>-->
+  </Spellings>
+</ACAT>
+

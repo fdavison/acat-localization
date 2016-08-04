@@ -117,4 +117,2253 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="svalEveryColumn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 105</value>
+  </data>
+  <data name="svalHesitateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="&gt;&gt;ltbWordListHesitateLess.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;sminWordPrediction.Name" xml:space="preserve">
+    <value>sminWordPrediction</value>
+  </data>
+  <data name="svalAcceptTime.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="sminAcceptTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 41</value>
+  </data>
+  <data name="&gt;&gt;ltbFirstRepeatMore.Name" xml:space="preserve">
+    <value>ltbFirstRepeatMore</value>
+  </data>
+  <data name="&gt;&gt;tbEveryHalf.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblWordListHesitateTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="lblHesitateTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="lblEveryRowMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;smaxEveryRow.Name" xml:space="preserve">
+    <value>smaxEveryRow</value>
+  </data>
+  <data name="sminWordListHesitateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 177</value>
+  </data>
+  <data name="&gt;&gt;lblSelectingClick.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblWordListHesitateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="sminAcceptTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="lblTabScanTime.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="ltbHesitateLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;svalHesitateTime.Name" xml:space="preserve">
+    <value>svalHesitateTime</value>
+  </data>
+  <data name="&gt;&gt;lblRestoreDefaults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smaxEveryHalf.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;svalWordPrediction.Name" xml:space="preserve">
+    <value>svalWordPrediction</value>
+  </data>
+  <data name="&gt;&gt;sminTabScanTime.Name" xml:space="preserve">
+    <value>sminTabScanTime</value>
+  </data>
+  <data name="tbSteppingTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 64</value>
+  </data>
+  <data name="smaxEveryRow.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ltbHesitateLess.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblWordPredictionMore.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;ltbWordListHesitateMore.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="svalAcceptTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblEveryHalfLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;svalWordPrediction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbWordListHesitateMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="sminWordPrediction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="&gt;&gt;ltbAcceptTimeLess.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;lblEveryColumnLess.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="&gt;&gt;svalEveryRow.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="smaxHesitateTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tbTabScanTime.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblWordPredictionLess.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="smaxHesitateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 131</value>
+  </data>
+  <data name="&gt;&gt;lblEveryColumnLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEveryColumnLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 103</value>
+  </data>
+  <data name="&gt;&gt;lblScanTimes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="sminEveryColumn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="sminEveryHalf.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblSelectingClick.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smaxWordListHesitateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="smaxTabScanTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="smaxWordListHesitateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 175</value>
+  </data>
+  <data name="smaxFirstRepeatTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sminFirstRepeatTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;smaxAcceptTime.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="sminEveryColumn.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="pbSelectingClick.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="tbWordPrediction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 150</value>
+  </data>
+  <data name="&gt;&gt;smaxFirstRepeatTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbAcceptTimeMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 16</value>
+  </data>
+  <data name="&gt;&gt;lblFirstRepeatTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smaxFirstRepeatTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 260</value>
+  </data>
+  <data name="pbSelectingClick.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 619</value>
+  </data>
+  <data name="&gt;&gt;ltbWordListHesitateLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ltbTabScanLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;svalEveryHalf.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="&gt;&gt;tbHesitateTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAcceptTime.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;tbEveryRow.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="svalTabScanTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="&gt;&gt;svalSteppingTime.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="boxScanBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="&gt;&gt;tbWordListHesitateTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;boxScanTop.Name" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="&gt;&gt;lblNumberofTimes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smaxWordPrediction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbWordListHesitateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="tbHesitateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 108</value>
+  </data>
+  <data name="lblFirstRepeatTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 236</value>
+  </data>
+  <data name="lblEveryHalf.Text" xml:space="preserve">
+    <value>Grid</value>
+  </data>
+  <data name="ltbTabScanMore.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="ltbAcceptTimeMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ltbWordListHesitateMore.Name" xml:space="preserve">
+    <value>ltbWordListHesitateMore</value>
+  </data>
+  <data name="&gt;&gt;lblRestoreDefaults.Name" xml:space="preserve">
+    <value>lblRestoreDefaults</value>
+  </data>
+  <data name="lblWordPredictionMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ltbSteppingLess.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="svalWordListHesitateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="&gt;&gt;ltbHesitateLess.Name" xml:space="preserve">
+    <value>ltbHesitateLess</value>
+  </data>
+  <data name="lblEveryColumnLess.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="tbEveryColumn.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lblFirstRepeatTime.Text" xml:space="preserve">
+    <value>First Repeat Time</value>
+  </data>
+  <data name="&gt;&gt;lblWordPrediction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="boxScanTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 196</value>
+  </data>
+  <data name="smaxAcceptTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 42</value>
+  </data>
+  <data name="boxScanBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>474, 287</value>
+  </data>
+  <data name="lblSteppingTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="svalEveryRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="&gt;&gt;smaxEveryRow.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Scan Settings</value>
+  </data>
+  <data name="lblEveryHalf.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="lblNumberofTimes.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="ltbTabScanMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ScannerSettingsForm</value>
+  </data>
+  <data name="&gt;&gt;lblFirstRepeatTime.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblSteppingTime.Text" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="lblHesitateTime.Text" xml:space="preserve">
+    <value>First Pause</value>
+  </data>
+  <data name="sminTabScanTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;sminWordListHesitateTime.Name" xml:space="preserve">
+    <value>sminWordListHesitateTime</value>
+  </data>
+  <data name="ltbAcceptTimeLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 17</value>
+  </data>
+  <data name="&gt;&gt;svalEveryRow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAcceptTime.Text" xml:space="preserve">
+    <value>Min. Actuation Hold</value>
+  </data>
+  <data name="&gt;&gt;tbAcceptTime.Name" xml:space="preserve">
+    <value>tbAcceptTime</value>
+  </data>
+  <data name="&gt;&gt;smaxTabScanTime.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tbAcceptTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 17</value>
+  </data>
+  <data name="lblEveryRow.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="smaxHesitateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;smaxEveryRow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWordPredictionLess.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="&gt;&gt;smaxEveryHalf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbFirstRepeatLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="ltbWordListHesitateMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;smaxEveryHalf.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="ltbWordListHesitateLess.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="&gt;&gt;smaxEveryRow.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblHesitateTime.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;smaxEveryColumn.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="ltbHesitateMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 105</value>
+  </data>
+  <data name="sminWordPrediction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 175</value>
+  </data>
+  <data name="svalWordPrediction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 151</value>
+  </data>
+  <data name="pbSelectingClick.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="smaxTabScanTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 219</value>
+  </data>
+  <data name="lblSelectingClick.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;sminFirstRepeatTime.Name" xml:space="preserve">
+    <value>sminFirstRepeatTime</value>
+  </data>
+  <data name="sminEveryColumn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 129</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="&gt;&gt;lblEveryRowLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ltbFirstRepeatMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbSteppingMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;lblBack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblSelectingClick.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 616</value>
+  </data>
+  <data name="&gt;&gt;tbTabScanTime.Name" xml:space="preserve">
+    <value>tbTabScanTime</value>
+  </data>
+  <data name="&gt;&gt;smaxTabScanTime.Name" xml:space="preserve">
+    <value>smaxTabScanTime</value>
+  </data>
+  <data name="ltbAcceptTimeLess.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="lblTabScanTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="smaxEveryColumn.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ltbHesitateMore.Name" xml:space="preserve">
+    <value>ltbHesitateMore</value>
+  </data>
+  <data name="lblWordPrediction.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblWordPrediction.Text" xml:space="preserve">
+    <value>Word Prediction</value>
+  </data>
+  <data name="&gt;&gt;ltbWordListHesitateLess.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblAcceptTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="lblWordPredictionLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="sminEveryRow.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;sminFirstRepeatTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSteppingTime.Name" xml:space="preserve">
+    <value>lblSteppingTime</value>
+  </data>
+  <data name="&gt;&gt;sminTabScanTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sminAcceptTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblRestoreDefaults.Text" xml:space="preserve">
+    <value>Defaults</value>
+  </data>
+  <data name="svalEveryHalf.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblTabScanTime.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="lblWordPredictionMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="tbEveryRow.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;lblWordPredictionMore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblEveryRowMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 58</value>
+  </data>
+  <data name="smaxEveryRow.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;smaxFirstRepeatTime.Name" xml:space="preserve">
+    <value>smaxFirstRepeatTime</value>
+  </data>
+  <data name="smaxEveryColumn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbWordPrediction.Name" xml:space="preserve">
+    <value>tbWordPrediction</value>
+  </data>
+  <data name="&gt;&gt;sminSteppingTime.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;svalTabScanTime.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;lblEveryRow.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="&gt;&gt;ltbAcceptTimeLess.Name" xml:space="preserve">
+    <value>ltbAcceptTimeLess</value>
+  </data>
+  <data name="smaxWordPrediction.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;boxScanBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="sminWordListHesitateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="ltbFirstRepeatMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="sminWordListHesitateTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;ltbFirstRepeatLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblScanTimes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="ltbAcceptTimeLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="lblEveryRowLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;tbFirstRepeatTime.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="sminEveryRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 83</value>
+  </data>
+  <data name="lblAcceptTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;tbEveryColumn.Name" xml:space="preserve">
+    <value>tbEveryColumn</value>
+  </data>
+  <data name="&gt;&gt;ltbSteppingMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;svalEveryHalf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbSteppingMore.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="svalEveryRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 59</value>
+  </data>
+  <data name="&gt;&gt;smaxEveryColumn.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ltbAcceptTimeMore.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="lblOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 667</value>
+  </data>
+  <data name="svalWordPrediction.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;tbTabScanTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smaxWordPrediction.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="smaxSteppingTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 667</value>
+  </data>
+  <data name="&gt;&gt;ltbTabScanMore.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;smaxSteppingTime.Name" xml:space="preserve">
+    <value>smaxSteppingTime</value>
+  </data>
+  <data name="lblEveryColumnMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="ltbAcceptTimeMore.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="ltbHesitateMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblEveryRowLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="ltbSteppingLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 64</value>
+  </data>
+  <data name="&gt;&gt;ltbWordListHesitateMore.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;sminHesitateTime.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="smaxEveryHalf.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbEveryHalf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 12</value>
+  </data>
+  <data name="&gt;&gt;lblEveryHalfMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEveryColumnMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="&gt;&gt;svalSteppingTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbWordListHesitateLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;lblEveryRowLess.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="&gt;&gt;sminEveryColumn.Name" xml:space="preserve">
+    <value>sminEveryColumn</value>
+  </data>
+  <data name="&gt;&gt;svalEveryColumn.Name" xml:space="preserve">
+    <value>svalEveryColumn</value>
+  </data>
+  <data name="lblEveryHalf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 26</value>
+  </data>
+  <data name="&gt;&gt;svalSteppingTime.Name" xml:space="preserve">
+    <value>svalSteppingTime</value>
+  </data>
+  <data name="&gt;&gt;tbFirstRepeatTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ltbTabScanLess.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblSteppingTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;smaxAcceptTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ltbTabScanMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;svalEveryHalf.Name" xml:space="preserve">
+    <value>svalEveryHalf</value>
+  </data>
+  <data name="&gt;&gt;lblRestoreDefaults.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblNumberofTimes.Name" xml:space="preserve">
+    <value>lblNumberofTimes</value>
+  </data>
+  <data name="lblEveryColumn.Text" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="&gt;&gt;svalEveryColumn.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="&gt;&gt;ltbHesitateMore.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ACAT</value>
+  </data>
+  <data name="&gt;&gt;lblEveryHalfMore.Name" xml:space="preserve">
+    <value>lblEveryHalfMore</value>
+  </data>
+  <data name="lblEveryRowMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="smaxFirstRepeatTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="lblEveryRow.Text" xml:space="preserve">
+    <value>Rows</value>
+  </data>
+  <data name="&gt;&gt;lblBack.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblScanTimes.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="smaxWordPrediction.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="lblNumberofTimes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblEveryColumnMore.Name" xml:space="preserve">
+    <value>lblEveryColumnMore</value>
+  </data>
+  <data name="&gt;&gt;lblEveryHalfMore.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="ltbWordListHesitateMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 150</value>
+  </data>
+  <data name="ltbTabScanLess.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;sminTabScanTime.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;lblEveryRow.Name" xml:space="preserve">
+    <value>lblEveryRow</value>
+  </data>
+  <data name="lblEveryColumnLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="lblSelectingClick.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 29</value>
+  </data>
+  <data name="&gt;&gt;ltbTabScanMore.Name" xml:space="preserve">
+    <value>ltbTabScanMore</value>
+  </data>
+  <data name="lblSteppingTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;sminAcceptTime.Name" xml:space="preserve">
+    <value>sminAcceptTime</value>
+  </data>
+  <data name="&gt;&gt;svalHesitateTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sminEveryHalf.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="&gt;&gt;lblWordPredictionLess.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="sminFirstRepeatTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="&gt;&gt;tbWordPrediction.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ltbFirstRepeatLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblWordPrediction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblHesitateTime.Name" xml:space="preserve">
+    <value>lblHesitateTime</value>
+  </data>
+  <data name="lblWordPrediction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 149</value>
+  </data>
+  <data name="tbWordPrediction.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="sminEveryHalf.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ltbHesitateLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;svalAcceptTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="smaxEveryRow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ltbFirstRepeatLess.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;sminEveryHalf.Name" xml:space="preserve">
+    <value>sminEveryHalf</value>
+  </data>
+  <data name="sminEveryColumn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="boxScanTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 71</value>
+  </data>
+  <data name="&gt;&gt;tbSteppingTime.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;tbTabScanTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="sminTabScanTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbHesitateTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="lblHesitateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lblEveryColumnMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;boxScanTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="sminFirstRepeatTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 260</value>
+  </data>
+  <data name="tbWordListHesitateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="&gt;&gt;tbSteppingTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;lblEveryHalfLess.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="ltbFirstRepeatMore.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="svalFirstRepeatTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 239</value>
+  </data>
+  <data name="lblHesitateTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ltbWordListHesitateLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;svalWordListHesitateTime.Name" xml:space="preserve">
+    <value>svalWordListHesitateTime</value>
+  </data>
+  <data name="sminEveryRow.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblFirstRepeatTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 26</value>
+  </data>
+  <data name="sminWordListHesitateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="tbAcceptTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="tbWordListHesitateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 153</value>
+  </data>
+  <data name="&gt;&gt;smaxEveryColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sminHesitateTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="lblNumberofTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 28</value>
+  </data>
+  <data name="ltbFirstRepeatMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>366, 237</value>
+  </data>
+  <data name="lblEveryColumnLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="lblFirstRepeatTime.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="lblEveryHalfLess.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="ltbHesitateMore.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;sminAcceptTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbAcceptTimeLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="ltbHesitateMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="sminEveryHalf.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblWordPrediction.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="&gt;&gt;lblEveryColumnMore.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="&gt;&gt;lblEveryHalf.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;lblWordPredictionLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEveryRowMore.Name" xml:space="preserve">
+    <value>lblEveryRowMore</value>
+  </data>
+  <data name="lblEveryRowLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;lblNumberofTimes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ltbSteppingLess.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;sminAcceptTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>541, 754</value>
+  </data>
+  <data name="&gt;&gt;smaxFirstRepeatTime.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ltbFirstRepeatMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="lblBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 47</value>
+  </data>
+  <data name="&gt;&gt;lblBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbEveryHalf.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="smaxAcceptTime.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lblWordPrediction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 26</value>
+  </data>
+  <data name="lblEveryColumn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 26</value>
+  </data>
+  <data name="smaxHesitateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="sminFirstRepeatTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblWordListHesitateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;sminEveryRow.Name" xml:space="preserve">
+    <value>sminEveryRow</value>
+  </data>
+  <data name="&gt;&gt;lblAcceptTime.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="sminTabScanTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ltbFirstRepeatLess.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="smaxSteppingTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 88</value>
+  </data>
+  <data name="&gt;&gt;tbHesitateTime.Name" xml:space="preserve">
+    <value>tbHesitateTime</value>
+  </data>
+  <data name="ltbWordListHesitateMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="smaxEveryRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 82</value>
+  </data>
+  <data name="&gt;&gt;smaxSteppingTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblFirstRepeatTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;sminEveryColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEveryHalfMore.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;pbSelectingClick.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ltbWordListHesitateLess.Name" xml:space="preserve">
+    <value>ltbWordListHesitateLess</value>
+  </data>
+  <data name="ltbTabScanMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>366, 196</value>
+  </data>
+  <data name="smaxHesitateTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblBack.Name" xml:space="preserve">
+    <value>lblBack</value>
+  </data>
+  <data name="smaxSteppingTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="smaxAcceptTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAcceptTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 26</value>
+  </data>
+  <data name="lblWordPredictionMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="smaxEveryHalf.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lblScanTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 28</value>
+  </data>
+  <data name="smaxWordPrediction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="&gt;&gt;smaxHesitateTime.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;sminEveryColumn.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;smaxHesitateTime.Name" xml:space="preserve">
+    <value>smaxHesitateTime</value>
+  </data>
+  <data name="&gt;&gt;smaxWordPrediction.Name" xml:space="preserve">
+    <value>smaxWordPrediction</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 24</value>
+  </data>
+  <data name="&gt;&gt;svalSteppingTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;tbEveryRow.Name" xml:space="preserve">
+    <value>tbEveryRow</value>
+  </data>
+  <data name="&gt;&gt;ltbAcceptTimeLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ltbFirstRepeatLess.Name" xml:space="preserve">
+    <value>ltbFirstRepeatLess</value>
+  </data>
+  <data name="&gt;&gt;tbAcceptTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ltbHesitateLess.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;svalWordPrediction.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="lblEveryRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="ltbTabScanLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="ltbHesitateLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 107</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;smaxWordPrediction.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="sminHesitateTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;sminWordPrediction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sminWordPrediction.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbEveryHalf.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="&gt;&gt;lblOK.Name" xml:space="preserve">
+    <value>lblOK</value>
+  </data>
+  <data name="&gt;&gt;smaxAcceptTime.Name" xml:space="preserve">
+    <value>smaxAcceptTime</value>
+  </data>
+  <data name="smaxEveryColumn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="&gt;&gt;ltbAcceptTimeMore.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblEveryHalfLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="lblSteppingTime.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;lblFirstRepeatTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;sminWordListHesitateTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbWordListHesitateTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;ltbAcceptTimeLess.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;lblSelectingClick.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;smaxEveryHalf.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sminTabScanTime.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="pbSelectingClick.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 29</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="svalEveryRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="svalWordPrediction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ltbFirstRepeatLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="smaxWordListHesitateTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sminSteppingTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="ltbFirstRepeatLess.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;sminEveryRow.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="ltbTabScanLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 195</value>
+  </data>
+  <data name="ltbWordListHesitateMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="&gt;&gt;lblWordListHesitateTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;lblRestoreDefaults.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;svalWordListHesitateTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="ltbAcceptTimeLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;boxScanBottom.Name" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;lblEveryHalf.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="&gt;&gt;ltbAcceptTimeMore.Name" xml:space="preserve">
+    <value>ltbAcceptTimeMore</value>
+  </data>
+  <data name="&gt;&gt;sminSteppingTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="svalWordListHesitateTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;tbEveryColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHesitateTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEveryRowMore.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="lblEveryColumnLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="svalFirstRepeatTime.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="lblNumberofTimes.Text" xml:space="preserve">
+    <value>Scan Iterations</value>
+  </data>
+  <data name="lblEveryColumn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 103</value>
+  </data>
+  <data name="&gt;&gt;tbWordListHesitateTime.Name" xml:space="preserve">
+    <value>tbWordListHesitateTime</value>
+  </data>
+  <data name="&gt;&gt;lblWordPredictionLess.Name" xml:space="preserve">
+    <value>lblWordPredictionLess</value>
+  </data>
+  <data name="pbSelectingClick.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;smaxTabScanTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="ltbTabScanLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="tbEveryColumn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 104</value>
+  </data>
+  <data name="&gt;&gt;svalEveryColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="svalAcceptTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="tbEveryRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="smaxFirstRepeatTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblTabScanTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 26</value>
+  </data>
+  <data name="svalFirstRepeatTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="ltbFirstRepeatLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 236</value>
+  </data>
+  <data name="&gt;&gt;smaxWordListHesitateTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sminHesitateTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbWordListHesitateTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sminFirstRepeatTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="smaxEveryHalf.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblEveryHalfLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="smaxEveryColumn.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;sminEveryRow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNumberofTimes.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="sminTabScanTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 219</value>
+  </data>
+  <data name="smaxTabScanTime.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;smaxWordListHesitateTime.Name" xml:space="preserve">
+    <value>smaxWordListHesitateTime</value>
+  </data>
+  <data name="&gt;&gt;smaxFirstRepeatTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;smaxWordPrediction.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblEveryColumn.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="ltbHesitateMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="svalFirstRepeatTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ltbSteppingMore.Name" xml:space="preserve">
+    <value>ltbSteppingMore</value>
+  </data>
+  <data name="lblRestoreDefaults.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="&gt;&gt;lblWordPrediction.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblWordListHesitateTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="tbEveryHalf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="lblEveryHalfMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="sminTabScanTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="&gt;&gt;svalTabScanTime.Name" xml:space="preserve">
+    <value>svalTabScanTime</value>
+  </data>
+  <data name="&gt;&gt;lblEveryRowMore.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblScanTimes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;svalEveryColumn.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblWordListHesitateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 152</value>
+  </data>
+  <data name="&gt;&gt;smaxAcceptTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;lblWordListHesitateTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAcceptTime.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;lblScanTimes.Name" xml:space="preserve">
+    <value>lblScanTimes</value>
+  </data>
+  <data name="ltbSteppingMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;svalAcceptTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sminSteppingTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblHesitateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 107</value>
+  </data>
+  <data name="&gt;&gt;lblWordPredictionMore.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="svalWordListHesitateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="ltbTabScanMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="smaxEveryHalf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 36</value>
+  </data>
+  <data name="lblTabScanTime.Text" xml:space="preserve">
+    <value>Menu / Dialog Scan</value>
+  </data>
+  <data name="&gt;&gt;boxScanBottom.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblOK.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="sminHesitateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;lblSteppingTime.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;lblEveryHalfMore.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;lblSelectingClick.Name" xml:space="preserve">
+    <value>lblSelectingClick</value>
+  </data>
+  <data name="&gt;&gt;svalFirstRepeatTime.Name" xml:space="preserve">
+    <value>svalFirstRepeatTime</value>
+  </data>
+  <data name="&gt;&gt;smaxEveryColumn.Name" xml:space="preserve">
+    <value>smaxEveryColumn</value>
+  </data>
+  <data name="tbWordPrediction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="&gt;&gt;boxScanTop.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;sminAcceptTime.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="smaxSteppingTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="lblEveryRowLess.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="smaxWordListHesitateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="svalSteppingTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="&gt;&gt;boxScanBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblNumberofTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 43</value>
+  </data>
+  <data name="&gt;&gt;svalTabScanTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblBack.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="smaxAcceptTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="&gt;&gt;sminWordListHesitateTime.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="sminHesitateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="ltbFirstRepeatMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;pbSelectingClick.Name" xml:space="preserve">
+    <value>pbSelectingClick</value>
+  </data>
+  <data name="tbAcceptTime.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;lblWordListHesitateTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="sminWordPrediction.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="svalAcceptTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 17</value>
+  </data>
+  <data name="lblWordPredictionMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 147</value>
+  </data>
+  <data name="&gt;&gt;lblEveryHalf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbEveryColumn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="tbEveryRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 58</value>
+  </data>
+  <data name="&gt;&gt;sminHesitateTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="lblEveryColumn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="lblSteppingTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 26</value>
+  </data>
+  <data name="lblSelectingClick.Text" xml:space="preserve">
+    <value>Beep on Select</value>
+  </data>
+  <data name="svalEveryHalf.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;tbEveryColumn.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;ltbSteppingLess.Name" xml:space="preserve">
+    <value>ltbSteppingLess</value>
+  </data>
+  <data name="smaxFirstRepeatTime.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblAcceptTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbTabScanTime.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="lblEveryRowLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblEveryColumnLess.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="ltbFirstRepeatLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="ltbHesitateMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="ltbSteppingMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 64</value>
+  </data>
+  <data name="sminSteppingTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblSteppingTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEveryHalfMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="&gt;&gt;lblOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;smaxTabScanTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="svalHesitateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;tbEveryRow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;boxScanTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbSteppingLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;lblEveryColumn.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="sminFirstRepeatTime.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="lblEveryColumn.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;sminTabScanTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;svalAcceptTime.Name" xml:space="preserve">
+    <value>svalAcceptTime</value>
+  </data>
+  <data name="smaxFirstRepeatTime.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;tbFirstRepeatTime.Name" xml:space="preserve">
+    <value>tbFirstRepeatTime</value>
+  </data>
+  <data name="ltbWordListHesitateLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblOK.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ltbHesitateMore.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;ltbTabScanLess.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="sminEveryRow.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="ltbAcceptTimeMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="lblWordPredictionLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="lblWordPredictionLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 149</value>
+  </data>
+  <data name="tbSteppingTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="&gt;&gt;ltbFirstRepeatMore.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ltbHesitateMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbWordListHesitateLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="sminWordPrediction.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;ltbWordListHesitateMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ltbTabScanLess.Name" xml:space="preserve">
+    <value>ltbTabScanLess</value>
+  </data>
+  <data name="ltbFirstRepeatMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblSteppingTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 61</value>
+  </data>
+  <data name="&gt;&gt;tbEveryHalf.Name" xml:space="preserve">
+    <value>tbEveryHalf</value>
+  </data>
+  <data name="tbSteppingTime.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="smaxEveryRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="lblScanTimes.Text" xml:space="preserve">
+    <value>Timings (in msecs)</value>
+  </data>
+  <data name="lblEveryHalf.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblScanTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 276</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;svalTabScanTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smaxWordListHesitateTime.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tbTabScanTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="lblOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 47</value>
+  </data>
+  <data name="&gt;&gt;ltbSteppingMore.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;tbAcceptTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="sminSteppingTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 88</value>
+  </data>
+  <data name="svalEveryRow.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="sminEveryHalf.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblAcceptTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblBack.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="tbFirstRepeatTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="svalHesitateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 108</value>
+  </data>
+  <data name="sminEveryHalf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="sminSteppingTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="smaxTabScanTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="&gt;&gt;lblEveryColumn.Name" xml:space="preserve">
+    <value>lblEveryColumn</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="lblEveryRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 26</value>
+  </data>
+  <data name="sminWordPrediction.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="smaxEveryColumn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="ltbHesitateLess.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="smaxHesitateTime.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;sminSteppingTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;smaxHesitateTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smaxTabScanTime.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tbWordPrediction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smaxSteppingTime.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="lblTabScanTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 195</value>
+  </data>
+  <data name="smaxSteppingTime.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="smaxWordPrediction.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sminWordPrediction.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ltbHesitateLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEveryRowMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="lblWordPrediction.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="lblSelectingClick.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="&gt;&gt;pbSelectingClick.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, -4</value>
+  </data>
+  <data name="sminEveryHalf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 37</value>
+  </data>
+  <data name="tbHesitateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;tbSteppingTime.Name" xml:space="preserve">
+    <value>tbSteppingTime</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 730</value>
+  </data>
+  <data name="&gt;&gt;sminEveryHalf.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblEveryColumnLess.Name" xml:space="preserve">
+    <value>lblEveryColumnLess</value>
+  </data>
+  <data name="sminEveryRow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ltbHesitateLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="smaxEveryColumn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 127</value>
+  </data>
+  <data name="&gt;&gt;smaxWordListHesitateTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="lblEveryHalf.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="sminAcceptTime.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;sminEveryColumn.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="ltbTabScanLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;lblWordPrediction.Name" xml:space="preserve">
+    <value>lblWordPrediction</value>
+  </data>
+  <data name="&gt;&gt;lblEveryRow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sminWordListHesitateTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;ltbAcceptTimeMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smaxAcceptTime.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;sminEveryRow.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="boxScanBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 304</value>
+  </data>
+  <data name="&gt;&gt;smaxWordListHesitateTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;svalAcceptTime.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="sminAcceptTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ltbSteppingLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblEveryRow.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;lblTabScanTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="svalEveryHalf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="lblEveryColumn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ltbSteppingMore.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;smaxSteppingTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;sminFirstRepeatTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;sminWordPrediction.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="tbHesitateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 45</value>
+  </data>
+  <data name="&gt;&gt;lblFirstRepeatTime.Name" xml:space="preserve">
+    <value>lblFirstRepeatTime</value>
+  </data>
+  <data name="&gt;&gt;tbWordPrediction.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="&gt;&gt;sminHesitateTime.Name" xml:space="preserve">
+    <value>sminHesitateTime</value>
+  </data>
+  <data name="&gt;&gt;lblEveryHalfLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbFirstRepeatTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 240</value>
+  </data>
+  <data name="svalWordPrediction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="sminHesitateTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;svalFirstRepeatTime.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblEveryHalfLess.Name" xml:space="preserve">
+    <value>lblEveryHalfLess</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEveryRowLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 58</value>
+  </data>
+  <data name="&gt;&gt;lblEveryHalfLess.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblEveryRow.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="sminEveryColumn.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblEveryRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 58</value>
+  </data>
+  <data name="&gt;&gt;svalFirstRepeatTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smaxWordPrediction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 173</value>
+  </data>
+  <data name="lblEveryHalfLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 13</value>
+  </data>
+  <data name="ltbSteppingLess.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="ltbSteppingMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEveryRowMore.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="&gt;&gt;smaxHesitateTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;tbHesitateTime.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblWordPredictionMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="lblEveryHalf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="lblEveryColumnMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 101</value>
+  </data>
+  <data name="&gt;&gt;tbFirstRepeatTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="lblEveryColumnLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblAcceptTime.Name" xml:space="preserve">
+    <value>lblAcceptTime</value>
+  </data>
+  <data name="svalEveryColumn.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="lblSelectingClick.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;tbSteppingTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;svalEveryHalf.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="sminWordListHesitateTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ltbHesitateLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="lblEveryHalfMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;svalHesitateTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="lblHesitateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 26</value>
+  </data>
+  <data name="ltbTabScanMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;lblEveryRowMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="svalSteppingTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;tbEveryColumn.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="ltbTabScanMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblWordPredictionLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;lblHesitateTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;lblEveryRowLess.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tbFirstRepeatTime.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="lblWordListHesitateTime.Text" xml:space="preserve">
+    <value>WordList Pause</value>
+  </data>
+  <data name="sminSteppingTime.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="ltbSteppingMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="&gt;&gt;lblEveryColumnMore.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ltbSteppingLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="lblWordPredictionLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="svalEveryColumn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblRestoreDefaults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 47</value>
+  </data>
+  <data name="&gt;&gt;lblEveryHalf.Name" xml:space="preserve">
+    <value>lblEveryHalf</value>
+  </data>
+  <data name="ltbAcceptTimeMore.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="lblTabScanTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="smaxEveryHalf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="&gt;&gt;sminSteppingTime.Name" xml:space="preserve">
+    <value>sminSteppingTime</value>
+  </data>
+  <data name="&gt;&gt;smaxEveryHalf.Name" xml:space="preserve">
+    <value>smaxEveryHalf</value>
+  </data>
+  <data name="&gt;&gt;lblWordPredictionMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sminHesitateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 132</value>
+  </data>
+  <data name="ltbWordListHesitateLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 152</value>
+  </data>
+  <data name="sminWordListHesitateTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sminEveryRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="&gt;&gt;ltbTabScanMore.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="&gt;&gt;lblTabScanTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;svalEveryRow.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="smaxAcceptTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblEveryHalfMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="svalSteppingTime.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;pbSelectingClick.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="boxScanTop.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="&gt;&gt;lblEveryRowLess.Name" xml:space="preserve">
+    <value>lblEveryRowLess</value>
+  </data>
+  <data name="&gt;&gt;sminFirstRepeatTime.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;smaxSteppingTime.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;ltbFirstRepeatMore.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="smaxTabScanTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblEveryRowMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="svalEveryColumn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="&gt;&gt;svalWordPrediction.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblEveryHalfMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 12</value>
+  </data>
+  <data name="svalTabScanTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="tbTabScanTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 199</value>
+  </data>
+  <data name="svalHesitateTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="smaxWordListHesitateTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="svalEveryHalf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 15</value>
+  </data>
+  <data name="&gt;&gt;lblTabScanTime.Name" xml:space="preserve">
+    <value>lblTabScanTime</value>
+  </data>
+  <data name="lblEveryColumnMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblWordPredictionMore.Name" xml:space="preserve">
+    <value>lblWordPredictionMore</value>
+  </data>
+  <data name="ltbAcceptTimeMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblEveryHalfLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;ltbSteppingLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblRestoreDefaults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 667</value>
+  </data>
+  <data name="sminEveryColumn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="&gt;&gt;svalWordListHesitateTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWordListHesitateTime.Name" xml:space="preserve">
+    <value>lblWordListHesitateTime</value>
+  </data>
+  <data name="sminAcceptTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblScanTimes.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="svalTabScanTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 198</value>
+  </data>
+  <data name="lblAcceptTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="ltbAcceptTimeLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;svalWordListHesitateTime.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="svalSteppingTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 66</value>
+  </data>
+  <data name="&gt;&gt;sminEveryHalf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEveryColumnMore.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="lblFirstRepeatTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblEveryColumnMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smaxEveryRow.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;svalFirstRepeatTime.Parent" xml:space="preserve">
+    <value>boxScanBottom</value>
+  </data>
+  <data name="svalWordListHesitateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 153</value>
+  </data>
+  <data name="&gt;&gt;tbEveryHalf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbWordListHesitateMore.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="svalTabScanTime.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;svalHesitateTime.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;svalEveryRow.Name" xml:space="preserve">
+    <value>svalEveryRow</value>
+  </data>
+  <data name="&gt;&gt;tbEveryRow.Parent" xml:space="preserve">
+    <value>boxScanTop</value>
+  </data>
+  <data name="ltbTabScanLess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblEveryColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ltbSteppingLess.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>pt-BR</value>
+  </metadata>
 </root>

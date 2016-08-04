@@ -21,6 +21,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using System.Drawing;
 using System.Linq;
 using System.Security.Permissions;
 using System.Windows.Forms;
@@ -34,6 +35,7 @@ using ACAT.Lib.Core.Utility;
 using ACAT.Lib.Core.WidgetManagement;
 using ACAT.Lib.Core.Widgets;
 using ACAT.Lib.Extension;
+using Resources = SwitchWindowsAgent.Resources;
 
 #region SupressStyleCopWarnings
 
@@ -70,22 +72,18 @@ using ACAT.Lib.Extension;
 
 #endregion SupressStyleCopWarnings
 
-namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
+namespace ACAT.Extensions.Default.FunctionalAgents.SwitchWindowsAgent
 {
     /// <summary>
     /// Form that displays a list of active windows. User can sort
     /// the windows by name, select a window to activate.  User can
     /// also filter the list through a search filter.
     /// </summary>
-    [DescriptorAttribute("FAE01845-95BD-4D52-9C57-3653888F1EFF", "SwitchWindowsScanner", "Switch Windows Scanner")]
+    [DescriptorAttribute("52D33D6A-4254-4727-8291-DC9D26A51F4F",
+                            "SwitchWindowsScanner",
+                            "Switch Windows Scanner")]
     public partial class SwitchWindowsScanner : Form, IScannerPanel, IExtension
     {
-        /// <summary>
-        /// Max length of the window title. If title exceeds this,
-        /// ellipses are appended
-        /// </summary>
-        private const int MaxWindowTitleLength = 60;
-
         /// <summary>
         /// The command dispatcher object
         /// </summary>
@@ -100,6 +98,16 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         /// The keyboard actuator object
         /// </summary>
         private readonly KeyboardActuator _keyboardActuator;
+
+        /// <summary>
+        /// Status bar for the scanner form
+        /// </summary>
+        private readonly StatusBar _statusBar = new StatusBar();
+
+        /// <summary>
+        /// Displays the state of the Alt key
+        /// </summary>
+        private readonly StatusBarPanel _statusBarPanelSort = new StatusBarPanel();
 
         /// <summary>
         /// List of all windows
@@ -140,6 +148,11 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         /// The scannercommon object
         /// </summary>
         private ScannerCommon _scannerCommon;
+
+        /// <summary>
+        /// Widget that the user clicks to resort
+        /// </summary>
+        private Widget _sortButton;
 
         /// <summary>
         /// The current sort order
@@ -195,6 +208,8 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
             }
 
             _dispatcher = new RunCommandDispatcher(this);
+
+            createStatusBar();
         }
 
         /// <summary>
@@ -219,6 +234,11 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         /// Raised when we are done
         /// </summary>
         public event DoneEvent EvtDone;
+
+        /// <summary>
+        /// Event raised to display the alphabet scanner
+        /// </summary>
+        public event EventHandler EvtShowScanner;
 
         /// <summary>
         /// How to sort the windows in the list?
@@ -301,12 +321,48 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         }
 
         /// <summary>
-        /// Not used
+        /// Invoked to check if a scanner button should be enabled.  Uses context
+        /// to determine the 'enabled' state.
         /// </summary>
-        /// <param name="arg"></param>
-        /// <returns></returns>
+        /// <param name="arg">info about the scanner button</param>
         public bool CheckWidgetEnabled(CheckEnabledArgs arg)
         {
+            arg.Handled = true;
+
+            switch (arg.Widget.SubClass)
+            {
+                case "PreviousPage":
+                    arg.Enabled = (_pageNumber != 0);
+                    break;
+
+                case "NextPage":
+                    arg.Enabled = (_numPages != 0 && (_pageNumber + 1) != _numPages);
+                    break;
+
+                case "Back":
+                case "DeletePreviousWord":
+                case "ClearFilter":
+                    arg.Handled = true;
+                    arg.Enabled = !IsFilterEmpty();
+                    break;
+
+                case "Sort":
+                case "Search":
+                    arg.Handled = true;
+                    arg.Enabled = (_windowsList != null && _windowsList.Any());
+                    break;
+
+                case "PrevChar":
+                case "NextChar":
+                    arg.Handled = true;
+                    arg.Enabled = true;
+                    break;
+
+                default:
+                    arg.Handled = false;
+                    break;
+            }
+
             return false;
         }
 
@@ -317,11 +373,28 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         {
             Invoke(new MethodInvoker(delegate()
                 {
-                    if (SearchFilter.Text.Length > 0 && DialogUtils.ConfirmScanner(Strings.Clear_filter))
+                    if (SearchFilter.Text.Length > 0 && DialogUtils.ConfirmScanner(Resources.ClearFilter))
                     {
                         SearchFilter.Text = String.Empty;
                     }
                 }));
+        }
+
+        /// <summary>
+        /// Creates a status bar for the scanner
+        /// </summary>
+        public void createStatusBar()
+        {
+            _statusBarPanelSort.BorderStyle = StatusBarPanelBorderStyle.None;
+            _statusBarPanelSort.AutoSize = StatusBarPanelAutoSize.Contents;
+            _statusBar.Panels.Add(_statusBarPanelSort);
+
+            _statusBar.SizingGrip = false;
+            _statusBar.ShowPanels = true;
+            _statusBar.Height = 30;
+            _statusBar.Margin = new Padding(4, 4, 4, 4);
+            _statusBar.Font = new Font("Arial", 16.0f);
+            Controls.Add(_statusBar);
         }
 
         /// <summary>
@@ -340,7 +413,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         /// <returns></returns>
         public bool Initialize(StartupArg startupArg)
         {
-            _scannerCommon = new ScannerCommon(this) { PositionSizeController = { AutoPosition = false } };
+            _scannerCommon = new ScannerCommon(this) { PositionSizeController = { AutoPosition = true } };
 
             if (!_scannerCommon.Initialize(startupArg))
             {
@@ -349,6 +422,8 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
             }
 
             PanelManager.Instance.EvtScannerShow += Instance_EvtScannerShow;
+            PanelManager.Instance.EvtScannerClosed += Instance_EvtScannerClosed;
+
             return true;
         }
 
@@ -379,6 +454,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         /// </summary>
         public void OnPause()
         {
+            _scannerCommon.GetAnimationManager().Pause();
         }
 
         /// <summary>
@@ -396,31 +472,16 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         /// </summary>
         public void OnResume()
         {
+            _scannerCommon.GetAnimationManager().Resume();
         }
 
         /// <summary>
-        /// Invoked when there is a request to run a command. This
-        /// could as a result of the user activating a button on the
-        /// scanner and there is a command associated with the button
+        /// Not used
         /// </summary>
         /// <param name="command">command to run</param>
         /// <param name="handled">was this handled?</param>
         public void OnRunCommand(string command, ref bool handled)
         {
-            if (command.StartsWith("highlight", StringComparison.InvariantCultureIgnoreCase))
-            {
-                handleHighlight(command);
-            }
-
-            if (command.StartsWith("select", StringComparison.InvariantCultureIgnoreCase))
-            {
-                handleSelect(command);
-            }
-            else
-            {
-                Log.Debug("unlandled command " + command);
-                handled = false;
-            }
         }
 
         /// <summary>
@@ -430,10 +491,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         /// <param name="handled">was it handled?</param>
         public void OnWidgetActuated(Widget widget, ref bool handled)
         {
-            if (widget is TabStopScannerButton)
-            {
-                handled = true;
-            }
+            actuateWidget(widget, ref handled);
         }
 
         /// <summary>
@@ -455,6 +513,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
             removeWatchdogs();
 
             PanelManager.Instance.EvtScannerShow -= Instance_EvtScannerShow;
+            PanelManager.Instance.EvtScannerClosed -= Instance_EvtScannerClosed;
 
             _keyboardActuator.EvtKeyPress -= _keyboardActuator_EvtKeyPress;
             base.OnFormClosing(e);
@@ -467,7 +526,14 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         [EnvironmentPermissionAttribute(SecurityAction.LinkDemand, Unrestricted = true)]
         protected override void WndProc(ref Message m)
         {
-            _scannerCommon.HandleWndProc(m);
+            if (_scannerCommon != null)
+            {
+                if (_scannerCommon.HandleWndProc(m))
+                {
+                    return;
+                }
+            }
+
             base.WndProc(ref m);
         }
 
@@ -492,19 +558,10 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         /// Find the widget that was actuated and act on it
         /// </summary>
         /// <param name="widgetName">name of the widget</param>
-        private void actuateWidget(String widgetName)
+        private void actuateWidget(Widget widget, ref bool handled)
         {
-            var widget = _scannerCommon.GetRootWidget().Finder.FindChild(widgetName);
-            if (widget != null)
-            {
-                object obj = widget.UserData;
-                if (obj is ItemTag)
-                {
-                    handleSelect((ItemTag)obj);
-                }
-
-                highlightOff();
-            }
+            handleWidgetSelection(widget, ref handled);
+            highlightOff();
         }
 
         /// <summary>
@@ -539,16 +596,58 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         /// <returns>filtered list</returns>
         private List<EnumWindows.WindowInfo> filterWindows(IEnumerable<EnumWindows.WindowInfo> windowList, String filter)
         {
-            var filteredList = new List<EnumWindows.WindowInfo>();
-            foreach (var window in windowList)
+            return windowList.Where(window => window.Title.StartsWith(filter.Trim(),
+                                    StringComparison.InvariantCultureIgnoreCase)).ToList();
+        }
+
+        /// <summary>
+        /// Returns string that graphically fits into the specified width.  If it
+        /// doesn't, curtails the string and adds ellipses
+        /// </summary>
+        /// <param name="graphics">Graphics object used to mesaure width of string</param>
+        /// <param name="font">font to use</param>
+        /// <param name="width">width to fit in</param>
+        /// <param name="inputString">input string</param>
+        /// <returns>output string that fits</returns>
+        private String getMeasuredString(Graphics graphics, Font font, int width, String inputString)
+        {
+            int chop = 5;
+
+            var str = inputString;
+
+            try
             {
-                if (window.Title.StartsWith(filter, StringComparison.InvariantCultureIgnoreCase))
+                while (true)
                 {
-                    filteredList.Add(window);
+                    SizeF sf = graphics.MeasureString(str, font);
+
+                    if (sf.Width > width * ScannerCommon.PositionSizeController.ScaleFactor)
+                    {
+                        str = inputString.Substring(0, inputString.Length - chop) + "...";
+                        chop += 5;
+                    }
+                    else
+                    {
+                        break;
+                    }
                 }
             }
+            catch
+            {
+                str = inputString;
+            }
 
-            return filteredList;
+            return str;
+        }
+
+        /// <summary>
+        /// Stores widget objects from the form
+        /// </summary>
+        private void getWidgets()
+        {
+            _sortOrderWidget = _scannerCommon.GetRootWidget().Finder.FindChild("SortOrderIcon");
+            _pageNumberWidget = _scannerCommon.GetRootWidget().Finder.FindChild("PageNumber");
+            _sortButton = _scannerCommon.GetRootWidget().Finder.FindChild("ButtonSort");
         }
 
         /// <summary>
@@ -585,7 +684,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
                 IntPtr desktopHWnd = User32Interop.GetDesktopWindow();
                 if (desktopHWnd != null)
                 {
-                    sortedList.Insert(0, new EnumWindows.WindowInfo(desktopHWnd, Strings.Show_Desktop));
+                    sortedList.Insert(0, new EnumWindows.WindowInfo(desktopHWnd, Resources.ShowDesktop));
                 }
             }
 
@@ -593,8 +692,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         }
 
         /// <summary>
-        /// Show the next pageful of entries in the
-        /// window list
+        /// Show the next pageful of entries in the window list
         /// </summary>
         private void gotoNextPage()
         {
@@ -611,8 +709,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         }
 
         /// <summary>
-        /// Show the previous pageful of entries in the
-        /// window list
+        /// Show the previous pageful of entries in the window list
         /// </summary>
         private void gotoPreviousPage()
         {
@@ -633,93 +730,75 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         }
 
         /// <summary>
-        /// Highlight a widget. Cmd contains the
-        /// index number of the widget in the list
+        /// Perform the operation - page through the list,
+        /// activate a window etc
         /// </summary>
-        /// <param name="cmd">which one to highlight</param>
-        private void handleHighlight(String cmd)
+        /// <param name="itemTag">Meta data about seleted item</param>
+        private void handleWidgetSelection(Widget widget, ref bool handled)
         {
-            if (cmd.Equals("highlight_off", StringComparison.InvariantCultureIgnoreCase))
+            if (widget.UserData is EnumWindows.WindowInfo)
             {
-                highlightOff();
+                handleWindowSelect((EnumWindows.WindowInfo)widget.UserData);
+                handled = true;
             }
             else
             {
-                int index = cmd.LastIndexOf('_');
-                if (index >= 0 && index < cmd.Length - 1)
+                switch (widget.Value)
                 {
-                    var widgetName = "Item" + cmd.Substring(index + 1);
-                    highlight(widgetName);
+                    case "@Quit":
+                        if (EvtDone != null)
+                        {
+                            EvtDone.BeginInvoke(null, null);
+                        }
+                        break;
+
+                    case "@WindowListSort":
+                        switchSortOrder();
+                        break;
+
+                    case "@WindowListNextPage":
+                        gotoNextPage();
+                        break;
+
+                    case "@WindowListPrevPage":
+                        gotoPreviousPage();
+                        break;
+
+                    case "@WindowListSearch":
+                        if (EvtShowScanner != null)
+                        {
+                            EvtShowScanner.BeginInvoke(null, null, null, null);
+                        }
+                        break;
+
+                    case "@WindowListClearFilter":
+                        ClearFilter();
+                        break;
+
+                    default:
+                        handled = false;
+                        break;
                 }
             }
         }
 
         /// <summary>
-        /// User selected a window on the list.  Actuate
-        /// the widget
+        /// User selected a window to switch to.  Trigger an event
+        /// to indicate this.
         /// </summary>
-        /// <param name="cmd">index of the widget actuated</param>
-        private void handleSelect(String cmd)
+        /// <param name="wInfo">Window info of the window selected</param>
+        private void handleWindowSelect(EnumWindows.WindowInfo wInfo)
         {
-            int index = cmd.LastIndexOf('_');
-            if (index >= 0 && index < cmd.Length - 1)
+            if (!User32Interop.IsWindow(wInfo.Handle) || !User32Interop.IsWindowVisible(wInfo.Handle))
             {
-                actuateWidget("Item" + cmd.Substring(index + 1));
+                DialogUtils.ShowTimedDialog(this, Resources.WindowDoesNotExist);
             }
-        }
-
-        /// <summary>
-        /// Perform the operation - page through the list,
-        /// activate a window etc
-        /// </summary>
-        /// <param name="itemTag">Meta data about seleted item</param>
-        private void handleSelect(ItemTag itemTag)
-        {
-            switch (itemTag.DataType)
+            else if (DialogUtils.ConfirmScanner(string.Format(Resources.SwitchTo, wInfo.Title)))
             {
-                case ItemTag.ItemType.NextPage:
-                    gotoNextPage();
-                    break;
-
-                case ItemTag.ItemType.PreviousPage:
-                    gotoPreviousPage();
-                    break;
-
-                case ItemTag.ItemType.OrderBy:
-                    switchSortOrder();
-                    break;
-
-                case ItemTag.ItemType.Window:
-                    if (itemTag.WInfo != null)
-                    {
-                        if (!User32Interop.IsWindow(itemTag.WInfo.Handle) || !User32Interop.IsWindowVisible(itemTag.WInfo.Handle))
-                        {
-                            DialogUtils.ShowTimedDialog(this, Strings.Window_does_not_exist);
-                        }
-                        else if (DialogUtils.ConfirmScanner(Strings.Switch_to + itemTag.WInfo.Title + Strings.String14))
-                        {
-                            if (EvtActivateWindow != null)
-                            {
-                                EvtActivateWindow.BeginInvoke(this, itemTag.WInfo, null, null);
-                            }
-                        }
-                    }
-
-                    break;
-            }
-        }
-
-        /// <summary>
-        /// Highlight the indicated widget
-        /// </summary>
-        /// <param name="widgetName">name of the widget to highlight</param>
-        private void highlight(String widgetName)
-        {
-            _scannerCommon.GetRootWidget().HighlightOff();
-            var widget = _scannerCommon.GetRootWidget().Finder.FindChild(widgetName);
-            if (widget != null)
-            {
-                widget.HighlightOn();
+                if (EvtActivateWindow != null)
+                {
+                    EvtActivateWindow.BeginInvoke(this, wInfo, null, null);
+                }
             }
         }
 
@@ -732,7 +811,25 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         }
 
         /// <summary>
-        /// Invoked when the companain scanner is shown
+        /// Event handler for when a scanner closes.  Reposition this scanner
+        /// to its default position. This event is raised by the Panel Manager
+        /// </summary>
+        /// <param name="sender">event sender</param>
+        /// <param name="arg">event args</param>
+        private void Instance_EvtScannerClosed(object sender, ScannerCloseEventArg arg)
+        {
+            if (arg.Scanner != this)
+            {
+                if (_dockedWithForm == arg.Scanner)
+                {
+                    _dockedWithForm = null;
+                }
+                _scannerCommon.PositionSizeController.AutoSetPosition();
+            }
+        }
+
+        /// <summary>
+        /// Invoked by the Panel Manager when a scanner is shown
         /// Dock this form to the scanner
         /// </summary>
         /// <param name="sender">event sender</param>
@@ -747,8 +844,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         }
 
         /// <summary>
-        /// Get a list of active windows and display it
-        /// in the list
+        /// Get a list of active windows and display it in the list
         /// </summary>
         private void loadWindowList()
         {
@@ -786,7 +882,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
             _scannerCommon.GetRootWidget().Finder.FindChild(typeof(TabStopScannerButton), list);
 
             int count = list.Count();
-            if (count < 3)
+            if (count == 0)
             {
                 return;
             }
@@ -798,7 +894,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
             }
 
             // calculate how many pages, number of entries per page
-            _entriesPerPage = count - 2;
+            _entriesPerPage = count;
             _numPages = _windowsList.Count() / _entriesPerPage;
 
             if ((_windowsList.Count() % _entriesPerPage) != 0)
@@ -806,74 +902,40 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
                 _numPages++;
             }
 
+            updateButtonBar();
+
             updateStatusBar();
 
             if (!_windowsList.Any())
             {
-                (list[0] as TabStopScannerButton).SetTabStops(0.0f, new float[] { 25 });
-                list[0].SetText(Strings.NO_ACTIVE_WINDOWS);
+                (list[0] as TabStopScannerButton).SetTabStops(0.0f, new float[] { 100 });
+                list[0].SetText(Resources.NOACTIVEWINDOWS);
                 return;
             }
 
             int ii = 0;
+            var image = new Bitmap(1, 1);
+            var graphics = Graphics.FromImage(image);
 
-            int displayIndex = (ii + 1) % 10;
+            // fill titles of windows in the list
+            for (int jj = _pageStartIndex; jj < _windowsList.Count && ii < count; ii++, jj++)
+            {
+                var tabStopScannerButton = list[ii] as TabStopScannerButton;
 
-            // Set the first entry in the list
-            (list[ii] as TabStopScannerButton).SetTabStops(0.0f, new float[] { 25 });
-            if (_pageNumber == 0)
-            {
-                list[ii].UserData = new ItemTag(ItemTag.ItemType.OrderBy);
-                if (_sortOrder == SortOrder.Ascending)
-                {
-                    list[ii].SetText(displayIndex + Strings.SORT);
-                }
-                else
-                {
-                    list[ii].SetText(displayIndex + Strings.SORT1);
-                }
-            }
-            else
-            {
-                list[ii].UserData = new ItemTag(ItemTag.ItemType.PreviousPage);
-                list[ii].SetText(displayIndex + Strings.PREVIOUS_PAGE);
+                tabStopScannerButton.SetTabStops(0.0f, new float[] { 0 });
+
+                list[ii].UserData = _windowsList[jj];
+
+                var str = getMeasuredString(graphics,
+                                            tabStopScannerButton.UIControl.Font,
+                                            ClientSize.Width - 30,
+                                            _windowsList[jj].Title);
+
+                list[ii].SetText(str);
             }
 
-            ii++;
-
-            // fill remaining entries except the last one
-            for (int jj = _pageStartIndex; jj < _windowsList.Count && ii < count - 1; ii++, jj++)
-            {
-                displayIndex = (ii + 1) % 10;
-                (list[ii] as TabStopScannerButton).SetTabStops(0.0f, new float[] { 25, 400 });
-                list[ii].UserData = new ItemTag(_windowsList[jj]);
-
-                var title = _windowsList[jj].Title;
-                if (title.Length > MaxWindowTitleLength)
-                {
-                    title = title.Substring(0, MaxWindowTitleLength) + Strings.String15;
-                }
-
-                list[ii].SetText(displayIndex + ".\t" + title);
-            }
-
-            Log.Debug("_pageNumber: " + _pageNumber + ", _numPages: " + _numPages);
-
-            // set last entry
-            if (_pageNumber < _numPages - 1)
-            {
-                displayIndex = (ii + 1) % 10;
-                (list[ii] as TabStopScannerButton).SetTabStops(0.0f, new float[] { 25, 400 });
-                list[ii].UserData = new ItemTag(ItemTag.ItemType.NextPage);
-                list[ii].SetText(displayIndex + Strings.NEXT_PAGE);
-                ii++;
-            }
-
-            for (; ii < count; ii++)
-            {
-                list[ii].SetText(String.Empty);
-                list[ii].UserData = null;
-            }
+            image.Dispose();
+            graphics.Dispose();
         }
 
         /// <summary>
@@ -997,17 +1059,11 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
             var list = new List<Widget>();
             _scannerCommon.GetRootWidget().Finder.FindChild(typeof(TabStopScannerButton), list);
 
-            foreach (var widget in list)
-            {
-                widget.EvtMouseClicked += widget_EvtMouseClicked;
-            }
-
             _tabStopButtonCount = list.Count;
 
-            _sortOrderWidget = _scannerCommon.GetRootWidget().Finder.FindChild("SortOrderIcon");
-            _pageNumberWidget = _scannerCommon.GetRootWidget().Finder.FindChild("PageNumber");
+            getWidgets();
 
-            this.SearchFilter.TextChanged += SearchFilter_TextChanged;
+            SearchFilter.TextChanged += SearchFilter_TextChanged;
             SortOrderIcon.Click += SortOrderIcon_Click;
             Shown += SwitchWindowsScanner_Shown;
 
@@ -1020,6 +1076,8 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
             {
                 dockToScanner(panel as Form);
             }
+
+            _scannerCommon.GetAnimationManager().Start(_scannerCommon.GetRootWidget());
         }
 
         /// <summary>
@@ -1034,74 +1092,69 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.SwitchWindows
         }
 
         /// <summary>
-        /// Update status bar with page number info
+        /// Update status bar with page number and sort order info
         /// </summary>
-        private void updateStatusBar()
+        private void updateButtonBar()
         {
+            String text;
+            var sortButtonText = "A-Z";
+            if (!_windowsList.Any())
+            {
+                text = String.Empty;
+            }
+            else if (_sortOrder == SortOrder.Ascending)
+            {
+                text = "\u003A";
+                sortButtonText = "A-Z";
+            }
+            else
+            {
+                text = "\u003B";
+                sortButtonText = "Z-A";
+            }
+
             if (_sortOrderWidget != null)
             {
-                String text;
-                if (!_windowsList.Any())
-                {
-                    text = String.Empty;
-                }
-                else if (_sortOrder == SortOrder.Ascending)
-                {
-                    text = "\u003A";
-                }
-                else
-                {
-                    text = "\u003B";
-                }
-
                 _sortOrderWidget.SetText(text);
+            }
+
+            if (_sortButton != null)
+            {
+                _sortButton.SetText(sortButtonText);
             }
 
             if (_pageNumberWidget != null)
             {
-                var text = _windowsList.Any() ? Strings.Page + (_pageNumber + 1) + Strings.of + _numPages : String.Empty;
+                text = _windowsList.Any() ? string.Format(Resources.Page0Of1, (_pageNumber + 1), _numPages) : String.Empty;
                 _pageNumberWidget.SetText(text);
             }
         }
 
         /// <summary>
-        /// User clicked on a widget. Act on it
+        /// Updates the status bar with sort order info
         /// </summary>
-        /// <param name="sender">event sender</param>
-        /// <param name="e">event args</param>
-        private void widget_EvtMouseClicked(object sender, WidgetEventArgs e)
+        private void updateStatusBar()
         {
-            actuateWidget(e.SourceWidget.Name);
-        }
+            var text = String.Empty;
 
-        /// <summary>
-        /// Contains meta data about each window in the  list
-        /// </summary>
-        private class ItemTag
-        {
-            public ItemTag(ItemType type)
+            if (!_windowsList.Any())
             {
-                DataType = type;
-                WInfo = null;
+                _statusBarPanelSort.Text = String.Empty;
+                return;
             }
 
-            public ItemTag(EnumWindows.WindowInfo info)
+            switch (_sortOrder)
             {
-                DataType = ItemType.Window;
-                WInfo = info;
+                case SortOrder.Ascending:
+                    text = Resources.SortOrderALPHABETICAL;
+                    break;
+
+                case SortOrder.Descending:
+                    text = Resources.SortOrderREVERSEALPHABETICAL;
+                    break;
             }
 
-            public enum ItemType
-            {
-                OrderBy,
-                PreviousPage,
-                NextPage,
-                Window
-            }
-
-            public ItemType DataType { get; private set; }
-
-            public EnumWindows.WindowInfo WInfo { get; private set; }
+            _statusBarPanelSort.Text = text;
         }
     }
 }

@@ -29,6 +29,7 @@ using ACAT.Lib.Core.PanelManagement;
 using ACAT.Lib.Core.UserManagement;
 using ACAT.Lib.Core.Utility;
 using ACAT.Lib.Extension;
+using Resources = ACATApp.Properties.Resources;
 
 #region SupressStyleCopWarnings
 
@@ -73,6 +74,11 @@ namespace ACAT.Applications.ACATApp
     internal static class Program
     {
         /// <summary>
+        /// Preferred panel config to sue
+        /// </summary>
+        private static String _panelConfig;
+
+        /// <summary>
         /// Active profile name
         /// </summary>
         private static string _profile;
@@ -89,7 +95,9 @@ namespace ACAT.Applications.ACATApp
         {
             Next,
             Username,
-            Profile
+            Profile,
+            PanelConfig,
+            Culture
         }
 
         /// <summary>
@@ -99,33 +107,37 @@ namespace ACAT.Applications.ACATApp
         public static void Main(String[] args)
         {
             // Disallow multiple instances
-            if (FileUtils.CheckAppExistingInstance("ACATMutex"))
+            if (FileUtils.IsACATRunning())
             {
                 return;
             }
 
+            Windows.TurnOffDPIAwareness();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            parseCommandLine(args);
 
             var assembly = Assembly.GetExecutingAssembly();
 
             // get appname and copyright information
             object[] attributes = assembly.GetCustomAttributes(typeof(AssemblyTitleAttribute), false);
-            var appName = (attributes.Length != 0) ? 
-                            ((AssemblyTitleAttribute)attributes[0]).Title : 
-                            String.Empty;
+            var appName = (attributes.Length != 0)
+                ? ((AssemblyTitleAttribute)attributes[0]).Title
+                : String.Empty;
 
-            var appVersion = Strings.Version + assembly.GetName().Version;
-            attributes = assembly.GetCustomAttributes(typeof(AssemblyCopyrightAttribute), false);
-            var appCopyright = (attributes.Length != 0) ? 
-                                ((AssemblyCopyrightAttribute)attributes[0]).Copyright : 
-                                String.Empty;
+            var appVersion = string.Format( Resources.Version0, assembly.GetName().Version);
+            //attributes = assembly.GetCustomAttributes(typeof(AssemblyCopyrightAttribute), false);
+            //var appCopyright = (attributes.Length != 0)
+            //    ? ((AssemblyCopyrightAttribute)attributes[0]).Copyright
+            //    : String.Empty;
+            var appCopyright = Resources.AssemblyCopyright.Replace("\\n", Environment.NewLine);
 
             Log.Info("***** " + appName + ". " + appVersion + ". " + appCopyright + " *****");
-
-            parseCommandLine(args);
-
-            CoreGlobals.AppGlobalPreferences = GlobalPreferences.Load(FileUtils.GetPreferencesFileFullPath(GlobalPreferences.FileName));
+            
+            CoreGlobals.AppGlobalPreferences =
+                GlobalPreferences.Load(FileUtils.GetPreferencesFileFullPath(GlobalPreferences.FileName));
 
             //Set the active user/profile information
             setUserName();
@@ -144,8 +156,13 @@ namespace ACAT.Applications.ACATApp
 
             Log.SetupListeners();
 
-            // Display splash screen and initialize
-            Splash splash = new Splash(FileUtils.GetImagePath("SplashScreenImage.png"), appName, appVersion, appCopyright, 5000);
+            if (!String.IsNullOrEmpty(_panelConfig))
+            {
+                Common.AppPreferences.PreferredPanelConfigNames = _panelConfig + ";" +
+                                                                  Common.AppPreferences.PreferredPanelConfigNames;
+            }
+
+            Splash splash = new Splash(FileUtils.GetImagePath("SplashScreenImage.png"), appName, appVersion, appCopyright, 1000);
             splash.Show();
 
             Context.PreInit();
@@ -169,11 +186,15 @@ namespace ACAT.Applications.ACATApp
             Context.AppAgentMgr.EnableContextualMenusForDialogs = Common.AppPreferences.EnableContextualMenusForDialogs;
             Context.AppAgentMgr.EnableContextualMenusForMenus = Common.AppPreferences.EnableContextualMenusForMenus;
 
-            Context.PostInit();
-
             if (splash != null)
             {
                 splash.Close();
+            }
+
+            if (!Context.PostInit())
+            {
+                MessageBox.Show(Context.GetInitCompletionStatus(), "Initialization Error");
+                return;
             }
 
             Common.Init();
@@ -212,11 +233,12 @@ namespace ACAT.Applications.ACATApp
             try
             {
                 var dir = AppDomain.CurrentDomain.BaseDirectory;
+                var fileName = Path.Combine(dir, batchFileName);
                 Process proc = new Process
                 {
                     StartInfo =
                     {
-                        FileName = Path.Combine(dir, batchFileName),
+                        FileName = fileName,
                         WorkingDirectory = dir,
                         Arguments = userName,
                         UseShellExecute = true
@@ -225,11 +247,18 @@ namespace ACAT.Applications.ACATApp
 
                 proc.Start();
                 proc.WaitForExit();
+                int exitCode = proc.ExitCode;
                 proc.Close();
+
+                retVal = (exitCode == 0);
+                if (!retVal)
+                {
+                    MessageBox.Show("Could not create user.\nThe batch file " + fileName + " returned an error.\n\nPlease run this batch file manually to check the reason", "ACAT Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(Strings.Unable_to_create_user_Error_executing_batchfile + batchFileName + Strings.Error + ex.ToString());
+                MessageBox.Show("Unable to create user. Error executing batchfile " + batchFileName + ".\nError: " + ex.ToString());
                 retVal = false;
             }
             return retVal;
@@ -259,7 +288,7 @@ namespace ACAT.Applications.ACATApp
 
             if (!ProfileManager.ProfileExists(ProfileManager.CurrentProfile))
             {
-                MessageBox.Show(Strings.Could_not_find_profile + ProfileManager.CurrentProfile);
+                MessageBox.Show("Could not find profile " + ProfileManager.CurrentProfile);
                 return false;
             }
 
@@ -296,7 +325,7 @@ namespace ACAT.Applications.ACATApp
             Common.AppPreferences = ACATPreferences.Load();
             if (Common.AppPreferences == null)
             {
-                MessageBox.Show(Strings.Unable_to_read_preferences_from + FileUtils.AppPreferencesDir);
+                MessageBox.Show("Unable to read preferences from " + FileUtils.AppPreferencesDir);
                 return false;
             }
 
@@ -313,6 +342,7 @@ namespace ACAT.Applications.ACATApp
             return true;
         }
 
+        [Obsolete("Criar rotina para definir a cultura em tempo de execução", false)]
         /// <summary>
         /// Parses the command line arguments. Format of the
         /// arguments are -option <option arg>
@@ -335,6 +365,16 @@ namespace ACAT.Applications.ACATApp
                     case "/profile":
                         parseState = ParseState.Profile;
                         break;
+
+                    case "-panelconfig":
+                    case "/panelconfig":
+                        parseState = ParseState.PanelConfig;
+                        break;
+
+                    case "-culture":
+                    case "/culture":
+                        parseState = ParseState.Culture;
+                        break;
                 }
 
                 switch (parseState)
@@ -354,6 +394,19 @@ namespace ACAT.Applications.ACATApp
                             _userName = args[index].Trim();
                         }
 
+                        break;
+
+                    case ParseState.PanelConfig:
+                        if (!isOption(args[index]))
+                        {
+                            _panelConfig = args[index].Trim();
+                        }
+                        break;
+                    case ParseState.Culture:
+                        if (!isOption(args[index]))
+                        {
+                            CultureUtils.SetCulture(args[index].Trim());
+                        }
                         break;
                 }
             }
@@ -386,7 +439,8 @@ namespace ACAT.Applications.ACATApp
             // command line, use the one from GlobalPreferences
             if (string.IsNullOrEmpty(_userName))
             {
-                UserManager.CurrentUser = CoreGlobals.AppGlobalPreferences.CurrentUser.Trim();
+                //UserManager.CurrentUser = CoreGlobals.AppGlobalPreferences.CurrentUser.Trim();
+                UserManager.CurrentUser = "ACAT";  // hardcode for
                 if (String.IsNullOrEmpty(UserManager.CurrentUser))
                 {
                     UserManager.CurrentUser = UserManager.DefaultUserName;

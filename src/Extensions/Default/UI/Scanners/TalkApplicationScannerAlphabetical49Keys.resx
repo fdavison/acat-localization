@@ -1,0 +1,2997 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;Row7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="B26.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Row4.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Phrase3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 25</value>
+  </data>
+  <data name="PWLItem5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 101</value>
+  </data>
+  <data name="OptionsButton1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B3.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton2.Parent" xml:space="preserve">
+    <value>OptionsPanel</value>
+  </data>
+  <data name="&gt;&gt;B24.Name" xml:space="preserve">
+    <value>B24</value>
+  </data>
+  <data name="B80.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;B32.Parent" xml:space="preserve">
+    <value>Row5</value>
+  </data>
+  <data name="B75.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;PWLItem2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="B13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="OptionsButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBoxLeft.Name" xml:space="preserve">
+    <value>WordPredictionBoxLeft</value>
+  </data>
+  <data name="&gt;&gt;B13.Parent" xml:space="preserve">
+    <value>Row2</value>
+  </data>
+  <data name="&gt;&gt;B8.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ScannerBorder.Name" xml:space="preserve">
+    <value>ScannerBorder</value>
+  </data>
+  <data name="Phrase5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B35.Name" xml:space="preserve">
+    <value>B35</value>
+  </data>
+  <data name="B71.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B71.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;B24.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B23.Name" xml:space="preserve">
+    <value>B23</value>
+  </data>
+  <data name="Phrase7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="B25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="PWLItem5.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="Row1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="B73.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Row7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;Row4.Name" xml:space="preserve">
+    <value>Row4</value>
+  </data>
+  <data name="B23.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 3</value>
+  </data>
+  <data name="&gt;&gt;PWLItem7.Parent" xml:space="preserve">
+    <value>WordPredictionBoxRight</value>
+  </data>
+  <data name="&gt;&gt;TextBoxTalkWindow.Name" xml:space="preserve">
+    <value>TextBoxTalkWindow</value>
+  </data>
+  <data name="&gt;&gt;Phrase5.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Phrase7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B12.Parent" xml:space="preserve">
+    <value>Row2</value>
+  </data>
+  <data name="&gt;&gt;Row4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PWLItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 42</value>
+  </data>
+  <data name="&gt;&gt;B8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B33.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B22.Name" xml:space="preserve">
+    <value>B22</value>
+  </data>
+  <data name="&gt;&gt;B23.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="PWLItem4.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="B25.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;Row3.Name" xml:space="preserve">
+    <value>Row3</value>
+  </data>
+  <data name="B33.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="WordPredictionBoxLeft.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="WordPredictionBox.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;B9.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B78.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B30.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;B11.Parent" xml:space="preserve">
+    <value>Row2</value>
+  </data>
+  <data name="&gt;&gt;Row3.Parent" xml:space="preserve">
+    <value>KeyboardPanel</value>
+  </data>
+  <data name="&gt;&gt;Phrase1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;B22.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B21.Name" xml:space="preserve">
+    <value>B21</value>
+  </data>
+  <data name="WordPredictionBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 267</value>
+  </data>
+  <data name="&gt;&gt;B33.Parent" xml:space="preserve">
+    <value>Row5</value>
+  </data>
+  <data name="PWLItem9.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="PWLItem7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 20, 20, 20</value>
+  </data>
+  <data name="B35.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B72.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBoxRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B5.Name" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="&gt;&gt;B18.Parent" xml:space="preserve">
+    <value>Row3</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton5.Name" xml:space="preserve">
+    <value>OptionsButton5</value>
+  </data>
+  <data name="&gt;&gt;B1.Parent" xml:space="preserve">
+    <value>Row1</value>
+  </data>
+  <data name="&gt;&gt;B21.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 32</value>
+  </data>
+  <data name="Row6.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B70" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B71" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B72" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B73" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B74" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B75" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B76" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;B9.Name" xml:space="preserve">
+    <value>B9</value>
+  </data>
+  <data name="Row7.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Phrase6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;PWLItem8.Parent" xml:space="preserve">
+    <value>WordPredictionBoxRight</value>
+  </data>
+  <data name="B10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B17.Parent" xml:space="preserve">
+    <value>Row3</value>
+  </data>
+  <data name="B8.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B30.Name" xml:space="preserve">
+    <value>B30</value>
+  </data>
+  <data name="&gt;&gt;B27.Name" xml:space="preserve">
+    <value>B27</value>
+  </data>
+  <data name="B73.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;B31.Name" xml:space="preserve">
+    <value>B31</value>
+  </data>
+  <data name="B26.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="OptionsButton5.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;Row7.Name" xml:space="preserve">
+    <value>Row7</value>
+  </data>
+  <data name="&gt;&gt;B28.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B10.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PWLItem8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.Parent" xml:space="preserve">
+    <value>ScannerBorder</value>
+  </data>
+  <data name="Row2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B8" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B9" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B10" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B11" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B12" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B13" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B14" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;B26.Name" xml:space="preserve">
+    <value>B26</value>
+  </data>
+  <data name="&gt;&gt;TextBoxTalkWindow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PWLItem7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 3</value>
+  </data>
+  <data name="PWLItem4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B20.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B30.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B28.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="B13.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Phrase1.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="WordPredictionBoxMiddle.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;B16.Parent" xml:space="preserve">
+    <value>Row3</value>
+  </data>
+  <data name="Phrase4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;B7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Phrase2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;PhraseList.Name" xml:space="preserve">
+    <value>PhraseList</value>
+  </data>
+  <data name="B17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;B3.Name" xml:space="preserve">
+    <value>B3</value>
+  </data>
+  <data name="Phrase3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton4.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B7.Name" xml:space="preserve">
+    <value>B7</value>
+  </data>
+  <data name="B28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 25</value>
+  </data>
+  <data name="B70.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;PWLItem9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="WordPredictionBoxRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 244</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton3.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Phrase6.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B15.Parent" xml:space="preserve">
+    <value>Row3</value>
+  </data>
+  <data name="B30.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;B25.Name" xml:space="preserve">
+    <value>B25</value>
+  </data>
+  <data name="&gt;&gt;PWLItem4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;B25.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Row5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;B11.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B26.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;KeyboardPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="B27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="B32.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B76.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RightPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="KeyboardPanel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PhraseList" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,40,Percent,60" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;B33.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Phrase7.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="KeyboardPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Row7" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Row6" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Row1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Row2" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Row3" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Row4" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Row5" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="OptionsPanel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="WordPredictionBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Phrase5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 24pt</value>
+  </data>
+  <data name="&gt;&gt;Phrase2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TalkApplicationScannerAlphabetical_ptBR</value>
+  </data>
+  <data name="&gt;&gt;Phrase7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;B28.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBoxRight.Name" xml:space="preserve">
+    <value>WordPredictionBoxRight</value>
+  </data>
+  <data name="Phrase7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 163</value>
+  </data>
+  <data name="Phrase7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="PWLItem1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Phrase2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 28</value>
+  </data>
+  <data name="&gt;&gt;B32.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;B34.Name" xml:space="preserve">
+    <value>B34</value>
+  </data>
+  <data name="&gt;&gt;TextBoxTalkWindow.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Phrase3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;B9.Parent" xml:space="preserve">
+    <value>Row2</value>
+  </data>
+  <data name="RightPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 3</value>
+  </data>
+  <data name="OptionsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="B7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="OptionsButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 25</value>
+  </data>
+  <data name="&gt;&gt;B80.Parent" xml:space="preserve">
+    <value>Row7</value>
+  </data>
+  <data name="B2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;B31.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;B34.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B33.Name" xml:space="preserve">
+    <value>B33</value>
+  </data>
+  <data name="B18.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 3</value>
+  </data>
+  <data name="B26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 3</value>
+  </data>
+  <data name="PWLItem4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 32</value>
+  </data>
+  <data name="OptionsButton4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 3</value>
+  </data>
+  <data name="B33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="B72.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Phrase4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 25</value>
+  </data>
+  <data name="&gt;&gt;B1.Name" xml:space="preserve">
+    <value>B1</value>
+  </data>
+  <data name="PhraseList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;B33.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;OptionsPanel.Parent" xml:space="preserve">
+    <value>KeyboardPanel</value>
+  </data>
+  <data name="B28.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ScannerBorder.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="PWLItem4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="ScannerBorder.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B27.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 3</value>
+  </data>
+  <data name="B81.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;B10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="WordPredictionBoxMiddle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B7.Parent" xml:space="preserve">
+    <value>Row1</value>
+  </data>
+  <data name="PWLItem6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 24pt</value>
+  </data>
+  <data name="B24.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;B32.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="PWLItem8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Row4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;Phrase3.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="PWLItem2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B12.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem8.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B74.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 3</value>
+  </data>
+  <data name="B82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 3</value>
+  </data>
+  <data name="Row3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 114</value>
+  </data>
+  <data name="&gt;&gt;B29.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="PWLItem1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="B82.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;PWLItem1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PWLItem6.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="OptionsButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OptionsButton4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B31.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="PWLItem6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;PWLItem3.Parent" xml:space="preserve">
+    <value>WordPredictionBoxLeft</value>
+  </data>
+  <data name="&gt;&gt;B4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="B22.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBoxRight.Parent" xml:space="preserve">
+    <value>WordPredictionBox</value>
+  </data>
+  <data name="B71.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B28.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B12.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="B72.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;Row6.Name" xml:space="preserve">
+    <value>Row6</value>
+  </data>
+  <data name="&gt;&gt;PWLItem3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton3.Parent" xml:space="preserve">
+    <value>OptionsPanel</value>
+  </data>
+  <data name="B6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="WordPredictionBoxMiddle.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;B35.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="PWLItem5.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="B16.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B34.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 20, 20, 20</value>
+  </data>
+  <data name="&gt;&gt;Row7.Parent" xml:space="preserve">
+    <value>KeyboardPanel</value>
+  </data>
+  <data name="B4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="B78.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B34.Parent" xml:space="preserve">
+    <value>Row5</value>
+  </data>
+  <data name="Phrase4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;OptionsPanel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="B5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 3</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="B22.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Phrase3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B83.Parent" xml:space="preserve">
+    <value>Row7</value>
+  </data>
+  <data name="&gt;&gt;B5.Parent" xml:space="preserve">
+    <value>Row1</value>
+  </data>
+  <data name="Row6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;B74.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;B20.Parent" xml:space="preserve">
+    <value>Row3</value>
+  </data>
+  <data name="B76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 25</value>
+  </data>
+  <data name="B75.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B11.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;PWLItem1.Parent" xml:space="preserve">
+    <value>WordPredictionBoxLeft</value>
+  </data>
+  <data name="PWLItem4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="B81.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;B14.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Row1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 40</value>
+  </data>
+  <data name="PWLItem4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 3</value>
+  </data>
+  <data name="&gt;&gt;B4.Name" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="&gt;&gt;B82.Parent" xml:space="preserve">
+    <value>Row7</value>
+  </data>
+  <data name="B9.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="PWLItem9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 20, 20, 20</value>
+  </data>
+  <data name="&gt;&gt;B70.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B27.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Phrase4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B13.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PWLItem5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Row3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 31</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PWLItem2.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B17.Name" xml:space="preserve">
+    <value>B17</value>
+  </data>
+  <data name="B19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 3</value>
+  </data>
+  <data name="&gt;&gt;B81.Parent" xml:space="preserve">
+    <value>Row7</value>
+  </data>
+  <data name="&gt;&gt;PWLItem1.Name" xml:space="preserve">
+    <value>PWLItem1</value>
+  </data>
+  <data name="PWLItem2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 101</value>
+  </data>
+  <data name="WordPredictionBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B35.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B29.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PWLItem3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="WordPredictionBoxMiddle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 0</value>
+  </data>
+  <data name="PWLItem6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem6.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="OptionsButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 3</value>
+  </data>
+  <data name="Phrase1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 21.75pt</value>
+  </data>
+  <data name="&gt;&gt;B31.Parent" xml:space="preserve">
+    <value>Row5</value>
+  </data>
+  <data name="B77.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;B12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B31.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="RightPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Row7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 38</value>
+  </data>
+  <data name="WordPredictionBoxRight.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="PWLItem2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B79.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B4.Parent" xml:space="preserve">
+    <value>Row1</value>
+  </data>
+  <data name="&gt;&gt;B34.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;B70.Parent" xml:space="preserve">
+    <value>Row6</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton4.Parent" xml:space="preserve">
+    <value>OptionsPanel</value>
+  </data>
+  <data name="B3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;KeyboardPanel.Name" xml:space="preserve">
+    <value>KeyboardPanel</value>
+  </data>
+  <data name="PWLItem8.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PWLItem5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Row4.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TextBoxTalkWindow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 21.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Phrase4.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Phrase1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="&gt;&gt;PWLItem7.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="WordPredictionBox.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;B24.Parent" xml:space="preserve">
+    <value>Row4</value>
+  </data>
+  <data name="Phrase5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Row4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 31</value>
+  </data>
+  <data name="B71.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B18.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 3</value>
+  </data>
+  <data name="B22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;B18.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;PWLItem9.Parent" xml:space="preserve">
+    <value>WordPredictionBoxRight</value>
+  </data>
+  <data name="B35.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;PWLItem2.Name" xml:space="preserve">
+    <value>PWLItem2</value>
+  </data>
+  <data name="PWLItem7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;B23.Parent" xml:space="preserve">
+    <value>Row4</value>
+  </data>
+  <data name="&gt;&gt;B2.Name" xml:space="preserve">
+    <value>B2</value>
+  </data>
+  <data name="B77.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;B6.Name" xml:space="preserve">
+    <value>B6</value>
+  </data>
+  <data name="B14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Phrase5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 109</value>
+  </data>
+  <data name="&gt;&gt;B17.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ScannerBorder.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Row2.Name" xml:space="preserve">
+    <value>Row2</value>
+  </data>
+  <data name="B25.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="WordPredictionBoxLeft.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;B2.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B22.Parent" xml:space="preserve">
+    <value>Row4</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton1.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="OptionsButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 25</value>
+  </data>
+  <data name="B24.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B71.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Row1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B35.Parent" xml:space="preserve">
+    <value>Row5</value>
+  </data>
+  <data name="B70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;B16.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="B16.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton1.Parent" xml:space="preserve">
+    <value>OptionsPanel</value>
+  </data>
+  <data name="&gt;&gt;Row1.Name" xml:space="preserve">
+    <value>Row1</value>
+  </data>
+  <data name="PWLItem5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 32</value>
+  </data>
+  <data name="&gt;&gt;B21.Parent" xml:space="preserve">
+    <value>Row3</value>
+  </data>
+  <data name="&gt;&gt;Row3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="B19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="ScannerBorder.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="WordPredictionBoxLeft.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="PWLItem3" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PWLItem2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PWLItem1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,33,33333,Percent,33,33333,Percent,33,33333" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="B18.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Row3.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;B80.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;B15.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;B7.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="PWLItem3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="PWLItem1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="Row2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 77</value>
+  </data>
+  <data name="B9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 3</value>
+  </data>
+  <data name="&gt;&gt;PWLItem3.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="RightPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>407, 505</value>
+  </data>
+  <data name="B13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;B28.Parent" xml:space="preserve">
+    <value>Row4</value>
+  </data>
+  <data name="B29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="PWLItem2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="B5.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;PWLItem9.Name" xml:space="preserve">
+    <value>PWLItem9</value>
+  </data>
+  <data name="PWLItem9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B82.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B21.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="B31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 3</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBoxMiddle.Name" xml:space="preserve">
+    <value>WordPredictionBoxMiddle</value>
+  </data>
+  <data name="&gt;&gt;B10.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;B27.Parent" xml:space="preserve">
+    <value>Row4</value>
+  </data>
+  <data name="OptionsButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 25</value>
+  </data>
+  <data name="KeyboardPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PWLItem1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 20, 20, 20</value>
+  </data>
+  <data name="OptionsButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 25</value>
+  </data>
+  <data name="PWLItem7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="PWLItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 41</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Row1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B3" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B4" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B5" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B6" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B7" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;Row2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="B24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 3</value>
+  </data>
+  <data name="B82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 32</value>
+  </data>
+  <data name="B30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 3</value>
+  </data>
+  <data name="OptionsPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B70.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B26.Parent" xml:space="preserve">
+    <value>Row4</value>
+  </data>
+  <data name="&gt;&gt;PWLItem4.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="B8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;B71.Parent" xml:space="preserve">
+    <value>Row6</value>
+  </data>
+  <data name="OptionsButton1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B82.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="B73.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B76.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 20, 20, 20</value>
+  </data>
+  <data name="PWLItem5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="B8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B70.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OptionsButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Phrase1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="B14.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B19.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="B71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="OptionsButton2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B73.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B80.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 3</value>
+  </data>
+  <data name="B14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 25</value>
+  </data>
+  <data name="ScannerBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="PhraseList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 196</value>
+  </data>
+  <data name="B82.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B16.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B9.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Row2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;B83.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBoxMiddle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;B70.Name" xml:space="preserve">
+    <value>B70</value>
+  </data>
+  <data name="PWLItem1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;B77.Parent" xml:space="preserve">
+    <value>Row7</value>
+  </data>
+  <data name="OptionsButton3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton2.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;KeyboardPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B73.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="WordPredictionBoxRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="RightPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B78.Parent" xml:space="preserve">
+    <value>Row7</value>
+  </data>
+  <data name="PWLItem6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;B14.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B14.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="OptionsButton1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;ScannerBorder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PWLItem5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 3</value>
+  </data>
+  <data name="&gt;&gt;B82.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;PWLItem5.Parent" xml:space="preserve">
+    <value>WordPredictionBoxMiddle</value>
+  </data>
+  <data name="B75.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B76.Parent" xml:space="preserve">
+    <value>Row6</value>
+  </data>
+  <data name="&gt;&gt;B12.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Row7.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B77" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B78" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B79" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B80" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B81" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B82" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B83" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="Row2.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Phrase4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 24pt</value>
+  </data>
+  <data name="&gt;&gt;B13.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="PWLItem5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 3</value>
+  </data>
+  <data name="KeyboardPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 202</value>
+  </data>
+  <data name="B8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="B81.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;B74.Parent" xml:space="preserve">
+    <value>Row6</value>
+  </data>
+  <data name="&gt;&gt;B81.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PhraseList.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Phrase1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Phrase2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Phrase3" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Phrase4" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Phrase5" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Phrase6" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Phrase7" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Absolute,20,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="Row6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B75.Parent" xml:space="preserve">
+    <value>Row6</value>
+  </data>
+  <data name="RightPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;B6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="B34.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="OptionsButton3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;Phrase5.Parent" xml:space="preserve">
+    <value>PhraseList</value>
+  </data>
+  <data name="B81.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B32.Name" xml:space="preserve">
+    <value>B32</value>
+  </data>
+  <data name="&gt;&gt;B29.Parent" xml:space="preserve">
+    <value>Row5</value>
+  </data>
+  <data name="&gt;&gt;B80.Name" xml:space="preserve">
+    <value>B80</value>
+  </data>
+  <data name="Phrase3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 24pt</value>
+  </data>
+  <data name="B72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 3</value>
+  </data>
+  <data name="WordPredictionBox.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="WordPredictionBoxLeft" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="WordPredictionBoxMiddle" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="WordPredictionBoxRight" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,33,33333,Percent,33,33333,Percent,33,33333" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="PWLItem8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton2.Name" xml:space="preserve">
+    <value>OptionsButton2</value>
+  </data>
+  <data name="Row2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;PWLItem4.Parent" xml:space="preserve">
+    <value>WordPredictionBoxMiddle</value>
+  </data>
+  <data name="B78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 32</value>
+  </data>
+  <data name="Row1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B24.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="B29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;PWLItem4.Name" xml:space="preserve">
+    <value>PWLItem4</value>
+  </data>
+  <data name="&gt;&gt;PWLItem5.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Phrase6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="WordPredictionBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>766, 244</value>
+  </data>
+  <data name="ScannerBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1179, 511</value>
+  </data>
+  <data name="Phrase7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton5.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;Row4.Parent" xml:space="preserve">
+    <value>KeyboardPanel</value>
+  </data>
+  <data name="B70.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Phrase2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 25</value>
+  </data>
+  <data name="&gt;&gt;B18.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBoxRight.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PWLItem4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="PWLItem3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;Row1.Parent" xml:space="preserve">
+    <value>KeyboardPanel</value>
+  </data>
+  <data name="&gt;&gt;B73.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PWLItem7.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B73.Name" xml:space="preserve">
+    <value>B73</value>
+  </data>
+  <data name="Row4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B22" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B23" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B24" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B25" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B26" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B27" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B28" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="B32.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;B14.Parent" xml:space="preserve">
+    <value>Row2</value>
+  </data>
+  <data name="B17.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Phrase1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B8.Name" xml:space="preserve">
+    <value>B8</value>
+  </data>
+  <data name="B16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBoxMiddle.Parent" xml:space="preserve">
+    <value>WordPredictionBox</value>
+  </data>
+  <data name="B1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;B17.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="KeyboardPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Row5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;PWLItem3.Name" xml:space="preserve">
+    <value>PWLItem3</value>
+  </data>
+  <data name="B19.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;B72.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TextBoxTalkWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>760, 261</value>
+  </data>
+  <data name="B74.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PWLItem2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 20, 20, 20</value>
+  </data>
+  <data name="&gt;&gt;B28.Name" xml:space="preserve">
+    <value>B28</value>
+  </data>
+  <data name="&gt;&gt;B79.Parent" xml:space="preserve">
+    <value>Row7</value>
+  </data>
+  <data name="B26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;B20.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Phrase1.Parent" xml:space="preserve">
+    <value>PhraseList</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OptionsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 31</value>
+  </data>
+  <data name="B4.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B71.Name" xml:space="preserve">
+    <value>B71</value>
+  </data>
+  <data name="B78.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;B71.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBoxLeft.Parent" xml:space="preserve">
+    <value>WordPredictionBox</value>
+  </data>
+  <data name="B3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Phrase1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="PWLItem6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="B6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="B79.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="OptionsButton5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B15.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="WordPredictionBoxRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 0</value>
+  </data>
+  <data name="Phrase3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;B6.Parent" xml:space="preserve">
+    <value>Row1</value>
+  </data>
+  <data name="&gt;&gt;B78.Name" xml:space="preserve">
+    <value>B78</value>
+  </data>
+  <data name="B7.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Row1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 31</value>
+  </data>
+  <data name="OptionsButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 25</value>
+  </data>
+  <data name="&gt;&gt;B78.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;PWLItem1.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="OptionsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="B77.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;B3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBoxLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WordPredictionBoxRight.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Phrase7.Parent" xml:space="preserve">
+    <value>PhraseList</value>
+  </data>
+  <data name="Row7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 262</value>
+  </data>
+  <data name="&gt;&gt;B82.Name" xml:space="preserve">
+    <value>B82</value>
+  </data>
+  <data name="Row3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B80.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B83.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;B77.Name" xml:space="preserve">
+    <value>B77</value>
+  </data>
+  <data name="Row4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;PWLItem6.Parent" xml:space="preserve">
+    <value>WordPredictionBoxMiddle</value>
+  </data>
+  <data name="&gt;&gt;B77.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Phrase6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="B7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="PWLItem3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 182</value>
+  </data>
+  <data name="B25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 3</value>
+  </data>
+  <data name="Row6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 31</value>
+  </data>
+  <data name="B83.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;B81.Name" xml:space="preserve">
+    <value>B81</value>
+  </data>
+  <data name="B81.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 3</value>
+  </data>
+  <data name="&gt;&gt;PWLItem8.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PWLItem6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Row7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;B19.Parent" xml:space="preserve">
+    <value>Row3</value>
+  </data>
+  <data name="&gt;&gt;B76.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="PWLItem9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Phrase4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B75.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="WordPredictionBoxLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 244</value>
+  </data>
+  <data name="&gt;&gt;OptionsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="B5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="B3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 3</value>
+  </data>
+  <data name="Row2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 31</value>
+  </data>
+  <data name="&gt;&gt;B24.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;B75.Name" xml:space="preserve">
+    <value>B75</value>
+  </data>
+  <data name="Row4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 151</value>
+  </data>
+  <data name="Row1.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Phrase2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;B75.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="B13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 3</value>
+  </data>
+  <data name="B76.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B34.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 20, 20, 20</value>
+  </data>
+  <data name="OptionsButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="WordPredictionBoxMiddle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ScannerBorder.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="TextBoxTalkWindow" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="WordPredictionBox" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="RightPanel" Row="0" RowSpan="2" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,65,05513,Percent,34,94487" /&gt;&lt;Rows Styles="Percent,60,Percent,40" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="B5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;B23.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="KeyboardPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;B19.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="PWLItem8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="PhraseList.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B15.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="WordPredictionBoxRight.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="WordPredictionBoxRight.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="PWLItem7" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PWLItem8" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PWLItem9" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,33,33333,Percent,33,33333,Percent,33,33333" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TextBoxTalkWindow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Phrase5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="B17.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;Phrase3.Parent" xml:space="preserve">
+    <value>PhraseList</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton3.Name" xml:space="preserve">
+    <value>OptionsButton3</value>
+  </data>
+  <data name="WordPredictionBoxMiddle.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="PWLItem6" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PWLItem4" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PWLItem5" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,33,33333,Percent,33,33333,Percent,33,33333" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="Phrase3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 55</value>
+  </data>
+  <data name="&gt;&gt;B22.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Row1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="B80.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Phrase7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="B1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Row6.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Row6.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B3.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B74.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B73.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 3</value>
+  </data>
+  <data name="B11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;B5.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B13.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;Row6.Parent" xml:space="preserve">
+    <value>KeyboardPanel</value>
+  </data>
+  <data name="B35.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="OptionsButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 3</value>
+  </data>
+  <data name="&gt;&gt;B9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;B3.Parent" xml:space="preserve">
+    <value>Row1</value>
+  </data>
+  <data name="PWLItem9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 182</value>
+  </data>
+  <data name="&gt;&gt;B2.Parent" xml:space="preserve">
+    <value>Row1</value>
+  </data>
+  <data name="PWLItem2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="B2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;PWLItem8.Name" xml:space="preserve">
+    <value>PWLItem8</value>
+  </data>
+  <data name="B31.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B10.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 41</value>
+  </data>
+  <data name="PWLItem1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;B1.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B80.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;PWLItem5.Name" xml:space="preserve">
+    <value>PWLItem5</value>
+  </data>
+  <data name="&gt;&gt;B79.Name" xml:space="preserve">
+    <value>B79</value>
+  </data>
+  <data name="&gt;&gt;B25.Parent" xml:space="preserve">
+    <value>Row4</value>
+  </data>
+  <data name="B75.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 3</value>
+  </data>
+  <data name="B75.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="B4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;B70.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Phrase1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Phrase6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PWLItem9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 42</value>
+  </data>
+  <data name="B76.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;B79.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 3</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton5.Parent" xml:space="preserve">
+    <value>OptionsPanel</value>
+  </data>
+  <data name="WordPredictionBox.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="KeyboardPanel.RowCount" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="PWLItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 41</value>
+  </data>
+  <data name="B12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B83.Name" xml:space="preserve">
+    <value>B83</value>
+  </data>
+  <data name="&gt;&gt;B27.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="B78.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B11.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 25</value>
+  </data>
+  <data name="B15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="OptionsButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 3</value>
+  </data>
+  <data name="B81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 32</value>
+  </data>
+  <data name="&gt;&gt;Phrase4.Name" xml:space="preserve">
+    <value>Phrase4</value>
+  </data>
+  <data name="PWLItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 41</value>
+  </data>
+  <data name="&gt;&gt;B8.Parent" xml:space="preserve">
+    <value>Row2</value>
+  </data>
+  <data name="WordPredictionBoxRight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1179, 511</value>
+  </data>
+  <data name="B15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="B27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 3</value>
+  </data>
+  <data name="TextBoxTalkWindow.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Row7.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 3</value>
+  </data>
+  <data name="&gt;&gt;B26.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Phrase2.Parent" xml:space="preserve">
+    <value>PhraseList</value>
+  </data>
+  <data name="&gt;&gt;TextBoxTalkWindow.Parent" xml:space="preserve">
+    <value>ScannerBorder</value>
+  </data>
+  <data name="&gt;&gt;Phrase5.Name" xml:space="preserve">
+    <value>Phrase5</value>
+  </data>
+  <data name="&gt;&gt;B2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TextBoxTalkWindow.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B83.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B78.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 3</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBoxLeft.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.Name" xml:space="preserve">
+    <value>RightPanel</value>
+  </data>
+  <data name="&gt;&gt;PWLItem6.Name" xml:space="preserve">
+    <value>PWLItem6</value>
+  </data>
+  <data name="B32.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 41</value>
+  </data>
+  <data name="&gt;&gt;B25.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ScannerBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Phrase4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 82</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="PWLItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 42</value>
+  </data>
+  <data name="B83.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 25</value>
+  </data>
+  <data name="&gt;&gt;Phrase4.Parent" xml:space="preserve">
+    <value>PhraseList</value>
+  </data>
+  <data name="B11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Row3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;KeyboardPanel.Parent" xml:space="preserve">
+    <value>RightPanel</value>
+  </data>
+  <data name="B83.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 3</value>
+  </data>
+  <data name="&gt;&gt;Row6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;PWLItem9.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Row3.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B23.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B77.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PhraseList.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="PWLItem1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Row2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OptionsButton5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="PWLItem6.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="Row6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 225</value>
+  </data>
+  <data name="B21.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;Row5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B10.Name" xml:space="preserve">
+    <value>B10</value>
+  </data>
+  <data name="B2.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;Row2.Parent" xml:space="preserve">
+    <value>KeyboardPanel</value>
+  </data>
+  <data name="OptionsPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="B6.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B72.Name" xml:space="preserve">
+    <value>B72</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBoxMiddle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="B74.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="OptionsButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B74.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B74.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PWLItem2.Parent" xml:space="preserve">
+    <value>WordPredictionBoxLeft</value>
+  </data>
+  <data name="B31.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="WordPredictionBoxLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Phrase5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Phrase5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="B77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 32</value>
+  </data>
+  <data name="&gt;&gt;B29.Name" xml:space="preserve">
+    <value>B29</value>
+  </data>
+  <data name="&gt;&gt;Phrase1.Name" xml:space="preserve">
+    <value>Phrase1</value>
+  </data>
+  <data name="B17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 3</value>
+  </data>
+  <data name="B9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ScannerBorder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;B73.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="B20.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="B18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="Phrase6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 25</value>
+  </data>
+  <data name="B79.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B74.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="B23.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;B29.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Phrase6.Name" xml:space="preserve">
+    <value>Phrase6</value>
+  </data>
+  <data name="B7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 3</value>
+  </data>
+  <data name="&gt;&gt;B11.Name" xml:space="preserve">
+    <value>B11</value>
+  </data>
+  <data name="B35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 3</value>
+  </data>
+  <data name="&gt;&gt;B72.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Row5.Parent" xml:space="preserve">
+    <value>KeyboardPanel</value>
+  </data>
+  <data name="B12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;B76.Name" xml:space="preserve">
+    <value>B76</value>
+  </data>
+  <data name="Phrase2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 20, 20, 20</value>
+  </data>
+  <data name="&gt;&gt;PhraseList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WordPredictionBoxMiddle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 244</value>
+  </data>
+  <data name="Row5.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Row5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 188</value>
+  </data>
+  <data name="OptionsButton4.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B27.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="PWLItem2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Phrase7.Name" xml:space="preserve">
+    <value>Phrase7</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBox.Name" xml:space="preserve">
+    <value>WordPredictionBox</value>
+  </data>
+  <data name="B22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;B14.Name" xml:space="preserve">
+    <value>B14</value>
+  </data>
+  <data name="B19.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B10.Parent" xml:space="preserve">
+    <value>Row2</value>
+  </data>
+  <data name="OptionsPanel.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PWLItem9.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Phrase6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 21.75pt</value>
+  </data>
+  <data name="Row5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B29" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B30" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B31" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B32" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B33" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B34" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B35" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="B20.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;Phrase6.Parent" xml:space="preserve">
+    <value>PhraseList</value>
+  </data>
+  <data name="WordPredictionBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBox.Parent" xml:space="preserve">
+    <value>ScannerBorder</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;B78.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B13.Name" xml:space="preserve">
+    <value>B13</value>
+  </data>
+  <data name="Phrase5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 25</value>
+  </data>
+  <data name="&gt;&gt;B73.Parent" xml:space="preserve">
+    <value>Row6</value>
+  </data>
+  <data name="B72.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B29.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B80.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="PWLItem7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 41</value>
+  </data>
+  <data name="B21.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B17.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PWLItem1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="OptionsButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 25</value>
+  </data>
+  <data name="&gt;&gt;B5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="B19.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="KeyboardPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>407, 303</value>
+  </data>
+  <data name="&gt;&gt;B12.Name" xml:space="preserve">
+    <value>B12</value>
+  </data>
+  <data name="&gt;&gt;B77.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Phrase7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 32</value>
+  </data>
+  <data name="B79.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 3</value>
+  </data>
+  <data name="Phrase6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="WordPredictionBoxLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="WordPredictionBoxLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Phrase2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="&gt;&gt;Row6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Phrase2.Name" xml:space="preserve">
+    <value>Phrase2</value>
+  </data>
+  <data name="B11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 3</value>
+  </data>
+  <data name="B1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="B23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 3</value>
+  </data>
+  <data name="&gt;&gt;B21.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="OptionsButton2.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Phrase1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B29.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Phrase2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;B74.Name" xml:space="preserve">
+    <value>B74</value>
+  </data>
+  <data name="&gt;&gt;B76.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Row5.Name" xml:space="preserve">
+    <value>Row5</value>
+  </data>
+  <data name="OptionsButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 3</value>
+  </data>
+  <data name="&gt;&gt;PhraseList.Parent" xml:space="preserve">
+    <value>RightPanel</value>
+  </data>
+  <data name="PWLItem7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B22.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B79.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 3</value>
+  </data>
+  <data name="&gt;&gt;PWLItem7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Phrase2.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B15.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Row5.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Phrase6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 136</value>
+  </data>
+  <data name="&gt;&gt;Phrase3.Name" xml:space="preserve">
+    <value>Phrase3</value>
+  </data>
+  <data name="B30.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;OptionsPanel.Name" xml:space="preserve">
+    <value>OptionsPanel</value>
+  </data>
+  <data name="PWLItem3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 20, 20, 20</value>
+  </data>
+  <data name="&gt;&gt;B30.Parent" xml:space="preserve">
+    <value>Row5</value>
+  </data>
+  <data name="&gt;&gt;B18.Name" xml:space="preserve">
+    <value>B18</value>
+  </data>
+  <data name="&gt;&gt;B75.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Phrase2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 24pt</value>
+  </data>
+  <data name="Row5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B6.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Phrase7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 24pt</value>
+  </data>
+  <data name="B33.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ScannerBorder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Row4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Phrase3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="B16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 3</value>
+  </data>
+  <data name="B71.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 3</value>
+  </data>
+  <data name="WordPredictionBoxLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="RightPanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Row3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Row1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PWLItem3.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="Row3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B15" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B16" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B17" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B18" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B19" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B20" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B21" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="OptionsPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="OptionsButton1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="OptionsButton2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="OptionsButton3" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="OptionsButton4" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="OptionsButton5" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="PhraseList.RowCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B27.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B19.Name" xml:space="preserve">
+    <value>B19</value>
+  </data>
+  <data name="Phrase3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="&gt;&gt;B20.Name" xml:space="preserve">
+    <value>B20</value>
+  </data>
+  <data name="B26.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="B1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="PWLItem8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 101</value>
+  </data>
+  <data name="B6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="WordPredictionBoxMiddle.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;B16.Name" xml:space="preserve">
+    <value>B16</value>
+  </data>
+  <data name="B4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;B11.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PhraseList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;B20.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B83.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B4.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="OptionsButton3.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Talk App</value>
+  </data>
+  <data name="B76.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 3</value>
+  </data>
+  <data name="B28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 3</value>
+  </data>
+  <data name="&gt;&gt;B15.Name" xml:space="preserve">
+    <value>B15</value>
+  </data>
+  <data name="KeyboardPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;PhraseList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="B25.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Phrase4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Row5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 31</value>
+  </data>
+  <data name="TextBoxTalkWindow.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;B82.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="PWLItem3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="WordPredictionBoxLeft.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Phrase4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton1.Name" xml:space="preserve">
+    <value>OptionsButton1</value>
+  </data>
+  <data name="Row7.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B30.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 182</value>
+  </data>
+  <data name="&gt;&gt;B1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="&gt;&gt;PWLItem7.Name" xml:space="preserve">
+    <value>PWLItem7</value>
+  </data>
+  <data name="&gt;&gt;B72.Parent" xml:space="preserve">
+    <value>Row6</value>
+  </data>
+  <data name="&gt;&gt;B79.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Phrase1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 25</value>
+  </data>
+  <data name="PWLItem9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;Phrase5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;B81.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="B2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="OptionsButton2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Row2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;OptionsButton4.Name" xml:space="preserve">
+    <value>OptionsButton4</value>
+  </data>
+  <data name="Phrase6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="WordPredictionBoxMiddle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>pt-BR</value>
+  </metadata>
+</root>

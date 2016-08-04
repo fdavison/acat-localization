@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GeneralSettingsForm));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.pbEnableAuditLog = new System.Windows.Forms.Label();
+            this.lblEnableAuditLog = new System.Windows.Forms.Label();
             this.pbExpandAbbreviationsOnSeparator = new System.Windows.Forms.Label();
             this.lblExpandAbbreviationsOnSeparator = new System.Windows.Forms.Label();
             this.pbScannerAutoSaveLastPosition = new System.Windows.Forms.Label();
@@ -48,17 +51,13 @@
             this.lblOK = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pbEnableAuditLog = new System.Windows.Forms.Label();
-            this.lblEnableAuditLog = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13.7533F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 86.2467F));
+            resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
             this.tableLayoutPanel1.Controls.Add(this.pbEnableAuditLog, 0, 7);
             this.tableLayoutPanel1.Controls.Add(this.lblEnableAuditLog, 0, 7);
             this.tableLayoutPanel1.Controls.Add(this.pbExpandAbbreviationsOnSeparator, 0, 5);
@@ -75,237 +74,135 @@
             this.tableLayoutPanel1.Controls.Add(this.lblShowTalkWindowOnStartup, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.pbHideScannersOnIdle, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.lblRetainTalkWindowText, 1, 4);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(43, 50);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 8;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(458, 306);
-            this.tableLayoutPanel1.TabIndex = 141;
+            // 
+            // pbEnableAuditLog
+            // 
+            resources.ApplyResources(this.pbEnableAuditLog, "pbEnableAuditLog");
+            this.pbEnableAuditLog.Name = "pbEnableAuditLog";
+            // 
+            // lblEnableAuditLog
+            // 
+            resources.ApplyResources(this.lblEnableAuditLog, "lblEnableAuditLog");
+            this.lblEnableAuditLog.Name = "lblEnableAuditLog";
             // 
             // pbExpandAbbreviationsOnSeparator
             // 
-            this.pbExpandAbbreviationsOnSeparator.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pbExpandAbbreviationsOnSeparator.Location = new System.Drawing.Point(3, 190);
+            resources.ApplyResources(this.pbExpandAbbreviationsOnSeparator, "pbExpandAbbreviationsOnSeparator");
             this.pbExpandAbbreviationsOnSeparator.Name = "pbExpandAbbreviationsOnSeparator";
-            this.pbExpandAbbreviationsOnSeparator.Size = new System.Drawing.Size(34, 28);
-            this.pbExpandAbbreviationsOnSeparator.TabIndex = 140;
-            this.pbExpandAbbreviationsOnSeparator.Text = Strings.N;
             // 
             // lblExpandAbbreviationsOnSeparator
             // 
-            this.lblExpandAbbreviationsOnSeparator.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExpandAbbreviationsOnSeparator.Location = new System.Drawing.Point(65, 190);
+            resources.ApplyResources(this.lblExpandAbbreviationsOnSeparator, "lblExpandAbbreviationsOnSeparator");
             this.lblExpandAbbreviationsOnSeparator.Name = "lblExpandAbbreviationsOnSeparator";
-            this.lblExpandAbbreviationsOnSeparator.Size = new System.Drawing.Size(390, 29);
-            this.lblExpandAbbreviationsOnSeparator.TabIndex = 139;
-            this.lblExpandAbbreviationsOnSeparator.Text = Strings.Expand_abbreviations_on_separator;
-            this.lblExpandAbbreviationsOnSeparator.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pbScannerAutoSaveLastPosition
             // 
-            this.pbScannerAutoSaveLastPosition.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pbScannerAutoSaveLastPosition.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pbScannerAutoSaveLastPosition.Location = new System.Drawing.Point(3, 0);
+            resources.ApplyResources(this.pbScannerAutoSaveLastPosition, "pbScannerAutoSaveLastPosition");
             this.pbScannerAutoSaveLastPosition.Name = "pbScannerAutoSaveLastPosition";
-            this.pbScannerAutoSaveLastPosition.Size = new System.Drawing.Size(56, 38);
-            this.pbScannerAutoSaveLastPosition.TabIndex = 117;
-            this.pbScannerAutoSaveLastPosition.Text = Strings.N;
-            this.pbScannerAutoSaveLastPosition.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pbEnableDebugTraceLogging
             // 
-            this.pbEnableDebugTraceLogging.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pbEnableDebugTraceLogging.Location = new System.Drawing.Point(3, 228);
+            resources.ApplyResources(this.pbEnableDebugTraceLogging, "pbEnableDebugTraceLogging");
             this.pbEnableDebugTraceLogging.Name = "pbEnableDebugTraceLogging";
-            this.pbEnableDebugTraceLogging.Size = new System.Drawing.Size(34, 28);
-            this.pbEnableDebugTraceLogging.TabIndex = 133;
-            this.pbEnableDebugTraceLogging.Text = Strings.N;
             // 
             // lblScannerAutoSaveLastPosition
             // 
-            this.lblScannerAutoSaveLastPosition.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScannerAutoSaveLastPosition.Location = new System.Drawing.Point(65, 0);
+            resources.ApplyResources(this.lblScannerAutoSaveLastPosition, "lblScannerAutoSaveLastPosition");
             this.lblScannerAutoSaveLastPosition.Name = "lblScannerAutoSaveLastPosition";
-            this.lblScannerAutoSaveLastPosition.Size = new System.Drawing.Size(390, 29);
-            this.lblScannerAutoSaveLastPosition.TabIndex = 115;
-            this.lblScannerAutoSaveLastPosition.Text = Strings.Auto_save_scanner_last_position;
-            this.lblScannerAutoSaveLastPosition.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pbRetainTalkWindowText
             // 
-            this.pbRetainTalkWindowText.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pbRetainTalkWindowText.Location = new System.Drawing.Point(3, 152);
+            resources.ApplyResources(this.pbRetainTalkWindowText, "pbRetainTalkWindowText");
             this.pbRetainTalkWindowText.Name = "pbRetainTalkWindowText";
-            this.pbRetainTalkWindowText.Size = new System.Drawing.Size(34, 28);
-            this.pbRetainTalkWindowText.TabIndex = 131;
-            this.pbRetainTalkWindowText.Text = Strings.N;
             // 
             // lblHideScannersOnIdle
             // 
-            this.lblHideScannersOnIdle.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHideScannersOnIdle.Location = new System.Drawing.Point(65, 38);
+            resources.ApplyResources(this.lblHideScannersOnIdle, "lblHideScannersOnIdle");
             this.lblHideScannersOnIdle.Name = "lblHideScannersOnIdle";
-            this.lblHideScannersOnIdle.Size = new System.Drawing.Size(338, 29);
-            this.lblHideScannersOnIdle.TabIndex = 124;
-            this.lblHideScannersOnIdle.Text = Strings.Hide_scanners_on_idle;
-            this.lblHideScannersOnIdle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pbShowTalkWindowOnStartup
             // 
-            this.pbShowTalkWindowOnStartup.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pbShowTalkWindowOnStartup.Location = new System.Drawing.Point(3, 114);
+            resources.ApplyResources(this.pbShowTalkWindowOnStartup, "pbShowTalkWindowOnStartup");
             this.pbShowTalkWindowOnStartup.Name = "pbShowTalkWindowOnStartup";
-            this.pbShowTalkWindowOnStartup.Size = new System.Drawing.Size(34, 28);
-            this.pbShowTalkWindowOnStartup.TabIndex = 129;
-            this.pbShowTalkWindowOnStartup.Text = Strings.N;
             // 
             // lblEnableDebugTraceLogging
             // 
-            this.lblEnableDebugTraceLogging.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEnableDebugTraceLogging.Location = new System.Drawing.Point(65, 228);
+            resources.ApplyResources(this.lblEnableDebugTraceLogging, "lblEnableDebugTraceLogging");
             this.lblEnableDebugTraceLogging.Name = "lblEnableDebugTraceLogging";
-            this.lblEnableDebugTraceLogging.Size = new System.Drawing.Size(382, 29);
-            this.lblEnableDebugTraceLogging.TabIndex = 132;
-            this.lblEnableDebugTraceLogging.Text = "Enable debug trace logging";
-            this.lblEnableDebugTraceLogging.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pbShowGlass
             // 
-            this.pbShowGlass.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pbShowGlass.Location = new System.Drawing.Point(3, 76);
+            resources.ApplyResources(this.pbShowGlass, "pbShowGlass");
             this.pbShowGlass.Name = "pbShowGlass";
-            this.pbShowGlass.Size = new System.Drawing.Size(34, 28);
-            this.pbShowGlass.TabIndex = 127;
-            this.pbShowGlass.Text = Strings.N;
             // 
             // lblShowGlass
             // 
-            this.lblShowGlass.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblShowGlass.Location = new System.Drawing.Point(65, 76);
+            resources.ApplyResources(this.lblShowGlass, "lblShowGlass");
             this.lblShowGlass.Name = "lblShowGlass";
-            this.lblShowGlass.Size = new System.Drawing.Size(361, 29);
-            this.lblShowGlass.TabIndex = 126;
-            this.lblShowGlass.Text = Strings.Show_glass_under_Talk_window;
-            this.lblShowGlass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblShowTalkWindowOnStartup
             // 
-            this.lblShowTalkWindowOnStartup.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblShowTalkWindowOnStartup.Location = new System.Drawing.Point(65, 114);
+            resources.ApplyResources(this.lblShowTalkWindowOnStartup, "lblShowTalkWindowOnStartup");
             this.lblShowTalkWindowOnStartup.Name = "lblShowTalkWindowOnStartup";
-            this.lblShowTalkWindowOnStartup.Size = new System.Drawing.Size(390, 29);
-            this.lblShowTalkWindowOnStartup.TabIndex = 128;
-            this.lblShowTalkWindowOnStartup.Text = Strings.Show_Talk_window_on_startup;
-            this.lblShowTalkWindowOnStartup.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pbHideScannersOnIdle
             // 
-            this.pbHideScannersOnIdle.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pbHideScannersOnIdle.Location = new System.Drawing.Point(3, 38);
+            resources.ApplyResources(this.pbHideScannersOnIdle, "pbHideScannersOnIdle");
             this.pbHideScannersOnIdle.Name = "pbHideScannersOnIdle";
-            this.pbHideScannersOnIdle.Size = new System.Drawing.Size(34, 28);
-            this.pbHideScannersOnIdle.TabIndex = 125;
-            this.pbHideScannersOnIdle.Text = Strings.N;
             // 
             // lblRetainTalkWindowText
             // 
-            this.lblRetainTalkWindowText.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRetainTalkWindowText.Location = new System.Drawing.Point(65, 152);
+            resources.ApplyResources(this.lblRetainTalkWindowText, "lblRetainTalkWindowText");
             this.lblRetainTalkWindowText.Name = "lblRetainTalkWindowText";
-            this.lblRetainTalkWindowText.Size = new System.Drawing.Size(382, 29);
-            this.lblRetainTalkWindowText.TabIndex = 130;
-            this.lblRetainTalkWindowText.Text = Strings.Retain_Talk_window_text_on_close;
-            this.lblRetainTalkWindowText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblRestoreDefaults
             // 
-            this.lblRestoreDefaults.Location = new System.Drawing.Point(341, 376);
+            resources.ApplyResources(this.lblRestoreDefaults, "lblRestoreDefaults");
             this.lblRestoreDefaults.Name = "lblRestoreDefaults";
-            this.lblRestoreDefaults.Size = new System.Drawing.Size(124, 47);
-            this.lblRestoreDefaults.TabIndex = 142;
             this.lblRestoreDefaults.TabStop = false;
-            this.lblRestoreDefaults.Text = "button1";
             this.lblRestoreDefaults.UseVisualStyleBackColor = true;
             // 
             // lblBack
             // 
-            this.lblBack.Location = new System.Drawing.Point(197, 376);
+            resources.ApplyResources(this.lblBack, "lblBack");
             this.lblBack.Name = "lblBack";
-            this.lblBack.Size = new System.Drawing.Size(124, 47);
-            this.lblBack.TabIndex = 140;
             this.lblBack.TabStop = false;
-            this.lblBack.Text = "button1";
             this.lblBack.UseVisualStyleBackColor = true;
             // 
             // lblOK
             // 
-            this.lblOK.Location = new System.Drawing.Point(53, 376);
+            resources.ApplyResources(this.lblOK, "lblOK");
             this.lblOK.Name = "lblOK";
-            this.lblOK.Size = new System.Drawing.Size(124, 47);
-            this.lblOK.TabIndex = 139;
             this.lblOK.TabStop = false;
-            this.lblOK.Text = "button1";
             this.lblOK.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(494, 432);
-            this.groupBox1.TabIndex = 171;
             this.groupBox1.TabStop = false;
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, -4);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 24);
-            this.label1.TabIndex = 161;
-            this.label1.Text = Strings.General_Settings;
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pbEnableAuditLog
-            // 
-            this.pbEnableAuditLog.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pbEnableAuditLog.Location = new System.Drawing.Point(3, 266);
-            this.pbEnableAuditLog.Name = "pbEnableAuditLog";
-            this.pbEnableAuditLog.Size = new System.Drawing.Size(34, 28);
-            this.pbEnableAuditLog.TabIndex = 142;
-            this.pbEnableAuditLog.Text = "N";
-            // 
-            // lblEnableAuditLog
-            // 
-            this.lblEnableAuditLog.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEnableAuditLog.Location = new System.Drawing.Point(65, 266);
-            this.lblEnableAuditLog.Name = "lblEnableAuditLog";
-            this.lblEnableAuditLog.Size = new System.Drawing.Size(382, 29);
-            this.lblEnableAuditLog.TabIndex = 141;
-            this.lblEnableAuditLog.Text = Strings.Enable_audit_log;
-            this.lblEnableAuditLog.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // GeneralSettingsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(518, 452);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.lblRestoreDefaults);
             this.Controls.Add(this.lblBack);
             this.Controls.Add(this.lblOK);
             this.Controls.Add(this.groupBox1);
             this.Name = "GeneralSettingsForm";
-            this.Text = "ACAT";
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }

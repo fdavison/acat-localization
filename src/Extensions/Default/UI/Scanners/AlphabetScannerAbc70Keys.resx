@@ -1,0 +1,3117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ScannerBorder.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ScannerBorder.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="CurrentWord.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CurrentWord.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 20.25pt, style=Bold</value>
+  </data>
+  <data name="CurrentWord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="CurrentWord.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="CurrentWord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>657, 40</value>
+  </data>
+  <data name="CurrentWord.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="CurrentWord.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;CurrentWord.Name" xml:space="preserve">
+    <value>CurrentWord</value>
+  </data>
+  <data name="&gt;&gt;CurrentWord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurrentWord.Parent" xml:space="preserve">
+    <value>ScannerBorder</value>
+  </data>
+  <data name="&gt;&gt;CurrentWord.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="WordPredictionBox.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PWLItem1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="PWLItem1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="PWLItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 45</value>
+  </data>
+  <data name="PWLItem1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PWLItem1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;PWLItem1.Name" xml:space="preserve">
+    <value>PWLItem1</value>
+  </data>
+  <data name="&gt;&gt;PWLItem1.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PWLItem1.Parent" xml:space="preserve">
+    <value>WordPredictionBox</value>
+  </data>
+  <data name="&gt;&gt;PWLItem1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PWLItem2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="PWLItem2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 54</value>
+  </data>
+  <data name="PWLItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 45</value>
+  </data>
+  <data name="PWLItem2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PWLItem2.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;PWLItem2.Name" xml:space="preserve">
+    <value>PWLItem2</value>
+  </data>
+  <data name="&gt;&gt;PWLItem2.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PWLItem2.Parent" xml:space="preserve">
+    <value>WordPredictionBox</value>
+  </data>
+  <data name="&gt;&gt;PWLItem2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PWLItem3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="PWLItem3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 105</value>
+  </data>
+  <data name="PWLItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 45</value>
+  </data>
+  <data name="PWLItem3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="PWLItem3.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;PWLItem3.Name" xml:space="preserve">
+    <value>PWLItem3</value>
+  </data>
+  <data name="&gt;&gt;PWLItem3.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PWLItem3.Parent" xml:space="preserve">
+    <value>WordPredictionBox</value>
+  </data>
+  <data name="&gt;&gt;PWLItem3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PWLItem4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="PWLItem4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 156</value>
+  </data>
+  <data name="PWLItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 45</value>
+  </data>
+  <data name="PWLItem4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PWLItem4.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;PWLItem4.Name" xml:space="preserve">
+    <value>PWLItem4</value>
+  </data>
+  <data name="&gt;&gt;PWLItem4.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PWLItem4.Parent" xml:space="preserve">
+    <value>WordPredictionBox</value>
+  </data>
+  <data name="&gt;&gt;PWLItem4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PWLItem5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="PWLItem5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 207</value>
+  </data>
+  <data name="PWLItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 45</value>
+  </data>
+  <data name="PWLItem5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="PWLItem5.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;PWLItem5.Name" xml:space="preserve">
+    <value>PWLItem5</value>
+  </data>
+  <data name="&gt;&gt;PWLItem5.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PWLItem5.Parent" xml:space="preserve">
+    <value>WordPredictionBox</value>
+  </data>
+  <data name="&gt;&gt;PWLItem5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PWLItem6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="PWLItem6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 258</value>
+  </data>
+  <data name="PWLItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 45</value>
+  </data>
+  <data name="PWLItem6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="PWLItem6.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;PWLItem6.Name" xml:space="preserve">
+    <value>PWLItem6</value>
+  </data>
+  <data name="&gt;&gt;PWLItem6.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PWLItem6.Parent" xml:space="preserve">
+    <value>WordPredictionBox</value>
+  </data>
+  <data name="&gt;&gt;PWLItem6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PWLItem7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="PWLItem7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 309</value>
+  </data>
+  <data name="PWLItem7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 45</value>
+  </data>
+  <data name="PWLItem7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="PWLItem7.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;PWLItem7.Name" xml:space="preserve">
+    <value>PWLItem7</value>
+  </data>
+  <data name="&gt;&gt;PWLItem7.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PWLItem7.Parent" xml:space="preserve">
+    <value>WordPredictionBox</value>
+  </data>
+  <data name="&gt;&gt;PWLItem7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="PWLItem8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="PWLItem8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 360</value>
+  </data>
+  <data name="PWLItem8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 45</value>
+  </data>
+  <data name="PWLItem8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="PWLItem8.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;PWLItem8.Name" xml:space="preserve">
+    <value>PWLItem8</value>
+  </data>
+  <data name="&gt;&gt;PWLItem8.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PWLItem8.Parent" xml:space="preserve">
+    <value>WordPredictionBox</value>
+  </data>
+  <data name="&gt;&gt;PWLItem8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="PWLItem9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PWLItem9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="PWLItem9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 411</value>
+  </data>
+  <data name="PWLItem9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 7</value>
+  </data>
+  <data name="PWLItem9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 47</value>
+  </data>
+  <data name="PWLItem9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="PWLItem9.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PWLItem9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;PWLItem9.Name" xml:space="preserve">
+    <value>PWLItem9</value>
+  </data>
+  <data name="&gt;&gt;PWLItem9.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PWLItem9.Parent" xml:space="preserve">
+    <value>WordPredictionBox</value>
+  </data>
+  <data name="&gt;&gt;PWLItem9.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="WordPredictionBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="WordPredictionBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 43</value>
+  </data>
+  <data name="WordPredictionBox.RowCount" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="WordPredictionBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 465</value>
+  </data>
+  <data name="WordPredictionBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBox.Name" xml:space="preserve">
+    <value>WordPredictionBox</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBox.Parent" xml:space="preserve">
+    <value>ScannerBorder</value>
+  </data>
+  <data name="&gt;&gt;WordPredictionBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="WordPredictionBox.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="PWLItem1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PWLItem2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PWLItem3" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PWLItem4" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PWLItem5" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PWLItem6" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PWLItem7" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PWLItem8" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PWLItem9" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,11,11111,Percent,11,11111,Percent,11,11111,Percent,11,11111,Percent,11,11111,Percent,11,11111,Percent,11,11111,Percent,11,11111,Percent,11,11111" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="KeyboardBox.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="KeyboardBoxTop.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TopRow5.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B70.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B70.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B70.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="B70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 33</value>
+  </data>
+  <data name="B70.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="B70.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B70.Name" xml:space="preserve">
+    <value>B70</value>
+  </data>
+  <data name="&gt;&gt;B70.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B70.Parent" xml:space="preserve">
+    <value>TopRow5</value>
+  </data>
+  <data name="&gt;&gt;B70.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B71.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B71.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B71.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B71.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 3</value>
+  </data>
+  <data name="B71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 33</value>
+  </data>
+  <data name="B71.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B71.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B71.Name" xml:space="preserve">
+    <value>B71</value>
+  </data>
+  <data name="&gt;&gt;B71.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B71.Parent" xml:space="preserve">
+    <value>TopRow5</value>
+  </data>
+  <data name="&gt;&gt;B71.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="B72.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B72.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B72.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 3</value>
+  </data>
+  <data name="B72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 33</value>
+  </data>
+  <data name="B72.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B72.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B72.Name" xml:space="preserve">
+    <value>B72</value>
+  </data>
+  <data name="&gt;&gt;B72.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B72.Parent" xml:space="preserve">
+    <value>TopRow5</value>
+  </data>
+  <data name="&gt;&gt;B72.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B73.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B73.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B73.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B73.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 3</value>
+  </data>
+  <data name="B73.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 33</value>
+  </data>
+  <data name="B73.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B73.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B73.Name" xml:space="preserve">
+    <value>B73</value>
+  </data>
+  <data name="&gt;&gt;B73.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B73.Parent" xml:space="preserve">
+    <value>TopRow5</value>
+  </data>
+  <data name="&gt;&gt;B73.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="B74.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B74.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B74.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B74.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 3</value>
+  </data>
+  <data name="B74.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 33</value>
+  </data>
+  <data name="B74.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="B74.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B74.Name" xml:space="preserve">
+    <value>B74</value>
+  </data>
+  <data name="&gt;&gt;B74.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B74.Parent" xml:space="preserve">
+    <value>TopRow5</value>
+  </data>
+  <data name="&gt;&gt;B74.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="B75.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B75.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B75.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B75.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 3</value>
+  </data>
+  <data name="B75.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 33</value>
+  </data>
+  <data name="B75.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="B75.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B75.Name" xml:space="preserve">
+    <value>B75</value>
+  </data>
+  <data name="&gt;&gt;B75.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B75.Parent" xml:space="preserve">
+    <value>TopRow5</value>
+  </data>
+  <data name="&gt;&gt;B75.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="B76.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B76.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B76.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B76.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 3</value>
+  </data>
+  <data name="B76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 33</value>
+  </data>
+  <data name="B76.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="B76.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B76.Name" xml:space="preserve">
+    <value>B76</value>
+  </data>
+  <data name="&gt;&gt;B76.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B76.Parent" xml:space="preserve">
+    <value>TopRow5</value>
+  </data>
+  <data name="&gt;&gt;B76.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TopRow5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TopRow5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 179</value>
+  </data>
+  <data name="TopRow5.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TopRow5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 39</value>
+  </data>
+  <data name="TopRow5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TopRow5.Name" xml:space="preserve">
+    <value>TopRow5</value>
+  </data>
+  <data name="&gt;&gt;TopRow5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TopRow5.Parent" xml:space="preserve">
+    <value>KeyboardBoxTop</value>
+  </data>
+  <data name="&gt;&gt;TopRow5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TopRow5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B70" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B71" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B72" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B73" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B74" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B75" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B76" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TopRow1.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="B1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="B1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B1.Name" xml:space="preserve">
+    <value>B1</value>
+  </data>
+  <data name="&gt;&gt;B1.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B1.Parent" xml:space="preserve">
+    <value>TopRow1</value>
+  </data>
+  <data name="&gt;&gt;B1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 3</value>
+  </data>
+  <data name="B2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B2.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B2.Name" xml:space="preserve">
+    <value>B2</value>
+  </data>
+  <data name="&gt;&gt;B2.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B2.Parent" xml:space="preserve">
+    <value>TopRow1</value>
+  </data>
+  <data name="&gt;&gt;B2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="B3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 3</value>
+  </data>
+  <data name="B3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B3.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B3.Name" xml:space="preserve">
+    <value>B3</value>
+  </data>
+  <data name="&gt;&gt;B3.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B3.Parent" xml:space="preserve">
+    <value>TopRow1</value>
+  </data>
+  <data name="&gt;&gt;B3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 3</value>
+  </data>
+  <data name="B4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B4.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B4.Name" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="&gt;&gt;B4.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B4.Parent" xml:space="preserve">
+    <value>TopRow1</value>
+  </data>
+  <data name="&gt;&gt;B4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="B5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 3</value>
+  </data>
+  <data name="B5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="B5.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B5.Name" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="&gt;&gt;B5.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B5.Parent" xml:space="preserve">
+    <value>TopRow1</value>
+  </data>
+  <data name="&gt;&gt;B5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="B6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 3</value>
+  </data>
+  <data name="B6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="B6.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B6.Name" xml:space="preserve">
+    <value>B6</value>
+  </data>
+  <data name="&gt;&gt;B6.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B6.Parent" xml:space="preserve">
+    <value>TopRow1</value>
+  </data>
+  <data name="&gt;&gt;B6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="B7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 3</value>
+  </data>
+  <data name="B7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 32</value>
+  </data>
+  <data name="B7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="B7.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B7.Name" xml:space="preserve">
+    <value>B7</value>
+  </data>
+  <data name="&gt;&gt;B7.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B7.Parent" xml:space="preserve">
+    <value>TopRow1</value>
+  </data>
+  <data name="&gt;&gt;B7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TopRow1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TopRow1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="TopRow1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TopRow1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 38</value>
+  </data>
+  <data name="TopRow1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TopRow1.Name" xml:space="preserve">
+    <value>TopRow1</value>
+  </data>
+  <data name="&gt;&gt;TopRow1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TopRow1.Parent" xml:space="preserve">
+    <value>KeyboardBoxTop</value>
+  </data>
+  <data name="&gt;&gt;TopRow1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TopRow1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B3" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B4" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B5" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B6" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B7" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TopRow2.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="B8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="B8.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B8.Name" xml:space="preserve">
+    <value>B8</value>
+  </data>
+  <data name="&gt;&gt;B8.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B8.Parent" xml:space="preserve">
+    <value>TopRow2</value>
+  </data>
+  <data name="&gt;&gt;B8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 3</value>
+  </data>
+  <data name="B9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B9.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B9.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B9.Name" xml:space="preserve">
+    <value>B9</value>
+  </data>
+  <data name="&gt;&gt;B9.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B9.Parent" xml:space="preserve">
+    <value>TopRow2</value>
+  </data>
+  <data name="&gt;&gt;B9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="B10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 3</value>
+  </data>
+  <data name="B10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B10.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B10.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B10.Name" xml:space="preserve">
+    <value>B10</value>
+  </data>
+  <data name="&gt;&gt;B10.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B10.Parent" xml:space="preserve">
+    <value>TopRow2</value>
+  </data>
+  <data name="&gt;&gt;B10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B11.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 3</value>
+  </data>
+  <data name="B11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B11.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B11.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B11.Name" xml:space="preserve">
+    <value>B11</value>
+  </data>
+  <data name="&gt;&gt;B11.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B11.Parent" xml:space="preserve">
+    <value>TopRow2</value>
+  </data>
+  <data name="&gt;&gt;B11.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="B12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 3</value>
+  </data>
+  <data name="B12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B12.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="B12.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B12.Name" xml:space="preserve">
+    <value>B12</value>
+  </data>
+  <data name="&gt;&gt;B12.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B12.Parent" xml:space="preserve">
+    <value>TopRow2</value>
+  </data>
+  <data name="&gt;&gt;B12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="B13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B13.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 3</value>
+  </data>
+  <data name="B13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B13.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="B13.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B13.Name" xml:space="preserve">
+    <value>B13</value>
+  </data>
+  <data name="&gt;&gt;B13.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B13.Parent" xml:space="preserve">
+    <value>TopRow2</value>
+  </data>
+  <data name="&gt;&gt;B13.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="B14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B14.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 3</value>
+  </data>
+  <data name="B14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 32</value>
+  </data>
+  <data name="B14.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="B14.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B14.Name" xml:space="preserve">
+    <value>B14</value>
+  </data>
+  <data name="&gt;&gt;B14.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B14.Parent" xml:space="preserve">
+    <value>TopRow2</value>
+  </data>
+  <data name="&gt;&gt;B14.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TopRow2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TopRow2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 47</value>
+  </data>
+  <data name="TopRow2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TopRow2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 38</value>
+  </data>
+  <data name="TopRow2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TopRow2.Name" xml:space="preserve">
+    <value>TopRow2</value>
+  </data>
+  <data name="&gt;&gt;TopRow2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TopRow2.Parent" xml:space="preserve">
+    <value>KeyboardBoxTop</value>
+  </data>
+  <data name="&gt;&gt;TopRow2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TopRow2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B8" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B9" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B10" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B11" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B12" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B13" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B14" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TopRow3.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B15.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="B15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B15.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="B15.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B15.Name" xml:space="preserve">
+    <value>B15</value>
+  </data>
+  <data name="&gt;&gt;B15.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B15.Parent" xml:space="preserve">
+    <value>TopRow3</value>
+  </data>
+  <data name="&gt;&gt;B15.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B16.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 3</value>
+  </data>
+  <data name="B16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B16.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B16.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B16.Name" xml:space="preserve">
+    <value>B16</value>
+  </data>
+  <data name="&gt;&gt;B16.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B16.Parent" xml:space="preserve">
+    <value>TopRow3</value>
+  </data>
+  <data name="&gt;&gt;B16.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="B17.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B17.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 3</value>
+  </data>
+  <data name="B17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B17.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B17.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B17.Name" xml:space="preserve">
+    <value>B17</value>
+  </data>
+  <data name="&gt;&gt;B17.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B17.Parent" xml:space="preserve">
+    <value>TopRow3</value>
+  </data>
+  <data name="&gt;&gt;B17.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B18.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B18.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 3</value>
+  </data>
+  <data name="B18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B18.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B18.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B18.Name" xml:space="preserve">
+    <value>B18</value>
+  </data>
+  <data name="&gt;&gt;B18.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B18.Parent" xml:space="preserve">
+    <value>TopRow3</value>
+  </data>
+  <data name="&gt;&gt;B18.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="B19.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B19.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 3</value>
+  </data>
+  <data name="B19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B19.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="B19.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B19.Name" xml:space="preserve">
+    <value>B19</value>
+  </data>
+  <data name="&gt;&gt;B19.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B19.Parent" xml:space="preserve">
+    <value>TopRow3</value>
+  </data>
+  <data name="&gt;&gt;B19.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="B20.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B20.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 3</value>
+  </data>
+  <data name="B20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B20.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="B20.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B20.Name" xml:space="preserve">
+    <value>B20</value>
+  </data>
+  <data name="&gt;&gt;B20.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B20.Parent" xml:space="preserve">
+    <value>TopRow3</value>
+  </data>
+  <data name="&gt;&gt;B20.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="B21.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B21.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 3</value>
+  </data>
+  <data name="B21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 32</value>
+  </data>
+  <data name="B21.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="B21.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B21.Name" xml:space="preserve">
+    <value>B21</value>
+  </data>
+  <data name="&gt;&gt;B21.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B21.Parent" xml:space="preserve">
+    <value>TopRow3</value>
+  </data>
+  <data name="&gt;&gt;B21.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TopRow3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TopRow3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 91</value>
+  </data>
+  <data name="TopRow3.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TopRow3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 38</value>
+  </data>
+  <data name="TopRow3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TopRow3.Name" xml:space="preserve">
+    <value>TopRow3</value>
+  </data>
+  <data name="&gt;&gt;TopRow3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TopRow3.Parent" xml:space="preserve">
+    <value>KeyboardBoxTop</value>
+  </data>
+  <data name="&gt;&gt;TopRow3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TopRow3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B15" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B16" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B17" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B18" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B19" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B20" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B21" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TopRow4.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B22.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B22.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="B22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B22.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="B22.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B22.Name" xml:space="preserve">
+    <value>B22</value>
+  </data>
+  <data name="&gt;&gt;B22.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B22.Parent" xml:space="preserve">
+    <value>TopRow4</value>
+  </data>
+  <data name="&gt;&gt;B22.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B23.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B23.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 3</value>
+  </data>
+  <data name="B23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B23.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B23.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B23.Name" xml:space="preserve">
+    <value>B23</value>
+  </data>
+  <data name="&gt;&gt;B23.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B23.Parent" xml:space="preserve">
+    <value>TopRow4</value>
+  </data>
+  <data name="&gt;&gt;B23.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="B24.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B24.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 3</value>
+  </data>
+  <data name="B24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B24.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B24.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B24.Name" xml:space="preserve">
+    <value>B24</value>
+  </data>
+  <data name="&gt;&gt;B24.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B24.Parent" xml:space="preserve">
+    <value>TopRow4</value>
+  </data>
+  <data name="&gt;&gt;B24.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B25.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B25.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 3</value>
+  </data>
+  <data name="B25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B25.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B25.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B25.Name" xml:space="preserve">
+    <value>B25</value>
+  </data>
+  <data name="&gt;&gt;B25.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B25.Parent" xml:space="preserve">
+    <value>TopRow4</value>
+  </data>
+  <data name="&gt;&gt;B25.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="B26.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B26.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 3</value>
+  </data>
+  <data name="B26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B26.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="B26.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B26.Name" xml:space="preserve">
+    <value>B26</value>
+  </data>
+  <data name="&gt;&gt;B26.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B26.Parent" xml:space="preserve">
+    <value>TopRow4</value>
+  </data>
+  <data name="&gt;&gt;B26.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="B27.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B27.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 3</value>
+  </data>
+  <data name="B27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B27.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="B27.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B27.Name" xml:space="preserve">
+    <value>B27</value>
+  </data>
+  <data name="&gt;&gt;B27.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B27.Parent" xml:space="preserve">
+    <value>TopRow4</value>
+  </data>
+  <data name="&gt;&gt;B27.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="B28.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B28.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 3</value>
+  </data>
+  <data name="B28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 32</value>
+  </data>
+  <data name="B28.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="B28.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B28.Name" xml:space="preserve">
+    <value>B28</value>
+  </data>
+  <data name="&gt;&gt;B28.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B28.Parent" xml:space="preserve">
+    <value>TopRow4</value>
+  </data>
+  <data name="&gt;&gt;B28.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TopRow4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TopRow4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 135</value>
+  </data>
+  <data name="TopRow4.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TopRow4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 38</value>
+  </data>
+  <data name="TopRow4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TopRow4.Name" xml:space="preserve">
+    <value>TopRow4</value>
+  </data>
+  <data name="&gt;&gt;TopRow4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TopRow4.Parent" xml:space="preserve">
+    <value>KeyboardBoxTop</value>
+  </data>
+  <data name="&gt;&gt;TopRow4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TopRow4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B22" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B23" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B24" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B25" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B26" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B27" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B28" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="KeyboardBoxTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KeyboardBoxTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="KeyboardBoxTop.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="KeyboardBoxTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 221</value>
+  </data>
+  <data name="KeyboardBoxTop.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KeyboardBoxTop.Name" xml:space="preserve">
+    <value>KeyboardBoxTop</value>
+  </data>
+  <data name="&gt;&gt;KeyboardBoxTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KeyboardBoxTop.Parent" xml:space="preserve">
+    <value>KeyboardBox</value>
+  </data>
+  <data name="&gt;&gt;KeyboardBoxTop.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KeyboardBoxTop.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="TopRow5" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TopRow1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TopRow2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TopRow3" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TopRow4" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,20,Percent,20,Percent,20,Percent,20,Percent,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="KeyboardBoxBottom.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BottomRow5.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B77.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B77.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B77.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="B77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B77.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="B77.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B77.Name" xml:space="preserve">
+    <value>B77</value>
+  </data>
+  <data name="&gt;&gt;B77.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B77.Parent" xml:space="preserve">
+    <value>BottomRow5</value>
+  </data>
+  <data name="&gt;&gt;B77.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B78.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B78.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B78.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B78.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 3</value>
+  </data>
+  <data name="B78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B78.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B78.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B78.Name" xml:space="preserve">
+    <value>B78</value>
+  </data>
+  <data name="&gt;&gt;B78.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B78.Parent" xml:space="preserve">
+    <value>BottomRow5</value>
+  </data>
+  <data name="&gt;&gt;B78.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="B79.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B79.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B79.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B79.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 3</value>
+  </data>
+  <data name="B79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B79.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B79.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B79.Name" xml:space="preserve">
+    <value>B79</value>
+  </data>
+  <data name="&gt;&gt;B79.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B79.Parent" xml:space="preserve">
+    <value>BottomRow5</value>
+  </data>
+  <data name="&gt;&gt;B79.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B80.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B80.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B80.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B80.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 3</value>
+  </data>
+  <data name="B80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B80.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B80.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B80.Name" xml:space="preserve">
+    <value>B80</value>
+  </data>
+  <data name="&gt;&gt;B80.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B80.Parent" xml:space="preserve">
+    <value>BottomRow5</value>
+  </data>
+  <data name="&gt;&gt;B80.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="B81.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B81.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B81.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B81.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 3</value>
+  </data>
+  <data name="B81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B81.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="B81.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B81.Name" xml:space="preserve">
+    <value>B81</value>
+  </data>
+  <data name="&gt;&gt;B81.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B81.Parent" xml:space="preserve">
+    <value>BottomRow5</value>
+  </data>
+  <data name="&gt;&gt;B81.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="B82.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B82.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B82.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 3</value>
+  </data>
+  <data name="B82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B82.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="B82.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B82.Name" xml:space="preserve">
+    <value>B82</value>
+  </data>
+  <data name="&gt;&gt;B82.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B82.Parent" xml:space="preserve">
+    <value>BottomRow5</value>
+  </data>
+  <data name="&gt;&gt;B82.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="B83.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B83.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B83.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B83.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 3</value>
+  </data>
+  <data name="B83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 32</value>
+  </data>
+  <data name="B83.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="B83.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B83.Name" xml:space="preserve">
+    <value>B83</value>
+  </data>
+  <data name="&gt;&gt;B83.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B83.Parent" xml:space="preserve">
+    <value>BottomRow5</value>
+  </data>
+  <data name="&gt;&gt;B83.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BottomRow5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BottomRow5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="BottomRow5.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BottomRow5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 38</value>
+  </data>
+  <data name="BottomRow5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;BottomRow5.Name" xml:space="preserve">
+    <value>BottomRow5</value>
+  </data>
+  <data name="&gt;&gt;BottomRow5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BottomRow5.Parent" xml:space="preserve">
+    <value>KeyboardBoxBottom</value>
+  </data>
+  <data name="&gt;&gt;BottomRow5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BottomRow5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B77" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B78" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B79" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B80" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B81" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B82" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B83" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="BottomRow1.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B29.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B29.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="B29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B29.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="B29.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B29.Name" xml:space="preserve">
+    <value>B29</value>
+  </data>
+  <data name="&gt;&gt;B29.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B29.Parent" xml:space="preserve">
+    <value>BottomRow1</value>
+  </data>
+  <data name="&gt;&gt;B29.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B30.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B30.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 3</value>
+  </data>
+  <data name="B30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B30.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B30.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B30.Name" xml:space="preserve">
+    <value>B30</value>
+  </data>
+  <data name="&gt;&gt;B30.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B30.Parent" xml:space="preserve">
+    <value>BottomRow1</value>
+  </data>
+  <data name="&gt;&gt;B30.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="B31.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B31.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 3</value>
+  </data>
+  <data name="B31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B31.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B31.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B31.Name" xml:space="preserve">
+    <value>B31</value>
+  </data>
+  <data name="&gt;&gt;B31.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B31.Parent" xml:space="preserve">
+    <value>BottomRow1</value>
+  </data>
+  <data name="&gt;&gt;B31.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B32.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B32.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 3</value>
+  </data>
+  <data name="B32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B32.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B32.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B32.Name" xml:space="preserve">
+    <value>B32</value>
+  </data>
+  <data name="&gt;&gt;B32.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B32.Parent" xml:space="preserve">
+    <value>BottomRow1</value>
+  </data>
+  <data name="&gt;&gt;B32.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="B33.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B33.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 3</value>
+  </data>
+  <data name="B33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B33.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="B33.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B33.Name" xml:space="preserve">
+    <value>B33</value>
+  </data>
+  <data name="&gt;&gt;B33.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B33.Parent" xml:space="preserve">
+    <value>BottomRow1</value>
+  </data>
+  <data name="&gt;&gt;B33.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="B34.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B34.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 3</value>
+  </data>
+  <data name="B34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B34.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="B34.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B34.Name" xml:space="preserve">
+    <value>B34</value>
+  </data>
+  <data name="&gt;&gt;B34.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B34.Parent" xml:space="preserve">
+    <value>BottomRow1</value>
+  </data>
+  <data name="&gt;&gt;B34.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="B35.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B35.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 3</value>
+  </data>
+  <data name="B35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 32</value>
+  </data>
+  <data name="B35.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="B35.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B35.Name" xml:space="preserve">
+    <value>B35</value>
+  </data>
+  <data name="&gt;&gt;B35.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B35.Parent" xml:space="preserve">
+    <value>BottomRow1</value>
+  </data>
+  <data name="&gt;&gt;B35.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BottomRow1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="BottomRow1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 47</value>
+  </data>
+  <data name="BottomRow1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BottomRow1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 38</value>
+  </data>
+  <data name="BottomRow1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BottomRow1.Name" xml:space="preserve">
+    <value>BottomRow1</value>
+  </data>
+  <data name="&gt;&gt;BottomRow1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BottomRow1.Parent" xml:space="preserve">
+    <value>KeyboardBoxBottom</value>
+  </data>
+  <data name="&gt;&gt;BottomRow1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BottomRow1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B29" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B30" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B31" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B32" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B33" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B34" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B35" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="BottomRow2.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B36.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B36.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="B36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B36.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="B36.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B36.Name" xml:space="preserve">
+    <value>B36</value>
+  </data>
+  <data name="&gt;&gt;B36.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B36.Parent" xml:space="preserve">
+    <value>BottomRow2</value>
+  </data>
+  <data name="&gt;&gt;B36.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B37.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B37.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 3</value>
+  </data>
+  <data name="B37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B37.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B37.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B37.Name" xml:space="preserve">
+    <value>B37</value>
+  </data>
+  <data name="&gt;&gt;B37.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B37.Parent" xml:space="preserve">
+    <value>BottomRow2</value>
+  </data>
+  <data name="&gt;&gt;B37.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="B38.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B38.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 3</value>
+  </data>
+  <data name="B38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B38.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B38.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B38.Name" xml:space="preserve">
+    <value>B38</value>
+  </data>
+  <data name="&gt;&gt;B38.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B38.Parent" xml:space="preserve">
+    <value>BottomRow2</value>
+  </data>
+  <data name="&gt;&gt;B38.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B39.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B39.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 3</value>
+  </data>
+  <data name="B39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B39.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B39.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B39.Name" xml:space="preserve">
+    <value>B39</value>
+  </data>
+  <data name="&gt;&gt;B39.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B39.Parent" xml:space="preserve">
+    <value>BottomRow2</value>
+  </data>
+  <data name="&gt;&gt;B39.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="B40.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B40.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 3</value>
+  </data>
+  <data name="B40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B40.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="B40.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B40.Name" xml:space="preserve">
+    <value>B40</value>
+  </data>
+  <data name="&gt;&gt;B40.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B40.Parent" xml:space="preserve">
+    <value>BottomRow2</value>
+  </data>
+  <data name="&gt;&gt;B40.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="B41.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B41.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 3</value>
+  </data>
+  <data name="B41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B41.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="B41.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B41.Name" xml:space="preserve">
+    <value>B41</value>
+  </data>
+  <data name="&gt;&gt;B41.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B41.Parent" xml:space="preserve">
+    <value>BottomRow2</value>
+  </data>
+  <data name="&gt;&gt;B41.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="B42.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B42.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 3</value>
+  </data>
+  <data name="B42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 32</value>
+  </data>
+  <data name="B42.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="B42.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B42.Name" xml:space="preserve">
+    <value>B42</value>
+  </data>
+  <data name="&gt;&gt;B42.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B42.Parent" xml:space="preserve">
+    <value>BottomRow2</value>
+  </data>
+  <data name="&gt;&gt;B42.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BottomRow2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BottomRow2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 91</value>
+  </data>
+  <data name="BottomRow2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BottomRow2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 38</value>
+  </data>
+  <data name="BottomRow2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BottomRow2.Name" xml:space="preserve">
+    <value>BottomRow2</value>
+  </data>
+  <data name="&gt;&gt;BottomRow2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BottomRow2.Parent" xml:space="preserve">
+    <value>KeyboardBoxBottom</value>
+  </data>
+  <data name="&gt;&gt;BottomRow2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BottomRow2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B36" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B37" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B38" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B39" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B40" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B41" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B42" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="BottomRow3.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B43.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B43.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="B43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B43.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="B43.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B43.Name" xml:space="preserve">
+    <value>B43</value>
+  </data>
+  <data name="&gt;&gt;B43.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B43.Parent" xml:space="preserve">
+    <value>BottomRow3</value>
+  </data>
+  <data name="&gt;&gt;B43.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B44.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B44.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 3</value>
+  </data>
+  <data name="B44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B44.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B44.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B44.Name" xml:space="preserve">
+    <value>B44</value>
+  </data>
+  <data name="&gt;&gt;B44.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B44.Parent" xml:space="preserve">
+    <value>BottomRow3</value>
+  </data>
+  <data name="&gt;&gt;B44.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="B45.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B45.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 3</value>
+  </data>
+  <data name="B45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B45.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B45.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B45.Name" xml:space="preserve">
+    <value>B45</value>
+  </data>
+  <data name="&gt;&gt;B45.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B45.Parent" xml:space="preserve">
+    <value>BottomRow3</value>
+  </data>
+  <data name="&gt;&gt;B45.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B46.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B46.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 3</value>
+  </data>
+  <data name="B46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B46.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B46.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B46.Name" xml:space="preserve">
+    <value>B46</value>
+  </data>
+  <data name="&gt;&gt;B46.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B46.Parent" xml:space="preserve">
+    <value>BottomRow3</value>
+  </data>
+  <data name="&gt;&gt;B46.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="B47.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B47.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 3</value>
+  </data>
+  <data name="B47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B47.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="B47.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B47.Name" xml:space="preserve">
+    <value>B47</value>
+  </data>
+  <data name="&gt;&gt;B47.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B47.Parent" xml:space="preserve">
+    <value>BottomRow3</value>
+  </data>
+  <data name="&gt;&gt;B47.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="B48.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B48.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 3</value>
+  </data>
+  <data name="B48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="B48.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="B48.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B48.Name" xml:space="preserve">
+    <value>B48</value>
+  </data>
+  <data name="&gt;&gt;B48.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B48.Parent" xml:space="preserve">
+    <value>BottomRow3</value>
+  </data>
+  <data name="&gt;&gt;B48.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="B49.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B49.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 3</value>
+  </data>
+  <data name="B49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 32</value>
+  </data>
+  <data name="B49.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="B49.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B49.Name" xml:space="preserve">
+    <value>B49</value>
+  </data>
+  <data name="&gt;&gt;B49.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B49.Parent" xml:space="preserve">
+    <value>BottomRow3</value>
+  </data>
+  <data name="&gt;&gt;B49.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BottomRow3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BottomRow3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 135</value>
+  </data>
+  <data name="BottomRow3.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BottomRow3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 38</value>
+  </data>
+  <data name="BottomRow3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;BottomRow3.Name" xml:space="preserve">
+    <value>BottomRow3</value>
+  </data>
+  <data name="&gt;&gt;BottomRow3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BottomRow3.Parent" xml:space="preserve">
+    <value>KeyboardBoxBottom</value>
+  </data>
+  <data name="&gt;&gt;BottomRow3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BottomRow3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B43" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B44" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B45" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B46" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B47" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B48" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B49" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="BottomRow4.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="B50.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B50.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="B50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="B50.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="B50.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B50.Name" xml:space="preserve">
+    <value>B50</value>
+  </data>
+  <data name="&gt;&gt;B50.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B50.Parent" xml:space="preserve">
+    <value>BottomRow4</value>
+  </data>
+  <data name="&gt;&gt;B50.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="B51.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B51.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 3</value>
+  </data>
+  <data name="B51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="B51.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="B51.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B51.Name" xml:space="preserve">
+    <value>B51</value>
+  </data>
+  <data name="&gt;&gt;B51.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B51.Parent" xml:space="preserve">
+    <value>BottomRow4</value>
+  </data>
+  <data name="&gt;&gt;B51.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="B52.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B52.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 3</value>
+  </data>
+  <data name="B52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="B52.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="B52.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B52.Name" xml:space="preserve">
+    <value>B52</value>
+  </data>
+  <data name="&gt;&gt;B52.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B52.Parent" xml:space="preserve">
+    <value>BottomRow4</value>
+  </data>
+  <data name="&gt;&gt;B52.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="B53.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B53.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 3</value>
+  </data>
+  <data name="B53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="B53.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="B53.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B53.Name" xml:space="preserve">
+    <value>B53</value>
+  </data>
+  <data name="&gt;&gt;B53.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B53.Parent" xml:space="preserve">
+    <value>BottomRow4</value>
+  </data>
+  <data name="&gt;&gt;B53.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="B54.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B54.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 3</value>
+  </data>
+  <data name="B54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="B54.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="B54.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B54.Name" xml:space="preserve">
+    <value>B54</value>
+  </data>
+  <data name="&gt;&gt;B54.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B54.Parent" xml:space="preserve">
+    <value>BottomRow4</value>
+  </data>
+  <data name="&gt;&gt;B54.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="B55.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B55.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 3</value>
+  </data>
+  <data name="B55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="B55.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="B55.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B55.Name" xml:space="preserve">
+    <value>B55</value>
+  </data>
+  <data name="&gt;&gt;B55.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B55.Parent" xml:space="preserve">
+    <value>BottomRow4</value>
+  </data>
+  <data name="&gt;&gt;B55.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="B56.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="B56.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="B56.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 3</value>
+  </data>
+  <data name="B56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 35</value>
+  </data>
+  <data name="B56.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="B56.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;B56.Name" xml:space="preserve">
+    <value>B56</value>
+  </data>
+  <data name="&gt;&gt;B56.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;B56.Parent" xml:space="preserve">
+    <value>BottomRow4</value>
+  </data>
+  <data name="&gt;&gt;B56.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BottomRow4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BottomRow4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 179</value>
+  </data>
+  <data name="BottomRow4.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BottomRow4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 41</value>
+  </data>
+  <data name="BottomRow4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BottomRow4.Name" xml:space="preserve">
+    <value>BottomRow4</value>
+  </data>
+  <data name="&gt;&gt;BottomRow4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BottomRow4.Parent" xml:space="preserve">
+    <value>KeyboardBoxBottom</value>
+  </data>
+  <data name="&gt;&gt;BottomRow4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BottomRow4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="B50" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="B51" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="B52" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="B53" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="B54" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="B55" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="B56" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571,Percent,14,28571" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="KeyboardBoxBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KeyboardBoxBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 239</value>
+  </data>
+  <data name="KeyboardBoxBottom.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="KeyboardBoxBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 223</value>
+  </data>
+  <data name="KeyboardBoxBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;KeyboardBoxBottom.Name" xml:space="preserve">
+    <value>KeyboardBoxBottom</value>
+  </data>
+  <data name="&gt;&gt;KeyboardBoxBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KeyboardBoxBottom.Parent" xml:space="preserve">
+    <value>KeyboardBox</value>
+  </data>
+  <data name="&gt;&gt;KeyboardBoxBottom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="KeyboardBoxBottom.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="BottomRow5" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="BottomRow1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="BottomRow2" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="BottomRow3" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="BottomRow4" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,20,Percent,20,Percent,20,Percent,20,Percent,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="KeyboardBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KeyboardBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 43</value>
+  </data>
+  <data name="KeyboardBox.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="KeyboardBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>356, 465</value>
+  </data>
+  <data name="KeyboardBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;KeyboardBox.Name" xml:space="preserve">
+    <value>KeyboardBox</value>
+  </data>
+  <data name="&gt;&gt;KeyboardBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KeyboardBox.Parent" xml:space="preserve">
+    <value>ScannerBorder</value>
+  </data>
+  <data name="&gt;&gt;KeyboardBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="KeyboardBox.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="KeyboardBoxTop" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KeyboardBoxBottom" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,49,Percent,2,Percent,49" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="ScannerBorder.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ScannerBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ScannerBorder.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ScannerBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>657, 511</value>
+  </data>
+  <data name="ScannerBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ScannerBorder.Name" xml:space="preserve">
+    <value>ScannerBorder</value>
+  </data>
+  <data name="&gt;&gt;ScannerBorder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ScannerBorder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ScannerBorder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ScannerBorder.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="CurrentWord" Row="0" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="WordPredictionBox" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KeyboardBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,45,Percent,55" /&gt;&lt;Rows Styles="Percent,8,Percent,92" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>pt-BR</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>657, 511</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Alphabet</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AlphabetScannerAbc_ptBR</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

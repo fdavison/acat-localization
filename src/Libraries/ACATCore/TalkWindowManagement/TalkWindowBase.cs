@@ -24,6 +24,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using ACAT.Lib.Core.ThemeManagement;
 using ACAT.Lib.Core.Utility;
+using System.Globalization;
 
 #region SupressStyleCopWarnings
 
@@ -62,7 +63,15 @@ using ACAT.Lib.Core.Utility;
 
 namespace ACAT.Lib.Core.TalkWindowManagement
 {
-    [DescriptorAttribute("97D0FFE5-88C1-4185-9DF4-8BAE3F905BAF", "TalkWindowBase", "Base class for Talk Window")]
+    /// <summary>
+    /// This is the base class for the Talk Window. Implements
+    /// the ITalkWindow interface and handles functions such as
+    /// zoomin, zoomout, getting the talk window text, clearing the
+    /// talk window, clipboard operations etc.
+    /// </summary>
+    [DescriptorAttribute("97D0FFE5-88C1-4185-9DF4-8BAE3F905BAF",
+                        "TalkWindowBase",
+                        "Base class for Talk Window")]
     public class TalkWindowBase : Form, ITalkWindow
     {
         /// <summary>
@@ -83,7 +92,8 @@ namespace ACAT.Lib.Core.TalkWindowManagement
         /// <summary>
         /// Default date format to display in talk window status bar
         /// </summary>
-        protected String defaultDateFormat = "ddd, MMM d, yyyy";
+        //protected String defaultDateFormat = "ddd, MMM d, yyyy";
+        protected String defaultDateFormat = CultureInfo.CurrentUICulture.DateTimeFormat.LongDatePattern;
 
         /// <summary>
         /// Default font size of the text box
@@ -93,17 +103,20 @@ namespace ACAT.Lib.Core.TalkWindowManagement
         /// <summary>
         /// Default time format to display in talk window status bar
         /// </summary>
-        protected String defaultTimeFormat = "h:mm:ss tt";
+        //protected String defaultTimeFormat = "h:mm:ss tt";
+        protected String defaultTimeFormat = CultureInfo.CurrentUICulture.DateTimeFormat.LongTimePattern;
 
         /// <summary>
         /// Date format to display in talk window status bar
         /// </summary>
-        protected String displayDateFormat = String.Empty;
+        //protected String displayDateFormat = String.Empty;
+        protected String displayDateFormat = CultureInfo.CurrentUICulture.DateTimeFormat.LongDatePattern;
 
         /// <summary>
         /// Time format to display in talk window status bar
         /// </summary>
-        protected String displayTimeFormat = String.Empty;
+        //protected String displayTimeFormat = String.Empty;
+        protected String displayTimeFormat = CultureInfo.CurrentUICulture.DateTimeFormat.ShortTimePattern;
 
         /// <summary>
         /// Should date/time be displayed?
@@ -134,7 +147,6 @@ namespace ACAT.Lib.Core.TalkWindowManagement
             _syncObj = new SyncLock();
 
             Load += TalkWindowBase_Load;
-            FormClosing += TalkWindowBase_FormClosing;
         }
 
         /// <summary>
@@ -237,14 +249,7 @@ namespace ACAT.Lib.Core.TalkWindowManagement
         }
 
         /// <summary>
-        /// Gets or sets the control (typically a Label) that
-        /// displays the current date/time.  Return null if
-        /// the talk window does not have one.
-        /// </summary>
-        protected Control dateTimeControl { get; set; }
-
-        /// <summary>
-        ///  Centers the talk window in the screen
+        ///  Centers the talk window in the display
         /// </summary>
         public virtual void Center()
         {
@@ -291,7 +296,7 @@ namespace ACAT.Lib.Core.TalkWindowManagement
         }
 
         /// <summary>
-        /// Pause the talk window
+        /// Pauses the talk window
         /// </summary>
         public virtual void OnPause()
         {
@@ -305,7 +310,7 @@ namespace ACAT.Lib.Core.TalkWindowManagement
         }
 
         /// <summary>
-        /// Resume the talk window
+        /// Resumes the talk window
         /// </summary>
         public virtual void OnResume()
         {
@@ -393,6 +398,14 @@ namespace ACAT.Lib.Core.TalkWindowManagement
         }
 
         /// <summary>
+        /// Override this to displays the date and time on the talk window
+        /// </summary>
+        /// <param name="text"></param>
+        protected virtual void displayDateTime(String text)
+        {
+        }
+
+        /// <summary>
         /// Raises event that font has changed
         /// </summary>
         protected virtual void notifyFontChanged()
@@ -448,6 +461,8 @@ namespace ACAT.Lib.Core.TalkWindowManagement
             Log.Debug();
 
             base.OnShown(e);
+            User32Interop.SetForegroundWindow(this.Handle);
+
             if (_talkWindowTextBox != null)
             {
                 ActiveControl = _talkWindowTextBox;
@@ -497,22 +512,17 @@ namespace ACAT.Lib.Core.TalkWindowManagement
         /// </summary>
         protected virtual void updateDateTime(String dateFormat, string timeFormat)
         {
-            if (dateTimeControl == null)
-            {
-                return;
-            }
-
             var dateTime = String.Empty;
             try
             {
                 if (!String.IsNullOrEmpty(dateFormat))
                 {
-                    dateTime = DateTime.Today.ToString(dateFormat);
+                    dateTime = DateTime.Today.ToString(dateFormat, CultureInfo.CurrentUICulture);
                 }
             }
             catch
             {
-                dateTime = DateTime.Today.ToString(defaultDateFormat);
+                dateTime = DateTime.Today.ToString(defaultDateFormat, CultureInfo.CurrentUICulture);
             }
 
             try
@@ -524,7 +534,7 @@ namespace ACAT.Lib.Core.TalkWindowManagement
                         dateTime += ". ";
                     }
 
-                    dateTime += DateTime.Now.ToString(timeFormat);
+                    dateTime += DateTime.Now.ToString(timeFormat, CultureInfo.CurrentUICulture);
                 }
             }
             catch
@@ -534,12 +544,12 @@ namespace ACAT.Lib.Core.TalkWindowManagement
                     dateTime += ", ";
                 }
 
-                dateTime += DateTime.Now.ToString(defaultTimeFormat);
+                dateTime += DateTime.Now.ToString(defaultTimeFormat, CultureInfo.CurrentUICulture);
             }
 
             if (!String.IsNullOrEmpty(dateTime))
             {
-                Windows.SetText(dateTimeControl, dateTime);
+                displayDateTime(dateTime);
             }
         }
 
@@ -579,15 +589,6 @@ namespace ACAT.Lib.Core.TalkWindowManagement
         }
 
         /// <summary>
-        /// Form is closing.
-        /// </summary>
-        /// <param name="sender">event sender</param>
-        /// <param name="e">event args</param>
-        private void TalkWindowBase_FormClosing(object sender, FormClosingEventArgs e)
-        {
-        }
-
-        /// <summary>
         /// Perform initialization
         /// </summary>
         /// <param name="sender">event sender</param>
@@ -602,7 +603,7 @@ namespace ACAT.Lib.Core.TalkWindowManagement
         }
 
         /// <summary>
-        /// Handle shortcuts.
+        /// Handles shortcuts.
         /// </summary>
         /// <param name="sender">event sender</param>
         /// <param name="e">event args</param>

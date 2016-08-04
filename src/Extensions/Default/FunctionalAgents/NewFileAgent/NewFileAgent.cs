@@ -31,6 +31,7 @@ using ACAT.Lib.Core.AgentManagement.TextInterface;
 using ACAT.Lib.Core.PanelManagement;
 using ACAT.Lib.Core.Utility;
 using ACAT.Lib.Extension;
+using Resources = NewFileAgent.Resources;
 
 #region SupressStyleCopWarnings
 
@@ -67,7 +68,7 @@ using ACAT.Lib.Extension;
 
 #endregion SupressStyleCopWarnings
 
-namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
+namespace ACAT.Extensions.Default.FunctionalAgents.NewFile
 {
     /// <summary>
     /// Functional agent that allows the user to create a new
@@ -77,7 +78,9 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
     /// so the user can start interacting with the application (notepad
     /// or ms word)
     /// </summary>
-    [DescriptorAttribute("91390B32-8C7F-49DE-937E-E0BE3FF224F7", "New File Agent", "Agent for creating new files")]
+    [DescriptorAttribute("91390B32-8C7F-49DE-937E-E0BE3FF224F7",
+                        "New File Agent",
+                        "Agent for creating new files")]
     internal class NewFileAgent : FunctionalAgentBase
     {
         /// <summary>
@@ -97,7 +100,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
         /// <summary>
         /// Contextual menu for the new file form
         /// </summary>
-        private Form _newFileContextMenu;
+        private FileChoiceMenu _fileChoiceMenu;
 
         /// <summary>
         /// The form that allows the user to enter the name of the file
@@ -155,6 +158,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
         public override bool Activate()
         {
             ExitCode = CompletionCode.ContextSwitch;
+
             if (CreateTextFile)
             {
                 showNewFileDialogForTextFile();
@@ -165,7 +169,28 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
             }
             else
             {
-                showFileChoices();
+                var choice = showFileChoices();
+                switch (choice)
+                {
+                    case "TextFile":
+                        if (checkValidOrCreate(Common.AppPreferences.NewTextFileCreateFolder))
+                        {
+                            showNewFileDialogForTextFile();
+                        }
+                        break;
+
+                    case "WordDoc":
+                        if (checkValidOrCreate(Common.AppPreferences.NewWordDocCreateFolder))
+                        {
+                            showNewFileDialogForWordDoc();
+                        }
+                        break;
+
+                    default:
+                        ExitCode = CompletionCode.None;
+                        handleQuit(false);
+                        break;
+                }
             }
 
             return true;
@@ -180,6 +205,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
         {
             switch (arg.Widget.SubClass)
             {
+                case "ToolsMenu":
                 case "ShowMainMenu":
                 case "MouseScanner":
                 case "CursorScanner":
@@ -188,6 +214,11 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
                 case "CtrlKey":
                 case "ContextualMenu":
                 case "FileBrowserToggle":
+                case "PreviousPage":
+                case "NextPage":
+                case "FunctionKeyScanner":
+                case "ShowWindowPosSizeMenu":
+                case "ToggleTalkWindow":
                     arg.Handled = true;
                     arg.Enabled = false;
                     break;
@@ -230,7 +261,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
 
             base.OnFocusChanged(monitorInfo, ref handled);
             Log.Debug("menuShown: " + _scannerShown + ", title: " + monitorInfo.Title);
-            if (!_scannerShown && monitorInfo.Title == "NewFileNameForm")
+            if (!_scannerShown && monitorInfo.Title == "Create New File")
             {
                 var arg = new PanelRequestEventArgs("Alphabet", monitorInfo);
                 _scannerShown = true;
@@ -281,37 +312,12 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
 
             switch (command)
             {
-                case "TextFile":
-
-                    if (checkValidOrCreate(Common.AppPreferences.NewTextFileCreateFolder))
-                    {
-                        Context.AppPanelManager.CloseCurrentForm();
-                        showNewFileDialogForTextFile();
-                    }
-
-                    break;
-
-                case "WordDoc":
-                    if (checkValidOrCreate(Common.AppPreferences.NewWordDocCreateFolder))
-                    {
-                        Context.AppPanelManager.CloseCurrentForm();
-                        showNewFileDialogForWordDoc();
-                    }
-
-                    break;
-
                 case "clearText":
-                    if (_newFileNameForm != null && confirm(Strings.Clear_File_Name))
+                    if (_newFileNameForm != null && confirm(Resources.ClearFileName))
                     {
                         _newFileNameForm.ClearFileName();
                     }
 
-                    break;
-
-                case "exitFileTypeMenu":
-                    ExitCode = CompletionCode.None;
-                    Context.AppPanelManager.CloseCurrentForm();
-                    handleQuit(false);
                     break;
 
                 default:
@@ -327,7 +333,9 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
         /// <param name="focusedElement">automation element</param>
         /// <param name="handled">was this handled?</param>
         /// <returns>text control agent object</returns>
-        protected override TextControlAgentBase createEditControlTextInterface(IntPtr handle, AutomationElement focusedElement, ref bool handled)
+        protected override TextControlAgentBase createEditControlTextInterface(IntPtr handle,
+                                                                        AutomationElement focusedElement,
+                                                                        ref bool handled)
         {
             return new NewFileTextControlAgent(handle, focusedElement, ref handled);
         }
@@ -395,8 +403,8 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
             {
                 DialogUtils.ShowTimedDialog(
                                     Context.AppPanelManager.GetCurrentForm() as Form,
-                                    Strings.Error, 
-                                    Strings.Could_not_create_folder + normalizedFolder);
+                                    Resources.Error,
+                                    string.Format(Resources.CouldNotCreateFolder0, normalizedFolder));
             }
 
             return false;
@@ -479,7 +487,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
                         ref missing,
                         ref missing);
 
-                ((Microsoft.Office.Interop.Word._Document)adoc).Close(Microsoft.Office.Interop.Word.WdSaveOptions.wdSaveChanges, ref missing, ref missing);
+                adoc.Close(Microsoft.Office.Interop.Word.WdSaveOptions.wdSaveChanges, ref missing, ref missing);
                 if (comCreated)
                 {
                     Marshal.ReleaseComObject(wordApp);
@@ -545,7 +553,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
             if (!String.IsNullOrEmpty(fileName))
             {
                 var name = Path.GetFileName(fileName);
-                if (confirm(Strings.Create_file + name + "?"))
+                if (confirm(string.Format(Resources.CreateFile0, name)))
                 {
                     createFileAndLaunchApp(fileName);
                     handleQuit(false);
@@ -563,7 +571,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
             bool confirmQuit = true;
             if (showPrompt)
             {
-                confirmQuit = confirm(Strings.Exit_without_creating);
+                confirmQuit = confirm(Resources.ExitWithoutCreating);
                 if (confirmQuit)
                 {
                     ExitCode = CompletionCode.None;
@@ -578,10 +586,11 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
                     Windows.CloseForm(_newFileNameForm);
                 }
 
-                _newFileContextMenu = null;
+                _fileChoiceMenu = null;
                 _scannerShown = false;
                 CreateTextFile = false;
                 CreateWordDoc = false;
+
                 Close();
             }
         }
@@ -590,11 +599,13 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
         /// Displays a menu to let the user to select whether to
         /// create a text file or a word doc
         /// </summary>
-        private void showFileChoices()
+        private String showFileChoices()
         {
-            _newFileContextMenu = Context.AppPanelManager.CreatePanel("NewFileContextMenu", Strings.Create_New);
+            _fileChoiceMenu = Context.AppPanelManager.CreatePanel("FileChoiceMenu", Resources.CreateNew) as FileChoiceMenu;
             _scannerShown = false;
-            Context.AppPanelManager.ShowDialog(_newFileContextMenu as IPanel);
+            Context.AppPanelManager.ShowDialog(_fileChoiceMenu as IPanel);
+
+            return _fileChoiceMenu.Choice;
         }
 
         /// <summary>
@@ -603,10 +614,10 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
         private void showNewFileDialogForTextFile()
         {
             _newFileNameForm = new NewFileNameForm();
-            _newFileNameForm.EvtDone += new NewFileNameForm.DoneEvent(_newFileNameForm_EvtDone);
+            _newFileNameForm.EvtDone += _newFileNameForm_EvtDone;
             _newFileNameForm.CreateFileType = NewFileNameForm.FileType.Text;
             _newFileNameForm.CreateFileDirectory = SmartPath.ACATNormalizePath(Common.AppPreferences.NewTextFileCreateFolder);
-            _newFileNameForm.Show();
+            _newFileNameForm.ShowDialog();
         }
 
         /// <summary>
@@ -615,10 +626,10 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
         private void showNewFileDialogForWordDoc()
         {
             _newFileNameForm = new NewFileNameForm();
-            _newFileNameForm.EvtDone += new NewFileNameForm.DoneEvent(_newFileNameForm_EvtDone);
+            _newFileNameForm.EvtDone += _newFileNameForm_EvtDone;
             _newFileNameForm.CreateFileType = NewFileNameForm.FileType.Word;
             _newFileNameForm.CreateFileDirectory = SmartPath.ACATNormalizePath(Common.AppPreferences.NewWordDocCreateFolder);
-            _newFileNameForm.Show();
+            _newFileNameForm.ShowDialog();
         }
 
         /// <summary>

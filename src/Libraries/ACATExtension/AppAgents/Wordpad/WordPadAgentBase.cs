@@ -197,22 +197,21 @@ namespace ACAT.Lib.Extension.AppAgents.Wordpad
                         if (String.IsNullOrEmpty(text.Trim()))
                         {
                             DialogUtils.ShowTimedDialog(PanelManager.Instance.GetCurrentPanel() as Form,
-                                                        "Lecture Manager", "Document is empty");
+                                                        ACATExtension.Resources.LectureManager, ACATExtension.Resources.DocumentIsEmpty);
                             break;
                         }
 
-                        if (DialogUtils.ConfirmScanner("Load this document into Lecture Manager?"))
+                        if (DialogUtils.ConfirmScanner(ACATExtension.Resources.LoadThisDocumentIntoLectureManager))
                         {
 #pragma warning disable 4014
                             launchLectureManager();
 #pragma warning restore 4014
-
                         }
                     }
 
                     break;
 
-                case "CmdThreeFourthMaximizeWindow":
+                case "CmdParitalMaximizeWindow":
                     Windows.SetForegroundWindowSizePercent(Context.AppWindowPosition,
                                                     Common.AppPreferences.WindowMaximizeSizePercent);
                     break;
@@ -235,8 +234,8 @@ namespace ACAT.Lib.Extension.AppAgents.Wordpad
         /// Displays scanner according to the window element in the
         /// WordPad window that currently has focus
         /// </summary>
-        /// <param name="monitorInfo"></param>
-        /// <param name="handled"></param>
+        /// <param name="monitorInfo">Info about currently focused element</param>
+        /// <param name="handled">true if handled</param>
         private void displayScanner(WindowActivityMonitorInfo monitorInfo, ref bool handled)
         {
             String panel;

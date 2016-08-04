@@ -30,6 +30,7 @@ using ACAT.Lib.Core.Utility;
 using ACAT.Lib.Core.WidgetManagement;
 using ACAT.Lib.Core.Widgets;
 using ACAT.Lib.Extension;
+using Resources = AbbreviationsAgent.Resources;
 
 #region SupressStyleCopWarnings
 
@@ -66,14 +67,16 @@ using ACAT.Lib.Extension;
 
 #endregion SupressStyleCopWarnings
 
-namespace ACAT.Extensions.Hawking.FunctionalAgents.Abbreviations
+namespace ACAT.Extensions.Default.FunctionalAgents.AbbreviationsAgent
 {
     /// <summary>
     /// Dialog box form to enable the user to edit an
     /// abbreviation. This includes the abbreviation, its expansion
     /// and the expansion mode
     /// </summary>
-    [DescriptorAttribute("5D03D10B-48B4-412D-9442-C93E65D96BA6", "AbbreviationEditorForm", "Abbreviations Editor")]
+    [DescriptorAttribute("5D03D10B-48B4-412D-9442-C93E65D96BA6",
+                            "AbbreviationEditorForm",
+                            "Abbreviations Editor")]
     public partial class AbbreviationEditorForm : Form, IDialogPanel, IExtension
     {
         /// <summary>
@@ -82,7 +85,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.Abbreviations
         private readonly ExtensionInvoker _invoker;
 
         /// <summary>
-        /// the dialog common object
+        /// The dialog common object
         /// </summary>
         private DialogCommon _dialogCommon;
 
@@ -103,6 +106,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.Abbreviations
         {
             InitializeComponent();
             _invoker = new ExtensionInvoker(this);
+
             init();
         }
 
@@ -190,10 +194,6 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.Abbreviations
                         finish();
                         break;
 
-                    case "valButtonUndo":
-                        undo();
-                        break;
-
                     case "valButtonCancel":
                         cancel();
                         break;
@@ -243,7 +243,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.Abbreviations
         }
 
         /// <summary>
-        /// Win procedure
+        /// Windows procedure
         /// </summary>
         /// <param name="m">windows message</param>
         [EnvironmentPermissionAttribute(SecurityAction.LinkDemand, Unrestricted = true)]
@@ -274,7 +274,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.Abbreviations
         {
             if (Add)
             {
-                Windows.SetText(labelTitle, Strings.Add_Abbreviation);
+                Windows.SetText(labelTitle, "Add Abbreviation");
                 var widget = _dialogCommon.GetRootWidget().Finder.FindChild("lblDelete");
                 if (widget != null)
                 {
@@ -283,7 +283,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.Abbreviations
             }
             else
             {
-                Windows.SetText(labelTitle, Strings.Edit_Delete_Abbreviation);
+                Windows.SetText(labelTitle, "Edit Abbreviation");
             }
 
             _windowActiveWatchdog = new WindowActiveWatchdog(this);
@@ -302,7 +302,7 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.Abbreviations
         {
             Log.Debug();
 
-            if (DialogUtils.Confirm(Strings.Cancel_and_Quit))
+            if (DialogUtils.Confirm(Resources.CancelAndQuit))
             {
                 Invoke(new MethodInvoker(delegate()
                 {
@@ -321,63 +321,64 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.Abbreviations
             var abbr = tbAbbreviation.Text.Trim();
             if (String.IsNullOrEmpty(abbr))
             {
-                DialogUtils.ShowTimedDialog(this, Strings.Error, Strings.Please_enter_an_abbreviation);
+                DialogUtils.ShowTimedDialog(this, Resources.Error, Resources.PleaseEnterAnAbbreviation);
+                return;
             }
-            else if (String.IsNullOrEmpty(tbExpansion.Text.Trim()))
-            {
-                DialogUtils.ShowTimedDialog(this, Strings.Error, Strings.Expansion_is_empty);
-            }
-            else
-            {
-                bool saveAndQuit = false;
-                bool confirm = false;
 
-                if (Add)
+            if (String.IsNullOrEmpty(tbExpansion.Text.Trim()))
+            {
+                DialogUtils.ShowTimedDialog(this, Resources.Error, Resources.ExpansionIsEmpty);
+                return;
+            }
+
+            bool saveAndQuit = false;
+            bool confirm = false;
+
+            if (Add)
+            {
+                // a new abbreviation is beein added
+                if (Context.AppAbbreviations.Exists(abbr))
                 {
-                    // a new abbreviation is beein added
-                    if (Context.AppAbbreviations.Exists(abbr))
-                    {
-                        DialogUtils.ShowTimedDialog(
-                                        Context.AppPanelManager.GetCurrentPanel() as Form,
-                                        Strings.Add, 
-                                        Strings.Can_Save_Abbr_for + abbr + Strings.already_exists);
-                    }
-                    else
-                    {
-                        saveAndQuit = true;
-                        confirm = true;
-                    }
-                }
-                else if (Context.AppAbbreviations.Exists(abbr) &&
-                        String.Compare(abbr, InputAbbreviation.Mnemonic.Trim(), true) != 0)
-                {
-                    if (DialogUtils.Confirm(Strings.You_are_changing_existing_abbr + tbAbbreviation.Text + Strings.Continue))
-                    {
-                        saveAndQuit = true;
-                    }
+                    DialogUtils.ShowTimedDialog(
+                                    Context.AppPanelManager.GetCurrentPanel() as Form,
+                                    Resources.Add,
+                                    string.Format(Resources.CantSaveAbbrFor0AlreadyExists, abbr));
                 }
                 else
                 {
                     saveAndQuit = true;
                     confirm = true;
                 }
-
-                if (saveAndQuit)
+            }
+            else if (Context.AppAbbreviations.Exists(abbr) &&
+                    String.Compare(abbr, InputAbbreviation.Mnemonic.Trim(), true) != 0)
+            {
+                if (DialogUtils.Confirm(string.Format(Resources.YouAreChangingExistingAbbr0Continue, tbAbbreviation.Text)))
                 {
-                    bool quit = true;
+                    saveAndQuit = true;
+                }
+            }
+            else
+            {
+                saveAndQuit = true;
+                confirm = true;
+            }
 
-                    if (confirm)
-                    {
-                        quit = DialogUtils.Confirm(Strings.Save_Abbreviation_and_Quit);
-                    }
+            if (saveAndQuit)
+            {
+                bool quit = true;
 
-                    if (quit)
-                    {
-                        OutputAbbreviation = new Abbreviation(tbAbbreviation.Text, tbExpansion.Text, _mode);
-                        _dialogCommon.GetRootWidget();
-                        Cancel = false;
-                        Windows.CloseForm(this);
-                    }
+                if (confirm)
+                {
+                    quit = DialogUtils.Confirm(Resources.SaveAbbreviationAndQuit);
+                }
+
+                if (quit)
+                {
+                    OutputAbbreviation = new Abbreviation(tbAbbreviation.Text, tbExpansion.Text, _mode);
+                    _dialogCommon.GetRootWidget();
+                    Cancel = false;
+                    Windows.CloseForm(this);
                 }
             }
         }
@@ -409,17 +410,11 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.Abbreviations
         /// </summary>
         private void initWidgetSettings()
         {
-            Widget rootWidget = _dialogCommon.GetRootWidget();
+            var rootWidget = _dialogCommon.GetRootWidget();
 
             _mode = InputAbbreviation.Mode;
-            WidgetUtils.SetCheckBoxWidgetState(
-                                rootWidget, 
-                                pbTypeSpoken.Name, 
-                                _mode == Abbreviation.AbbreviationMode.Speak || _mode == Abbreviation.AbbreviationMode.None);
-
-            WidgetUtils.SetCheckBoxWidgetState(
-                                rootWidget, 
-                                pbTypeWritten.Name, _mode == Abbreviation.AbbreviationMode.Write);
+            (rootWidget.Finder.FindChild(pbTypeSpoken.Name) as CheckBoxWidget).SetState(_mode == Abbreviation.AbbreviationMode.Speak || _mode == Abbreviation.AbbreviationMode.None);
+            (rootWidget.Finder.FindChild(pbTypeWritten.Name) as CheckBoxWidget).SetState(_mode == Abbreviation.AbbreviationMode.Write);
 
             Windows.SetText(tbAbbreviation, InputAbbreviation.Mnemonic);
             tbAbbreviation.Select(tbAbbreviation.Text.Length, 0);
@@ -428,30 +423,18 @@ namespace ACAT.Extensions.Hawking.FunctionalAgents.Abbreviations
         }
 
         /// <summary>
-        /// Sets the appropriate radio button depending on the
+        /// Sets the appropriate radio button for the mode depending on the
         /// abbreviation mode
         /// </summary>
         /// <param name="widgetName">name of the widget</param>
         /// <param name="choice">choice made</param>
         private void radioSetAbbreviationMode(String widgetName, Boolean choice)
         {
-            Widget rootWidget = _dialogCommon.GetRootWidget();
+            var rootWidget = _dialogCommon.GetRootWidget();
 
-            WidgetUtils.SetCheckBoxWidgetState(rootWidget, pbTypeSpoken.Name, false);
-            WidgetUtils.SetCheckBoxWidgetState(rootWidget, pbTypeWritten.Name, false);
-
-            WidgetUtils.SetCheckBoxWidgetState(rootWidget, widgetName, choice);
-        }
-
-        /// <summary>
-        /// Undo any changes and restore original state
-        /// </summary>
-        private void undo()
-        {
-            if (DialogUtils.Confirm(this, Strings.Undo_Change))
-            {
-                initWidgetSettings();
-            }
+            (rootWidget.Finder.FindChild(pbTypeSpoken.Name) as CheckBoxWidget).SetState(false);
+            (rootWidget.Finder.FindChild(pbTypeWritten.Name) as CheckBoxWidget).SetState(false);
+            (rootWidget.Finder.FindChild(widgetName) as CheckBoxWidget).SetState(choice);
         }
     }
 }

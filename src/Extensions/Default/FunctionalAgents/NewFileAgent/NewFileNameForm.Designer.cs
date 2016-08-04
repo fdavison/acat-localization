@@ -1,4 +1,4 @@
-﻿namespace ACAT.Extensions.Hawking.FunctionalAgents.NewFile
+﻿namespace ACAT.Extensions.Default.FunctionalAgents.NewFile
 {
     partial class NewFileNameForm
     {
@@ -28,77 +28,80 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewFileNameForm));
             this.textBoxFileName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.labelNameOfFile = new System.Windows.Forms.Label();
             this.labelPrompt = new System.Windows.Forms.Label();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBoxFileName
             // 
-            this.textBoxFileName.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxFileName.Location = new System.Drawing.Point(6, 40);
+            resources.ApplyResources(this.textBoxFileName, "textBoxFileName");
+            this.textBoxFileName.BackColor = System.Drawing.Color.Cornsilk;
             this.textBoxFileName.Name = "textBoxFileName";
-            this.textBoxFileName.Size = new System.Drawing.Size(296, 35);
-            this.textBoxFileName.TabIndex = 0;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 16);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(175, 24);
-            this.label1.TabIndex = 1;
-            this.label1.Text = Strings.Enter_File_Name;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 92);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(141, 24);
-            this.label2.TabIndex = 3;
-            this.label2.Text = Strings.Name_of_File;
             // 
             // labelNameOfFile
             // 
-            this.labelNameOfFile.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.labelNameOfFile, "labelNameOfFile");
+            this.labelNameOfFile.BackColor = System.Drawing.Color.Cornsilk;
             this.labelNameOfFile.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.labelNameOfFile.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNameOfFile.Location = new System.Drawing.Point(10, 120);
             this.labelNameOfFile.Name = "labelNameOfFile";
-            this.labelNameOfFile.Size = new System.Drawing.Size(296, 35);
-            this.labelNameOfFile.TabIndex = 4;
             // 
             // labelPrompt
             // 
-            this.labelPrompt.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.labelPrompt, "labelPrompt");
             this.labelPrompt.ForeColor = System.Drawing.Color.Red;
-            this.labelPrompt.Location = new System.Drawing.Point(9, 177);
             this.labelPrompt.Name = "labelPrompt";
-            this.labelPrompt.Size = new System.Drawing.Size(297, 23);
-            this.labelPrompt.TabIndex = 5;
+            // 
+            // statusStrip1
+            // 
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.SizingGrip = false;
+            // 
+            // toolStripStatusLabel1
+            // 
+            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
+            this.toolStripStatusLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             // 
             // NewFileNameForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(321, 216);
+            this.ControlBox = false;
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.labelPrompt);
             this.Controls.Add(this.labelNameOfFile);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxFileName);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "NewFileNameForm";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "NewFileNameForm";
             this.TopMost = true;
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,5 +114,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelNameOfFile;
         private System.Windows.Forms.Label labelPrompt;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
     }
 }

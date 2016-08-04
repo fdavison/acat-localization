@@ -15,12 +15,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
+// Modified to enable localization
+// Copyright (C) 2016 Bruno Lima (https://github.com/brlima94)
 // </copyright>
 ////////////////////////////////////////////////////////////////////////////
 
 using System;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
 using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
@@ -121,6 +124,13 @@ namespace ACAT.Lib.Core.Utility
         private const String UsersDir = "Users";
 
         /// <summary>
+        /// <para>Used to look up for localized files (e.g.: settings)</para>
+        /// </summary>
+        private static string _cultureName = CultureInfo.CurrentUICulture.Name;
+
+        private static string _parentCultureName = CultureInfo.CurrentUICulture.Parent.Name;
+
+        /// <summary>
         /// Used to check that only one instance of the app is running
         /// </summary>
         private static Mutex _appMutex;
@@ -157,7 +167,16 @@ namespace ACAT.Lib.Core.Utility
             Log.Debug("RequestingAssembly directory is " + requestingAssemblyDir);
 
             var assemblyName = new AssemblyName(args.Name).Name;
-            var assemblyPath = requestingAssemblyDir + "\\" + assemblyName + ".dll";
+            string assemblyPath = requestingAssemblyDir + "\\" + assemblyName + ".dll";
+
+            if (!File.Exists(assemblyPath))
+            {
+                assemblyPath = requestingAssemblyDir + "\\" + _cultureName + "\\" + assemblyName + ".dll";
+                if (!File.Exists(assemblyPath))
+                {
+                    assemblyPath = requestingAssemblyDir + "\\" + _parentCultureName + "\\" + assemblyName + ".dll";
+                }
+            }
 
             Log.Debug("Resolved assembly location: " + assemblyPath);
 
@@ -220,6 +239,37 @@ namespace ACAT.Lib.Core.Utility
         }
 
         /// <summary>
+        /// Converts a filename from the \\Device\\HarddiskVolume1\\....\\abc.exe
+        /// format to a Dos file name
+        /// </summary>
+        /// <param name="mappedFileName">input mapped file name</param>
+        /// <returns>dos file name</returns>
+        public static String ConvertMappedFileNameToDosFileName(String mappedFileName)
+        {
+            const int bufLen = 260;
+            var fileName = String.Empty;
+
+            for (var driveLetter = 'A'; driveLetter <= 'Z'; driveLetter++)
+            {
+                var drive = driveLetter + ":";
+                var buffer = new StringBuilder(bufLen);
+                if (Kernel32Interop.QueryDosDevice(drive, buffer, buffer.Capacity) == 0)
+                {
+                    continue;
+                }
+
+                var devicePath = buffer.ToString();
+                if (mappedFileName.StartsWith(devicePath))
+                {
+                    fileName = (drive + mappedFileName.Substring(devicePath.Length));
+                    break;
+                }
+            }
+
+            return fileName;
+        }
+
+        /// <summary>
         /// Copies the spcified source to target. IF source
         /// is a folder, recursively copies source to target
         /// </summary>
@@ -254,7 +304,7 @@ namespace ACAT.Lib.Core.Utility
         /// Copies the specified source dir to the target dir
         /// </summary>
         /// <param name="srcDir">source dir</param>
-        /// <param name="targetDir"target dir></param>
+        /// <param name="targetDir">target dir></param>
         /// <param name="recursive">go deep recursively?</param>
         /// <returns>true on success</returns>
         public static bool CopyDir(string srcDir, string targetDir, bool recursive)
@@ -417,12 +467,60 @@ namespace ACAT.Lib.Core.Utility
         }
 
         /// <summary>
+        /// <para>Returns the path to an localized version of the file, if it exists, using the pattern "[filename].[culture_name].[extension]".</para>
+        /// </summary>
+        /// <param name="preferredFilePath">Path to </param>
+        /// <returns>Path of the localized file, if it exists. Otherwise, the [preferredFilePath].</returns>
+        public static String GetLocalizedFilePath(String preferredFilePath)
+        {
+            string directoryPath = Path.GetDirectoryName(preferredFilePath);
+            string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(preferredFilePath);
+            string fileExtension = Path.GetExtension(preferredFilePath);
+        
+            string retFileName = Path.Combine(directoryPath, string.Format("{0}.{1}{2}", fileNameWithoutExtension, _cultureName, fileExtension));
+            if (!File.Exists(retFileName))
+            {
+                retFileName = Path.Combine(directoryPath, string.Format("{0}.{1}{2}", fileNameWithoutExtension, _parentCultureName, fileExtension));
+                if (!File.Exists(retFileName))
+                {
+                    retFileName = preferredFilePath;
+                }
+            }
+
+            return retFileName;
+        }
+
+        /// <summary>
         /// Returns path to where ACAT log files will be stored
         /// </summary>
         /// <returns>fully qualified path</returns>
         public static String GetLogsDir()
         {
             return Path.Combine(ACATPath, LogsDir);
+        }
+
+        /// <summary>
+        /// Returns the mapped file name of a memory mapped file
+        /// </summary>
+        /// <param name="hModule">handle to the module</param>
+        /// <returns>mapped file name</returns>
+        public static String GetMappedFileName(IntPtr hModule)
+        {
+            var mappedFileName = String.Empty;
+            const int bufLen = 260;
+
+            var buffer = new StringBuilder(bufLen);
+
+            int len = Kernel32Interop.GetMappedFileName(Kernel32Interop.GetCurrentProcess(),
+                                                        hModule,
+                                                        buffer,
+                                                        buffer.Capacity);
+            if (len != 0)
+            {
+                mappedFileName = buffer.ToString();
+            }
+
+            return mappedFileName;
         }
 
         /// <summary>
@@ -468,7 +566,7 @@ namespace ACAT.Lib.Core.Utility
         public static String GetSoundPath(string soundFile)
         {
             var fullPath = Path.Combine(GetUserSoundsDir(), soundFile);
-            return File.Exists(fullPath) ? fullPath : Path.Combine(GetAssetsDir(), soundFile);
+            return File.Exists(fullPath) ? fullPath : Path.Combine(GetSoundsDir(), soundFile);
         }
 
         /// <summary>
@@ -527,6 +625,16 @@ namespace ACAT.Lib.Core.Utility
         public static String GetUserSoundsDir()
         {
             return Path.Combine(UserManager.GetFullPath(AssetsDir), SoundsDir);
+        }
+
+        /// <summary>
+        /// Returns true if an instance of any of the ACAT apps is
+        /// still running
+        /// </summary>
+        /// <returns>true if so</returns>
+        public static bool IsACATRunning()
+        {
+            return CheckAppExistingInstance("ACATMutex");
         }
 
         /// <summary>

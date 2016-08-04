@@ -216,8 +216,13 @@ namespace ACAT.Lib.Core.PanelManagement
             finally
             {
                 uint threadId = GetCurrentThreadId();
-                Log.Debug("Calling TextChangedNotifications.Release AFTER Autocompeting word " + threadId + ", caretPos: " + Context.AppAgentMgr.ActiveContext().TextAgent().GetCaretPos());
+                Log.Debug("Calling TextChangedNotifications.Release AFTER Autocompeting word " +
+                                                        threadId +
+                                                        ", caretPos: " +
+                                                        Context.AppAgentMgr.ActiveContext().TextAgent().GetCaretPos());
+
                 Context.AppAgentMgr.TextChangedNotifications.Release();
+
                 Log.Debug("Returned from TextChangedNotifications.Release AFTER Autocompeting word " + threadId);
             }
         }
@@ -412,12 +417,18 @@ namespace ACAT.Lib.Core.PanelManagement
 
                 KeyStateTracker.ClearAlt();
                 KeyStateTracker.ClearCtrl();
-                KeyStateTracker.ClearFunc();
 
                 using (AgentContext context = Context.AppAgentMgr.ActiveContext())
                 {
                     int offset;
                     int count;
+
+                    if (!context.TextAgent().EnableSmartPunctuations())
+                    {
+                        Context.AppAgentMgr.Keyboard.Send((modifiers != null) ? modifiers.Cast<Keys>().ToList() : KeyStateTracker.GetExtendedKeys(), punctuation);
+                        _lastAction = LastAction.AlphaNumeric;
+                        return true;
+                    }
 
                     // delete any spaces before the punctuation
                     context.TextAgent().GetPrecedingWhiteSpaces(out offset, out count);
@@ -429,7 +440,7 @@ namespace ACAT.Lib.Core.PanelManagement
                     }
 
                     Log.Debug("Sending punctuation");
-                    Context.AppAgentMgr.Keyboard.Send((modifiers != null) ? modifiers.Cast<Keys>().ToList() : KeyStateTracker.GetExtendedKeys(), punctuation);
+                     Context.AppAgentMgr.Keyboard.Send((modifiers != null) ? modifiers.Cast<Keys>().ToList() : KeyStateTracker.GetExtendedKeys(), punctuation);
 
                     // if this is a sentence terminator, add spaces
                     // after the punctuation.
@@ -443,7 +454,7 @@ namespace ACAT.Lib.Core.PanelManagement
                         for (int ii = 0; ii < CoreGlobals.AppPreferences.SpacesAfterPunctuation; ii++)
                         {
                             Context.AppAgentMgr.Keyboard.Send(KeyStateTracker.GetExtendedKeys(), ' ');
-                        }
+                         }
                     }
 
                     // this is important.  The ACAT talk window caretpos doesn't update until this we exit

@@ -75,7 +75,8 @@ namespace ACAT.Lib.Core.PanelManagement
         private const String PreferredPanelConfigFileName = "PreferredPanelConfig.xml";
 
         /// <summary>
-        ///
+        /// Stores the mapping between a config name and the collection of
+        /// preferred scanners it represents
         /// </summary>
         private readonly Dictionary<String, Dictionary<String, String>> _mapping;
 
@@ -92,6 +93,9 @@ namespace ACAT.Lib.Core.PanelManagement
             _mapping = new Dictionary<String, Dictionary<String, String>>();
         }
 
+        /// <summary>
+        /// Gets or sets an array of preferred panel configuration names
+        /// </summary>
         public String[] PreferredPanelConfigNames
         {
             get { return _preferredConfigNames; }
@@ -138,17 +142,25 @@ namespace ACAT.Lib.Core.PanelManagement
         {
             bool retVal = true;
 
-            var file = UserManagement.ProfileManager.GetFullPath(PreferredPanelConfigFileName);
+            var file = FileUtils.GetLocalizedFilePath(UserManagement.ProfileManager.GetFullPath(PreferredPanelConfigFileName));
 
             loadPreferredPanelConfig(file);
 
-            file = UserManagement.UserManager.GetFullPath(PreferredPanelConfigFileName);
+            file = FileUtils.GetLocalizedFilePath(UserManagement.UserManager.GetFullPath(PreferredPanelConfigFileName));
 
             loadPreferredPanelConfig(file);
 
             return retVal;
         }
 
+        /// <summary>
+        /// Loads the configuration from the specified xml node by
+        /// parsing the attributes contained in the node. Returns
+        /// the mapping between the panel configuration name and the
+        /// panel type it maps to
+        /// </summary>
+        /// <param name="node">xml node to parse</param>
+        /// <returns>the mapping</returns>
         private Dictionary<String, String> loadConfig(XmlNode node)
         {
             var mapping = new Dictionary<String, String>();

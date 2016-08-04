@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WordPredictionSettingsForm));
             this.svalWordCount = new System.Windows.Forms.Label();
             this.ltbWordCountLess = new System.Windows.Forms.Label();
             this.lblUseCorpus = new System.Windows.Forms.Label();
@@ -50,175 +51,112 @@
             // 
             // svalWordCount
             // 
+            resources.ApplyResources(this.svalWordCount, "svalWordCount");
             this.svalWordCount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.svalWordCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalWordCount.Location = new System.Drawing.Point(347, 171);
             this.svalWordCount.Name = "svalWordCount";
-            this.svalWordCount.Size = new System.Drawing.Size(23, 23);
-            this.svalWordCount.TabIndex = 82;
-            this.svalWordCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ltbWordCountLess
             // 
+            resources.ApplyResources(this.ltbWordCountLess, "ltbWordCountLess");
             this.ltbWordCountLess.BackColor = System.Drawing.Color.Transparent;
-            this.ltbWordCountLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbWordCountLess.Location = new System.Drawing.Point(196, 172);
             this.ltbWordCountLess.Name = "ltbWordCountLess";
-            this.ltbWordCountLess.Size = new System.Drawing.Size(25, 25);
-            this.ltbWordCountLess.TabIndex = 80;
-            this.ltbWordCountLess.Text = "<";
-            this.ltbWordCountLess.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblUseCorpus
             // 
-            this.lblUseCorpus.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUseCorpus.Location = new System.Drawing.Point(100, 117);
+            resources.ApplyResources(this.lblUseCorpus, "lblUseCorpus");
             this.lblUseCorpus.Name = "lblUseCorpus";
-            this.lblUseCorpus.Size = new System.Drawing.Size(207, 29);
-            this.lblUseCorpus.TabIndex = 81;
-            this.lblUseCorpus.Text = Strings.Use_Corpus_Models_for_Word_Prediction;
-            this.lblUseCorpus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblDynamicLearning
             // 
-            this.lblDynamicLearning.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDynamicLearning.Location = new System.Drawing.Point(100, 69);
+            resources.ApplyResources(this.lblDynamicLearning, "lblDynamicLearning");
             this.lblDynamicLearning.Name = "lblDynamicLearning";
-            this.lblDynamicLearning.Size = new System.Drawing.Size(254, 29);
-            this.lblDynamicLearning.TabIndex = 69;
-            this.lblDynamicLearning.Text = Strings.Enable_Dynamic_Learning;
-            this.lblDynamicLearning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ltbWordCountMore
             // 
+            resources.ApplyResources(this.ltbWordCountMore, "ltbWordCountMore");
             this.ltbWordCountMore.BackColor = System.Drawing.Color.Transparent;
-            this.ltbWordCountMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbWordCountMore.Location = new System.Drawing.Point(317, 172);
             this.ltbWordCountMore.Name = "ltbWordCountMore";
-            this.ltbWordCountMore.Size = new System.Drawing.Size(25, 25);
-            this.ltbWordCountMore.TabIndex = 64;
-            this.ltbWordCountMore.Text = ">";
-            this.ltbWordCountMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbWordCount
             // 
-            this.tbWordCount.Location = new System.Drawing.Point(216, 172);
+            resources.ApplyResources(this.tbWordCount, "tbWordCount");
             this.tbWordCount.Name = "tbWordCount";
-            this.tbWordCount.Size = new System.Drawing.Size(110, 45);
-            this.tbWordCount.TabIndex = 65;
             this.tbWordCount.TabStop = false;
             // 
             // lblWordCount
             // 
-            this.lblWordCount.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWordCount.Location = new System.Drawing.Point(55, 171);
+            resources.ApplyResources(this.lblWordCount, "lblWordCount");
             this.lblWordCount.Name = "lblWordCount";
-            this.lblWordCount.Size = new System.Drawing.Size(135, 22);
-            this.lblWordCount.TabIndex = 65;
-            this.lblWordCount.Text = Strings.Word_Count;
             // 
             // lblRestoreDefaults
             // 
+            resources.ApplyResources(this.lblRestoreDefaults, "lblRestoreDefaults");
             this.lblRestoreDefaults.BackColor = System.Drawing.SystemColors.Control;
-            this.lblRestoreDefaults.Location = new System.Drawing.Point(264, 246);
             this.lblRestoreDefaults.Name = "lblRestoreDefaults";
-            this.lblRestoreDefaults.Size = new System.Drawing.Size(107, 47);
-            this.lblRestoreDefaults.TabIndex = 130;
             this.lblRestoreDefaults.TabStop = false;
-            this.lblRestoreDefaults.Text = Strings.Defaults;
             this.lblRestoreDefaults.UseVisualStyleBackColor = false;
             // 
             // lblBack
             // 
+            resources.ApplyResources(this.lblBack, "lblBack");
             this.lblBack.BackColor = System.Drawing.SystemColors.Control;
-            this.lblBack.Location = new System.Drawing.Point(151, 246);
             this.lblBack.Name = "lblBack";
-            this.lblBack.Size = new System.Drawing.Size(107, 47);
-            this.lblBack.TabIndex = 129;
             this.lblBack.TabStop = false;
-            this.lblBack.Text = Strings.Cancel;
             this.lblBack.UseVisualStyleBackColor = false;
             // 
             // lblOK
             // 
+            resources.ApplyResources(this.lblOK, "lblOK");
             this.lblOK.BackColor = System.Drawing.SystemColors.Control;
-            this.lblOK.Location = new System.Drawing.Point(38, 246);
             this.lblOK.Name = "lblOK";
-            this.lblOK.Size = new System.Drawing.Size(107, 47);
-            this.lblOK.TabIndex = 128;
             this.lblOK.TabStop = false;
-            this.lblOK.Text = Strings.OK;
             this.lblOK.UseVisualStyleBackColor = false;
             // 
             // sminWordCount
             // 
-            this.sminWordCount.Location = new System.Drawing.Point(202, 200);
+            resources.ApplyResources(this.sminWordCount, "sminWordCount");
             this.sminWordCount.Name = "sminWordCount";
-            this.sminWordCount.Size = new System.Drawing.Size(13, 13);
-            this.sminWordCount.TabIndex = 63;
-            this.sminWordCount.Text = "0";
-            this.sminWordCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // smaxWordCount
             // 
-            this.smaxWordCount.Location = new System.Drawing.Point(318, 199);
+            resources.ApplyResources(this.smaxWordCount, "smaxWordCount");
             this.smaxWordCount.Name = "smaxWordCount";
-            this.smaxWordCount.Size = new System.Drawing.Size(19, 13);
-            this.smaxWordCount.TabIndex = 63;
-            this.smaxWordCount.Text = "10";
-            this.smaxWordCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pbDynamicLearning
             // 
-            this.pbDynamicLearning.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pbDynamicLearning.Location = new System.Drawing.Point(57, 72);
+            resources.ApplyResources(this.pbDynamicLearning, "pbDynamicLearning");
             this.pbDynamicLearning.Name = "pbDynamicLearning";
-            this.pbDynamicLearning.Size = new System.Drawing.Size(28, 29);
-            this.pbDynamicLearning.TabIndex = 69;
-            this.pbDynamicLearning.Text = Strings.N;
             // 
             // pbUseCorpus
             // 
-            this.pbUseCorpus.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pbUseCorpus.Location = new System.Drawing.Point(57, 119);
+            resources.ApplyResources(this.pbUseCorpus, "pbUseCorpus");
             this.pbUseCorpus.Name = "pbUseCorpus";
-            this.pbUseCorpus.Size = new System.Drawing.Size(28, 29);
-            this.pbUseCorpus.TabIndex = 70;
-            this.pbUseCorpus.Text = Strings.N;
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, -3);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(243, 24);
-            this.label1.TabIndex = 161;
-            this.label1.Text = Strings.Word_Prediction_Settings;
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Controls.Add(this.smaxWordCount);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(16, 17);
+            this.groupBox1.Controls.Add(this.sminWordCount);
+            this.groupBox1.Controls.Add(this.tbWordCount);
+            this.groupBox1.Controls.Add(this.svalWordCount);
+            this.groupBox1.Controls.Add(this.ltbWordCountMore);
+            this.groupBox1.Controls.Add(this.ltbWordCountLess);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(377, 294);
-            this.groupBox1.TabIndex = 172;
             this.groupBox1.TabStop = false;
             // 
-            // AsterWordPredictionPrefsForm
+            // WordPredictionSettingsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(408, 323);
-            this.Controls.Add(this.smaxWordCount);
-            this.Controls.Add(this.sminWordCount);
-            this.Controls.Add(this.svalWordCount);
-            this.Controls.Add(this.ltbWordCountLess);
             this.Controls.Add(this.lblRestoreDefaults);
-            this.Controls.Add(this.ltbWordCountMore);
             this.Controls.Add(this.lblUseCorpus);
-            this.Controls.Add(this.tbWordCount);
             this.Controls.Add(this.lblWordCount);
             this.Controls.Add(this.lblDynamicLearning);
             this.Controls.Add(this.lblBack);
@@ -228,9 +166,9 @@
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "WordPredictionSettingsForm";
-            this.Text = "ACAT";
             ((System.ComponentModel.ISupportInitialize)(this.tbWordCount)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

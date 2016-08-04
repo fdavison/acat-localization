@@ -117,4 +117,823 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Item3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Item10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="SortOrderIcon.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Active Applications</value>
+  </data>
+  <data name="WindowList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 461</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TopStatusBar.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="SearchFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="ButtonSort.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;ButtonClose.Parent" xml:space="preserve">
+    <value>OptionsPanel</value>
+  </data>
+  <data name="Item2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="ButtonClose.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;ButtonPageDown.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Item8.Parent" xml:space="preserve">
+    <value>WindowList</value>
+  </data>
+  <data name="Item5.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="ButtonClose.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Item3.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="OptionsPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="ButtonSearchClear" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="ButtonSearch" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="ButtonPageDown" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="ButtonPageUp" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ButtonClose" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ButtonSort" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="WindowList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 125</value>
+  </data>
+  <data name="ButtonSearch.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;Item1.Parent" xml:space="preserve">
+    <value>WindowList</value>
+  </data>
+  <data name="SortOrderIcon.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="WindowList.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Item9" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Item8" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Item7" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Item6" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Item5" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Item4" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Item3" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Item10" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Item1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Item2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,10,Percent,10,Percent,10,Percent,10,Percent,10,Percent,10,Percent,10,Percent,10,Percent,10,Percent,10,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="ButtonSearchClear.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ScannerBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>735, 589</value>
+  </data>
+  <data name="Item6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Item10.Parent" xml:space="preserve">
+    <value>WindowList</value>
+  </data>
+  <data name="&gt;&gt;Item4.Parent" xml:space="preserve">
+    <value>WindowList</value>
+  </data>
+  <data name="&gt;&gt;PageNumber.Parent" xml:space="preserve">
+    <value>TopStatusBar</value>
+  </data>
+  <data name="Item6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 230</value>
+  </data>
+  <data name="&gt;&gt;SortOrderIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Item2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 46</value>
+  </data>
+  <data name="&gt;&gt;Item1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="TopStatusBar.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="PageNumber" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="SortOrderIcon" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="SearchFilter" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,8,Percent,42" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="Item3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="WindowList.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="Item7.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="Item1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Item2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;SearchFilter.Name" xml:space="preserve">
+    <value>SearchFilter</value>
+  </data>
+  <data name="ScannerBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ButtonPageDown.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;Item10.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ScannerBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="PageNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 0</value>
+  </data>
+  <data name="Item7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;WindowList.Name" xml:space="preserve">
+    <value>WindowList</value>
+  </data>
+  <data name="Item1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Item1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Item9.Name" xml:space="preserve">
+    <value>Item9</value>
+  </data>
+  <data name="&gt;&gt;Item2.Name" xml:space="preserve">
+    <value>Item2</value>
+  </data>
+  <data name="Item2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;Item5.Name" xml:space="preserve">
+    <value>Item5</value>
+  </data>
+  <data name="&gt;&gt;PageNumber.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ButtonPageDown.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="ButtonPageUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 58</value>
+  </data>
+  <data name="&gt;&gt;Item6.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ButtonPageUp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Item4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;Item6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ButtonPageUp.Name" xml:space="preserve">
+    <value>ButtonPageUp</value>
+  </data>
+  <data name="&gt;&gt;Item10.Name" xml:space="preserve">
+    <value>Item10</value>
+  </data>
+  <data name="TopStatusBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;ScannerBorder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OptionsPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;ButtonSearchClear.Parent" xml:space="preserve">
+    <value>OptionsPanel</value>
+  </data>
+  <data name="&gt;&gt;Item7.Name" xml:space="preserve">
+    <value>Item7</value>
+  </data>
+  <data name="SearchFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 0</value>
+  </data>
+  <data name="ScannerBorder.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Item10.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;Item10.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ButtonSearchClear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Item1.Name" xml:space="preserve">
+    <value>Item1</value>
+  </data>
+  <data name="ButtonPageUp.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="WindowList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="Item7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 46</value>
+  </data>
+  <data name="&gt;&gt;Item5.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Item10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Item5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ScannerBorder.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="TopStatusBar" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="WindowList" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="OptionsPanel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,10,Percent,10,97973,Percent,79,05405" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="Item8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Item5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Item7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ScannerBorder.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PageNumber.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;OptionsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonSearchClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 3</value>
+  </data>
+  <data name="&gt;&gt;TopStatusBar.Parent" xml:space="preserve">
+    <value>ScannerBorder</value>
+  </data>
+  <data name="ButtonSort.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;SearchFilter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Item5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 184</value>
+  </data>
+  <data name="&gt;&gt;Item9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ButtonPageUp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Item2.Parent" xml:space="preserve">
+    <value>WindowList</value>
+  </data>
+  <data name="&gt;&gt;ButtonClose.Name" xml:space="preserve">
+    <value>ButtonClose</value>
+  </data>
+  <data name="Item2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Item6.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="ButtonSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 3</value>
+  </data>
+  <data name="ButtonSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SortOrderIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 58</value>
+  </data>
+  <data name="Item8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 322</value>
+  </data>
+  <data name="&gt;&gt;ButtonSort.Name" xml:space="preserve">
+    <value>ButtonSort</value>
+  </data>
+  <data name="ButtonSearchClear.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;Item1.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ButtonSort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 58</value>
+  </data>
+  <data name="ScannerBorder.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;Item2.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Item1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 46</value>
+  </data>
+  <data name="Item9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="OptionsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;Item2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ButtonSearch.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;OptionsPanel.Parent" xml:space="preserve">
+    <value>ScannerBorder</value>
+  </data>
+  <data name="&gt;&gt;ButtonPageUp.Parent" xml:space="preserve">
+    <value>OptionsPanel</value>
+  </data>
+  <data name="&gt;&gt;Item9.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Item10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;SortOrderIcon.Name" xml:space="preserve">
+    <value>SortOrderIcon</value>
+  </data>
+  <data name="&gt;&gt;Item9.Parent" xml:space="preserve">
+    <value>WindowList</value>
+  </data>
+  <data name="ButtonSearch.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;Item5.Parent" xml:space="preserve">
+    <value>WindowList</value>
+  </data>
+  <data name="&gt;&gt;PageNumber.Name" xml:space="preserve">
+    <value>PageNumber</value>
+  </data>
+  <data name="&gt;&gt;ButtonSearchClear.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Item8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Item7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="SortOrderIcon.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="SearchFilter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Item3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;SearchFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ScannerBorder.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Item7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Item4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;Item8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonSearch.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PageNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="OptionsPanel.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Item10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 47</value>
+  </data>
+  <data name="&gt;&gt;Item5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Item2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Item6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ButtonClose.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ButtonSearchClear.Name" xml:space="preserve">
+    <value>ButtonSearchClear</value>
+  </data>
+  <data name="&gt;&gt;ButtonSearch.Parent" xml:space="preserve">
+    <value>OptionsPanel</value>
+  </data>
+  <data name="&gt;&gt;WindowList.Parent" xml:space="preserve">
+    <value>ScannerBorder</value>
+  </data>
+  <data name="Item2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ButtonSearchClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 58</value>
+  </data>
+  <data name="Item4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 138</value>
+  </data>
+  <data name="Item9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Item4.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;WindowList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Item4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Item10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 414</value>
+  </data>
+  <data name="TopStatusBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ScannerBorder.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="SortOrderIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;Item3.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ButtonPageUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 3</value>
+  </data>
+  <data name="&gt;&gt;Item6.Name" xml:space="preserve">
+    <value>Item6</value>
+  </data>
+  <data name="&gt;&gt;ButtonPageDown.Parent" xml:space="preserve">
+    <value>OptionsPanel</value>
+  </data>
+  <data name="Item9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 46</value>
+  </data>
+  <data name="Item8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;ButtonSearch.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Item1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ButtonSearchClear.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Item8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ButtonSearchClear.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;ButtonSort.Parent" xml:space="preserve">
+    <value>OptionsPanel</value>
+  </data>
+  <data name="OptionsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 58</value>
+  </data>
+  <data name="ButtonPageDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 58</value>
+  </data>
+  <data name="ButtonPageUp.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Item1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Item9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 368</value>
+  </data>
+  <data name="Item6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;PageNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Item4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ButtonPageDown.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="WindowList.RowCount" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Item8.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="Item4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 46</value>
+  </data>
+  <data name="ButtonSort.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="OptionsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>735, 64</value>
+  </data>
+  <data name="&gt;&gt;WindowList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Item3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 92</value>
+  </data>
+  <data name="TopStatusBar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TopStatusBar.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Item7.Parent" xml:space="preserve">
+    <value>WindowList</value>
+  </data>
+  <data name="&gt;&gt;TopStatusBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonPageUp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SwitchWindowsScanner</value>
+  </data>
+  <data name="Item3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ButtonSearch.Name" xml:space="preserve">
+    <value>ButtonSearch</value>
+  </data>
+  <data name="ButtonClose.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Item5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ButtonClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 58</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonSort.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Item5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 46</value>
+  </data>
+  <data name="&gt;&gt;Item7.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="OptionsPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TopStatusBar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;OptionsPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Item7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ButtonPageUp.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ButtonSearchClear.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Item4.Name" xml:space="preserve">
+    <value>Item4</value>
+  </data>
+  <data name="Item3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ButtonPageDown.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;SearchFilter.Parent" xml:space="preserve">
+    <value>TopStatusBar</value>
+  </data>
+  <data name="Item7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 276</value>
+  </data>
+  <data name="&gt;&gt;TopStatusBar.Name" xml:space="preserve">
+    <value>TopStatusBar</value>
+  </data>
+  <data name="&gt;&gt;ScannerBorder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Item8.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TopStatusBar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Item4.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Item10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;SortOrderIcon.Parent" xml:space="preserve">
+    <value>TopStatusBar</value>
+  </data>
+  <data name="TopStatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>735, 58</value>
+  </data>
+  <data name="Item8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;ButtonClose.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="SearchFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;Item6.Parent" xml:space="preserve">
+    <value>WindowList</value>
+  </data>
+  <data name="Item8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 46</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;ButtonSort.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ButtonClose.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Item7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Item6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 46</value>
+  </data>
+  <data name="&gt;&gt;ButtonPageDown.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PageNumber.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="OptionsPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="WindowList.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Item4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Item6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Item5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Item1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;OptionsPanel.Name" xml:space="preserve">
+    <value>OptionsPanel</value>
+  </data>
+  <data name="&gt;&gt;Item3.Parent" xml:space="preserve">
+    <value>WindowList</value>
+  </data>
+  <data name="SearchFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 46</value>
+  </data>
+  <data name="&gt;&gt;ScannerBorder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 58</value>
+  </data>
+  <data name="TopStatusBar.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Item4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ButtonClose.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="ButtonSort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 3</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>735, 589</value>
+  </data>
+  <data name="PageNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="PageNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 58</value>
+  </data>
+  <data name="&gt;&gt;Item3.Name" xml:space="preserve">
+    <value>Item3</value>
+  </data>
+  <data name="&gt;&gt;ButtonSort.Type" xml:space="preserve">
+    <value>ACAT.Lib.Core.WidgetManagement.ScannerButtonControl, ACATCore, Version=0.98.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Item10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;ButtonPageDown.Name" xml:space="preserve">
+    <value>ButtonPageDown</value>
+  </data>
+  <data name="ButtonSort.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ButtonPageDown.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Item6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;Item3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Item9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="SearchFilter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 30pt, style=Bold</value>
+  </data>
+  <data name="Item9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;ButtonSearch.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;SortOrderIcon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonPageDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 3</value>
+  </data>
+  <data name="SortOrderIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 0</value>
+  </data>
+  <data name="Item9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ButtonPageUp.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ScannerBorder.Name" xml:space="preserve">
+    <value>ScannerBorder</value>
+  </data>
+  <data name="Item3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 46</value>
+  </data>
+  <data name="Item9.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="Item2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Item1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Item8.Name" xml:space="preserve">
+    <value>Item8</value>
+  </data>
+  <data name="Item5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>pt-BR</value>
+  </metadata>
 </root>
